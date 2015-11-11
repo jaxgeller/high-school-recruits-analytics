@@ -1,0 +1,2506 @@
+{
+    "nodes": [
+        {
+            "node": 0,
+            "name": "Pick #1"
+        },
+        {
+            "node": 1,
+            "name": "Pick #2"
+        },
+        {
+            "node": 2,
+            "name": "Pick #3"
+        },
+        {
+            "node": 3,
+            "name": "Pick #4"
+        },
+        {
+            "node": 4,
+            "name": "Pick #5"
+        },
+        {
+            "node": 5,
+            "name": "Pick #6"
+        },
+        {
+            "node": 6,
+            "name": "Pick #7"
+        },
+        {
+            "node": 7,
+            "name": "Pick #8"
+        },
+        {
+            "node": 8,
+            "name": "Pick #9"
+        },
+        {
+            "node": 9,
+            "name": "Pick #10"
+        },
+        {
+            "node": 10,
+            "name": "Pick #11"
+        },
+        {
+            "node": 11,
+            "name": "Pick #12"
+        },
+        {
+            "node": 12,
+            "name": "Pick #13"
+        },
+        {
+            "node": 13,
+            "name": "Pick #14"
+        },
+        {
+            "node": 14,
+            "name": "Pick #15"
+        },
+        {
+            "node": 15,
+            "name": "Pick #16"
+        },
+        {
+            "node": 16,
+            "name": "Pick #17"
+        },
+        {
+            "node": 17,
+            "name": "Pick #18"
+        },
+        {
+            "node": 18,
+            "name": "Pick #19"
+        },
+        {
+            "node": 19,
+            "name": "Pick #20"
+        },
+        {
+            "node": 20,
+            "name": "Pick #21"
+        },
+        {
+            "node": 21,
+            "name": "Pick #22"
+        },
+        {
+            "node": 22,
+            "name": "Pick #23"
+        },
+        {
+            "node": 23,
+            "name": "Pick #24"
+        },
+        {
+            "node": 24,
+            "name": "Pick #25"
+        },
+        {
+            "node": 25,
+            "name": "Pick #26"
+        },
+        {
+            "node": 26,
+            "name": "Pick #27"
+        },
+        {
+            "node": 27,
+            "name": "Pick #28"
+        },
+        {
+            "node": 28,
+            "name": "Pick #29"
+        },
+        {
+            "node": 29,
+            "name": "Pick #30"
+        },
+        {
+            "node": 30,
+            "name": "Pick #31"
+        },
+        {
+            "node": 31,
+            "name": "Pick #32"
+        },
+        {
+            "node": 32,
+            "name": "Pick #33"
+        },
+        {
+            "node": 33,
+            "name": "Pick #34"
+        },
+        {
+            "node": 34,
+            "name": "Pick #35"
+        },
+        {
+            "node": 35,
+            "name": "Pick #36"
+        },
+        {
+            "node": 36,
+            "name": "Pick #37"
+        },
+        {
+            "node": 37,
+            "name": "Pick #38"
+        },
+        {
+            "node": 38,
+            "name": "Pick #39"
+        },
+        {
+            "node": 39,
+            "name": "Pick #40"
+        },
+        {
+            "node": 40,
+            "name": "Pick #41"
+        },
+        {
+            "node": 41,
+            "name": "Pick #42"
+        },
+        {
+            "node": 42,
+            "name": "Pick #43"
+        },
+        {
+            "node": 43,
+            "name": "Pick #44"
+        },
+        {
+            "node": 44,
+            "name": "Pick #45"
+        },
+        {
+            "node": 45,
+            "name": "Pick #46"
+        },
+        {
+            "node": 46,
+            "name": "Pick #47"
+        },
+        {
+            "node": 47,
+            "name": "Pick #48"
+        },
+        {
+            "node": 48,
+            "name": "Pick #49"
+        },
+        {
+            "node": 49,
+            "name": "Pick #50"
+        },
+        {
+            "node": 50,
+            "name": "Pick #51"
+        },
+        {
+            "node": 51,
+            "name": "Pick #52"
+        },
+        {
+            "node": 52,
+            "name": "Pick #53"
+        },
+        {
+            "node": 53,
+            "name": "Pick #54"
+        },
+        {
+            "node": 54,
+            "name": "Pick #55"
+        },
+        {
+            "node": 55,
+            "name": "Pick #56"
+        },
+        {
+            "node": 56,
+            "name": "Pick #57"
+        },
+        {
+            "node": 57,
+            "name": "Pick #58"
+        },
+        {
+            "node": 58,
+            "name": "Pick #59"
+        },
+        {
+            "node": 59,
+            "name": "Pick #60"
+        },
+        {
+            "node": 60,
+            "name": "UNDRAFTED"
+        },
+        {
+            "node": 61,
+            "name": "Nerlens Noel"
+        },
+        {
+            "node": 62,
+            "name": "Shabazz Muhammad"
+        },
+        {
+            "node": 63,
+            "name": "Kyle Anderson"
+        },
+        {
+            "node": 64,
+            "name": "Isaiah Austin"
+        },
+        {
+            "node": 65,
+            "name": "Steven Adams"
+        },
+        {
+            "node": 66,
+            "name": "Anthony Bennett"
+        },
+        {
+            "node": 67,
+            "name": "Kaleb Tarczewski"
+        },
+        {
+            "node": 68,
+            "name": "Alex Poythress"
+        },
+        {
+            "node": 69,
+            "name": "Grant Jerrett"
+        },
+        {
+            "node": 70,
+            "name": "Marcus Smart"
+        },
+        {
+            "node": 71,
+            "name": "Ricky Ledo"
+        },
+        {
+            "node": 72,
+            "name": "Sam Dekker"
+        },
+        {
+            "node": 73,
+            "name": "Rasheed Sulaimon"
+        },
+        {
+            "node": 74,
+            "name": "Rodney Purvis"
+        },
+        {
+            "node": 75,
+            "name": "Archie Goodwin"
+        },
+        {
+            "node": 76,
+            "name": "Glenn Robinson"
+        },
+        {
+            "node": 77,
+            "name": "Kris Dunn"
+        },
+        {
+            "node": 78,
+            "name": "Brandon Ashley"
+        },
+        {
+            "node": 79,
+            "name": "Gary Harris"
+        },
+        {
+            "node": 80,
+            "name": "Cameron Ridley"
+        },
+        {
+            "node": 81,
+            "name": "Yogi Ferrell"
+        },
+        {
+            "node": 82,
+            "name": "DaJuan Coleman"
+        },
+        {
+            "node": 83,
+            "name": "T.J. Warren"
+        },
+        {
+            "node": 84,
+            "name": "Tony Parker"
+        },
+        {
+            "node": 85,
+            "name": "Devonta Pollard"
+        },
+        {
+            "node": 86,
+            "name": "Danuel House"
+        },
+        {
+            "node": 87,
+            "name": "Robert Carter"
+        },
+        {
+            "node": 88,
+            "name": "Mitch McGary"
+        },
+        {
+            "node": 89,
+            "name": "Semaj Christon"
+        },
+        {
+            "node": 90,
+            "name": "Amile Jefferson"
+        },
+        {
+            "node": 91,
+            "name": "Marcus Paige"
+        },
+        {
+            "node": 92,
+            "name": "Perry Ellis"
+        },
+        {
+            "node": 93,
+            "name": "Winston Shepard"
+        },
+        {
+            "node": 94,
+            "name": "Ricardo Gathers"
+        },
+        {
+            "node": 95,
+            "name": "Shaq Goodwin"
+        },
+        {
+            "node": 96,
+            "name": "Jeremy Hollowell"
+        },
+        {
+            "node": 97,
+            "name": "JaKarr Sampson"
+        },
+        {
+            "node": 98,
+            "name": "D'Vauntes Smith-Rivera"
+        },
+        {
+            "node": 99,
+            "name": "Jarnell Stokes"
+        },
+        {
+            "node": 100,
+            "name": "Katin Reinhardt"
+        },
+        {
+            "node": 101,
+            "name": "Shaquille Cleare"
+        },
+        {
+            "node": 102,
+            "name": "Cam Biedscheid"
+        },
+        {
+            "node": 103,
+            "name": "Willie Cauley-Stein"
+        },
+        {
+            "node": 104,
+            "name": "Omar Calhoun"
+        },
+        {
+            "node": 105,
+            "name": "Brice Johnson"
+        },
+        {
+            "node": 106,
+            "name": "Adam Woodbury"
+        },
+        {
+            "node": 107,
+            "name": "Tyler Lewis"
+        },
+        {
+            "node": 108,
+            "name": "Jerami Grant"
+        },
+        {
+            "node": 109,
+            "name": "Daniel Ochefu"
+        },
+        {
+            "node": 110,
+            "name": "Josh Scott"
+        },
+        {
+            "node": 111,
+            "name": "Justin Anderson"
+        },
+        {
+            "node": 112,
+            "name": "Dominic Artis"
+        },
+        {
+            "node": 113,
+            "name": "Hanner Mosquera-Perea"
+        },
+        {
+            "node": 114,
+            "name": "Andrew White"
+        },
+        {
+            "node": 115,
+            "name": "Solomon Poole"
+        },
+        {
+            "node": 116,
+            "name": "Robert Upshaw"
+        },
+        {
+            "node": 117,
+            "name": "Ryan Arcidiacono"
+        },
+        {
+            "node": 118,
+            "name": "Prince Ibeh"
+        },
+        {
+            "node": 119,
+            "name": "Montay Brandon"
+        },
+        {
+            "node": 120,
+            "name": "Joel James"
+        },
+        {
+            "node": 121,
+            "name": "Stephen Domingo"
+        },
+        {
+            "node": 122,
+            "name": "Xavier Johnson"
+        },
+        {
+            "node": 123,
+            "name": "Braxton Ogbueze"
+        },
+        {
+            "node": 124,
+            "name": "Gabe York"
+        },
+        {
+            "node": 125,
+            "name": "Jordan Adams"
+        },
+        {
+            "node": 126,
+            "name": "J.P. Tokoto"
+        },
+        {
+            "node": 127,
+            "name": "Chris Obekpa"
+        },
+        {
+            "node": 128,
+            "name": "Aaron Thomas"
+        },
+        {
+            "node": 129,
+            "name": "Danrad Knowles"
+        },
+        {
+            "node": 130,
+            "name": "James Robinson"
+        },
+        {
+            "node": 131,
+            "name": "Jake Layman"
+        },
+        {
+            "node": 132,
+            "name": "Georges Niang"
+        },
+        {
+            "node": 133,
+            "name": "J-Mychal Reese"
+        },
+        {
+            "node": 134,
+            "name": "Jordan Price"
+        },
+        {
+            "node": 135,
+            "name": "Torian Graham"
+        },
+        {
+            "node": 136,
+            "name": "A.J. Hammons"
+        },
+        {
+            "node": 137,
+            "name": "Savon Goodman"
+        },
+        {
+            "node": 138,
+            "name": "Evan Nolte"
+        },
+        {
+            "node": 139,
+            "name": "Codi Miller-McIntyre"
+        },
+        {
+            "node": 140,
+            "name": "Rosco Allen"
+        },
+        {
+            "node": 141,
+            "name": "Mike Tobey"
+        },
+        {
+            "node": 142,
+            "name": "Nik Stauskas"
+        },
+        {
+            "node": 143,
+            "name": "Montrezl Harrell"
+        },
+        {
+            "node": 144,
+            "name": "Andre Drummond"
+        },
+        {
+            "node": 145,
+            "name": "Marcus Georges-Hunt"
+        },
+        {
+            "node": 146,
+            "name": "Anthony Perez"
+        },
+        {
+            "node": 147,
+            "name": "Mike Gesell"
+        },
+        {
+            "node": 148,
+            "name": "Tyrone Wallace"
+        },
+        {
+            "node": 149,
+            "name": "Ronnie Johnson"
+        },
+        {
+            "node": 150,
+            "name": "Kellen Dunham"
+        },
+        {
+            "node": 151,
+            "name": "Alex Caruso"
+        },
+        {
+            "node": 152,
+            "name": "Matt Costello"
+        },
+        {
+            "node": 153,
+            "name": "Rapheal Davis"
+        },
+        {
+            "node": 154,
+            "name": ""
+        },
+        {
+            "node": 155,
+            "name": "L.J. Rose"
+        },
+        {
+            "node": 156,
+            "name": "Melvin Johnson"
+        },
+        {
+            "node": 157,
+            "name": "Steve Taylor"
+        },
+        {
+            "node": 158,
+            "name": "Kenny Kaminski"
+        },
+        {
+            "node": 159,
+            "name": "Javan Felix"
+        },
+        {
+            "node": 160,
+            "name": "Charles Mitchell"
+        },
+        {
+            "node": 161,
+            "name": "Zach Auguste"
+        },
+        {
+            "node": 162,
+            "name": "Michael Frazier II"
+        },
+        {
+            "node": 163,
+            "name": "Grant Verhoeven"
+        },
+        {
+            "node": 164,
+            "name": "Arnaud Adala Moto"
+        },
+        {
+            "node": 165,
+            "name": "Denzel Valentine"
+        },
+        {
+            "node": 166,
+            "name": "Shaq Johnson"
+        },
+        {
+            "node": 167,
+            "name": "Daniel Dingle"
+        },
+        {
+            "node": 168,
+            "name": "Demarquise Johnson"
+        },
+        {
+            "node": 169,
+            "name": "Malik Morgan"
+        },
+        {
+            "node": 170,
+            "name": "Martavious Newby"
+        },
+        {
+            "node": 171,
+            "name": "Je'lon Hornbeak"
+        },
+        {
+            "node": 172,
+            "name": "Gavin Ware"
+        },
+        {
+            "node": 173,
+            "name": "Jay Simpson"
+        },
+        {
+            "node": 174,
+            "name": "Sim Bhullar"
+        },
+        {
+            "node": 175,
+            "name": "Jaron Blossomgame"
+        },
+        {
+            "node": 176,
+            "name": "Jordan Loveridge"
+        },
+        {
+            "node": 177,
+            "name": "Anrio Adams"
+        },
+        {
+            "node": 178,
+            "name": "Nino Jackson"
+        },
+        {
+            "node": 179,
+            "name": ""
+        },
+        {
+            "node": 180,
+            "name": "Craig Sword"
+        },
+        {
+            "node": 181,
+            "name": "Javontae Hawkins"
+        },
+        {
+            "node": 182,
+            "name": "Phillip Nolan"
+        },
+        {
+            "node": 183,
+            "name": "Sherron Dorsey-Walker"
+        },
+        {
+            "node": 184,
+            "name": "Skylar Spencer"
+        },
+        {
+            "node": 185,
+            "name": "Kenny Gaines"
+        },
+        {
+            "node": 186,
+            "name": "Ben Carter"
+        },
+        {
+            "node": 187,
+            "name": "Jalen Reynolds"
+        },
+        {
+            "node": 188,
+            "name": "Carlos Morris"
+        },
+        {
+            "node": 189,
+            "name": "Wanaah Bail"
+        },
+        {
+            "node": 190,
+            "name": "Jordan Goodman"
+        },
+        {
+            "node": 191,
+            "name": "Darrick Wood"
+        },
+        {
+            "node": 192,
+            "name": "Jerome Hairston"
+        },
+        {
+            "node": 193,
+            "name": "Marcus Holt"
+        },
+        {
+            "node": 194,
+            "name": "Jordan Hare"
+        },
+        {
+            "node": 195,
+            "name": "Myles Davis"
+        },
+        {
+            "node": 196,
+            "name": "Twymond Howard"
+        },
+        {
+            "node": 197,
+            "name": "Kareem Canty"
+        },
+        {
+            "node": 198,
+            "name": "Brandon Bolden"
+        },
+        {
+            "node": 199,
+            "name": "DeOndre Haynes"
+        },
+        {
+            "node": 200,
+            "name": "Kale Abrahamson"
+        },
+        {
+            "node": 201,
+            "name": "Zach Peters"
+        },
+        {
+            "node": 202,
+            "name": "Damien Wilson"
+        },
+        {
+            "node": 203,
+            "name": "Langston Morris-Walker"
+        },
+        {
+            "node": 204,
+            "name": "DeVon Walker"
+        },
+        {
+            "node": 205,
+            "name": "Demetris Morant"
+        },
+        {
+            "node": 206,
+            "name": "Chad Rykhoek"
+        },
+        {
+            "node": 207,
+            "name": "Connor Lammert"
+        },
+        {
+            "node": 208,
+            "name": "Maurice Watson"
+        },
+        {
+            "node": 209,
+            "name": "Chris Bolden"
+        },
+        {
+            "node": 210,
+            "name": "Sam Cassell Jr."
+        }
+    ],
+    "links": [
+        {
+            "source": 147,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 77,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 157,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 117,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 162,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "img": "https://s.yimg.com/bt/api/res/1.2/1IfJMpifRQ.hTuVhxrWjgQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5542.png",
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 131,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 118,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 112,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 133,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 175,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 126,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "img": "https://s.yimg.com/bt/api/res/1.2/iR8zzMgEcIYftFmfSiyv8A--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5518.png",
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 160,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 97,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "img": "https://s.yimg.com/bt/api/res/1.2/hOgX.B6ePZBFghgCzd25aQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5417.png",
+            "stats": {
+                "reb": 3,
+                "pts": 4.7,
+                "ast": 0.1
+            }
+        },
+        {
+            "source": 107,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 70,
+            "target": 6,
+            "value": 1,
+            "picked": 6,
+            "img": "https://s1.yimg.com/bt/api/res/1.2/o3_GoxuHof3HDtOSTs0yzg--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5317.png",
+            "stats": {
+                "reb": 2.3,
+                "pts": 12,
+                "ast": 3.7
+            }
+        },
+        {
+            "source": 125,
+            "target": 22,
+            "value": 1,
+            "picked": 22,
+            "img": "https://s.yimg.com/bt/api/res/1.2/ASkmcQCzN.OnyC5lwokOAA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5333.png",
+            "stats": {
+                "reb": 1,
+                "pts": 3.5,
+                "ast": 1.5
+            }
+        },
+        {
+            "source": 74,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 169,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 86,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 134,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 84,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "img": "https://s1.yimg.com/bt/api/res/1.2/taccjN14_DTGSeWiWaMZIQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20141107/3527.png",
+            "stats": {
+                "reb": 1.9,
+                "pts": 11.3,
+                "ast": 3.3
+            }
+        },
+        {
+            "source": 90,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 176,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 164,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 206,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 63,
+            "target": 30,
+            "value": 1,
+            "picked": 30,
+            "img": "https://s.yimg.com/bt/api/res/1.2/ykaP6rUWY8aSn5SWyLyBOQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20141107/5341.png",
+            "stats": {
+                "reb": 1.6,
+                "pts": 1.7,
+                "ast": 0.4
+            }
+        },
+        {
+            "source": 138,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 207,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 210,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 185,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 127,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 196,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 89,
+            "target": 55,
+            "value": 1,
+            "picked": 55,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 65,
+            "target": 12,
+            "value": 1,
+            "picked": 12,
+            "img": "https://s1.yimg.com/bt/api/res/1.2/AaTb8na2X2sCMRPUxUEwfQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5163.png",
+            "stats": {
+                "reb": 5.6,
+                "pts": 6.1,
+                "ast": 0.9
+            }
+        },
+        {
+            "source": 171,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 140,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 115,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 99,
+            "target": 35,
+            "value": 1,
+            "picked": 35,
+            "img": "https://s1.yimg.com/bt/api/res/1.2/LuwFWw7rz5aO4kUoVf.W0A--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5346.png",
+            "stats": {
+                "reb": 1,
+                "pts": 0,
+                "ast": 0
+            }
+        },
+        {
+            "source": 98,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 76,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 81,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 205,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 87,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 137,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 130,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 82,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 72,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "img": "https://s1.yimg.com/bt/api/res/1.2/WzGIFEJq8_yp9TqJ5oeExQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5478.png",
+            "stats": {
+                "reb": 0.3,
+                "pts": 0,
+                "ast": 0
+            }
+        },
+        {
+            "source": 187,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 178,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 111,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "img": "https://s.yimg.com/bt/api/res/1.2/E6_McJoYJTm.NqeQfbzh9w--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5481.png",
+            "stats": {
+                "reb": 1.7,
+                "pts": 3.3,
+                "ast": 0.3
+            }
+        },
+        {
+            "source": 135,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 100,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 105,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 110,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 152,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 194,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 163,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 73,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 183,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 78,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "img": "https://s.yimg.com/bt/api/res/1.2/aJfvSqK.OVv6zX5oypHjKQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5532.png",
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 116,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "img": "https://s1.yimg.com/bt/api/res/1.2/r2CkrrLiUnF8T0k4Tx30YA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5547.png",
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 139,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 165,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 177,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 119,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 136,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 159,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 193,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 141,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 182,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 83,
+            "target": 14,
+            "value": 1,
+            "picked": 14,
+            "img": "https://s1.yimg.com/bt/api/res/1.2/3tJhTdDS7_O3mVWzTdtNag--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5325.png",
+            "stats": {
+                "reb": 3.6,
+                "pts": 10.3,
+                "ast": 0.6
+            }
+        },
+        {
+            "source": 202,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 64,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 106,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 173,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 197,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 67,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 166,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 124,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 200,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 151,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 101,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 191,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 158,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 149,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 180,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 156,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 102,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 62,
+            "target": 14,
+            "value": 1,
+            "picked": 14,
+            "img": "https://s.yimg.com/bt/api/res/1.2/.dyPU.sEmr9BCnnwZPnpsA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5165.png",
+            "stats": {
+                "reb": 2.3,
+                "pts": 7,
+                "ast": 0.3
+            }
+        },
+        {
+            "source": 129,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 123,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 94,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 170,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 113,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 88,
+            "target": 21,
+            "value": 1,
+            "picked": 21,
+            "img": "https://s.yimg.com/bt/api/res/1.2/ODsiVxn1RpcKISV164c5Sg--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5332.png",
+            "stats": {
+                "reb": 2.3,
+                "pts": 2.7,
+                "ast": 0.3
+            }
+        },
+        {
+            "source": 174,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "img": "https://s1.yimg.com/bt/api/res/1.2/SiUrCKJj_3tfP42O_G79vQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20141107/5380.png",
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 201,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 108,
+            "target": 39,
+            "value": 1,
+            "picked": 39,
+            "img": "https://s.yimg.com/bt/api/res/1.2/CdMJ8P78X2ktWgk3i9Da3Q--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5350.png",
+            "stats": {
+                "reb": 4.4,
+                "pts": 9.4,
+                "ast": 1.3
+            }
+        },
+        {
+            "source": 208,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 146,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 92,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 184,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 198,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 195,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 75,
+            "target": 29,
+            "value": 1,
+            "picked": 29,
+            "img": "https://s.yimg.com/bt/api/res/1.2/pIlPDJqBxiaTbFdYrOlOCw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5199.png",
+            "stats": {
+                "reb": 2,
+                "pts": 4.5,
+                "ast": 0.8
+            }
+        },
+        {
+            "source": 181,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 143,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "img": "https://s.yimg.com/bt/api/res/1.2/R4YKCzo6S7sfPNkChYnIhQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5492.png",
+            "stats": {
+                "reb": 2,
+                "pts": 5,
+                "ast": 0.1
+            }
+        },
+        {
+            "source": 91,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 69,
+            "target": 40,
+            "value": 1,
+            "picked": 40,
+            "img": "https://s.yimg.com/bt/api/res/1.2/Ae.fYqu4a1LxO4Vr.D3NeA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20141107/5210.png",
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 204,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 68,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 121,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 192,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 120,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 142,
+            "target": 8,
+            "value": 1,
+            "picked": 8,
+            "img": "https://s.yimg.com/bt/api/res/1.2/hBgrR65.iKptHP9vVPi14w--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5319.png",
+            "stats": {
+                "reb": 4.2,
+                "pts": 13,
+                "ast": 2.7
+            }
+        },
+        {
+            "source": 186,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 161,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 103,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "img": "https://s.yimg.com/bt/api/res/1.2/7.eq56fznZluT2NHI48pBg--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5466.png",
+            "stats": {
+                "reb": 5.9,
+                "pts": 6.6,
+                "ast": 0.5
+            }
+        },
+        {
+            "source": 167,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 150,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 155,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 145,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 114,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 199,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 148,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 168,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 189,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 188,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 209,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 95,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 153,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 203,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 144,
+            "target": 9,
+            "value": 1,
+            "picked": 9,
+            "img": "https://s.yimg.com/bt/api/res/1.2/uVtpLnEm.2fh4HN1U.hojg--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5015.png",
+            "stats": {
+                "reb": 19.6,
+                "pts": 19.4,
+                "ast": 0.9
+            }
+        },
+        {
+            "source": 71,
+            "target": 43,
+            "value": 1,
+            "picked": 43,
+            "img": "https://s.yimg.com/bt/api/res/1.2/OkpbiSXisi0_5tBmJVee_A--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20141107/5213.png",
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 66,
+            "target": 1,
+            "value": 1,
+            "picked": 1,
+            "img": "https://s1.yimg.com/bt/api/res/1.2/DYLSr.0WhsS3YJkV8SyIew--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5152.png",
+            "stats": {
+                "reb": 1.8,
+                "pts": 1.4,
+                "ast": 0
+            }
+        },
+        {
+            "source": 96,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 61,
+            "target": 6,
+            "value": 1,
+            "picked": 6,
+            "img": "https://s1.yimg.com/bt/api/res/1.2/BMZr7qrj9vkJGLNMsUrgpw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5157.png",
+            "stats": {
+                "reb": 9.8,
+                "pts": 12.2,
+                "ast": 1.5
+            }
+        },
+        {
+            "source": 79,
+            "target": 19,
+            "value": 1,
+            "picked": 19,
+            "img": "https://s1.yimg.com/bt/api/res/1.2/Kk4lKbflhAvSc9qGtSypMw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5330.png",
+            "stats": {
+                "reb": 3,
+                "pts": 8.1,
+                "ast": 2.1
+            }
+        },
+        {
+            "source": 109,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 172,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 190,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 132,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 80,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 85,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 93,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 122,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 128,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        },
+        {
+            "source": 104,
+            "target": 60,
+            "value": 1,
+            "picked": -1,
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
+        }
+    ]
+}
