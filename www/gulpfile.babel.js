@@ -106,6 +106,12 @@ gulp.task('fonts', () => {
     .pipe(gulp.dest('dist/fonts'))
 })
 
+// DATA
+gulp.task('data', () => {
+  return gulp.src('../data/*.json')
+    .pipe(gulp.dest('dist/data'));
+});
+
 // SERVER
 
 const sendMaps = (req, res, next) => {
@@ -142,6 +148,6 @@ gulp.task('watch', () => {
 
 // TASKS
 
-gulp.task('build', ['html', 'sass', 'js', 'images', 'fonts'])
+gulp.task('build', ['html', 'sass', 'js', 'images', 'fonts', 'data'])
 gulp.task('default', ['server', 'build', 'watch'])
 

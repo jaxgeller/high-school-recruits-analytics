@@ -1,3 +1,5 @@
+import "d3";
+
 class Main {
   constructor(options = {}) {
 
