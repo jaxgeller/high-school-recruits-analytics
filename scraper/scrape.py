@@ -9,7 +9,7 @@ START_TIME = time.time()
 
 START   = 2005
 END     = 2014
-PAGES   = 1
+PAGES   = 3
 HEADERS = {'User-Agent': 'request', 'X-Requested-With': 'XMLHttpRequest'}
 PLAYERS = {}
 
@@ -33,7 +33,6 @@ def compile_data(item):
   else:
     destination = 'none'
   return {'name': name, 'rank': rank, 'origin': origin, 'destination': destination}
-
 
 # GET HS DATA
 for year in range(START, END):
@@ -68,7 +67,6 @@ for year in range(START, END):
       }
     page += 1
 print('Fetched ranking data successfully')
-
 
 # GET DRAFT DATA
 for year in range(START, END+1):
@@ -119,7 +117,7 @@ for playerid in PLAYERS:
       PLAYERS[playerid]['stats']['ast'] = float(stats[2].text)
 print('Fetched meta data successfully.')
 
-rankings_data = open("all.json", "w")
+rankings_data = open("data/raw.json", "w")
 rankings_data.write(json.dumps(PLAYERS))
 
 print('finished in %s' % (time.time() - START_TIME))

@@ -1,8 +1,8 @@
 'use strict';
 
 const fs = require('fs');
-const YEAR = 2011;
-const data = JSON.parse(fs.readFileSync('./all.json'));
+const YEAR = process.argv[2];
+const data = JSON.parse(fs.readFileSync('data/raw.json'));
 
 let nodes = [];
 let links = [];
@@ -46,4 +46,4 @@ for (var i in data) {
   }
 }
 
-fs.writeFileSync('./all.format.json', JSON.stringify({nodes: nodes, links: links}));
+fs.writeFileSync(`data/${YEAR}.json`, JSON.stringify({nodes: nodes, links: links}));
