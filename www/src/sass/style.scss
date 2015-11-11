@@ -1,9 +1,28 @@
-@import "mixins";
-@import "reset";
+@import
+  "mixins",
+  "reset"
+;
 
 $blue: #0090d1;
 $black: #2d2d30;
 $gray: #2d3d45;
+$light-gray: #b0bec5;
 
-@import "layout";
-@import "components/header";
+$din: "Din Next LT Pro";
+$leitura: "Leitura Roman 1";
+$tungsten: "Tungsten";
+
+
+html,
+body {
+  font-size: 16px;
+  color: $black;
+  -webkit-font-smoothing: antialiased;
+}
+
+@import
+  "layout",
+  "components/header",
+  "components/content",
+  "components/visualization"
+;
