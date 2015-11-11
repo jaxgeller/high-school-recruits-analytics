@@ -1,2 +1,9 @@
 @import "mixins";
 @import "reset";
+
+$blue: #0090d1;
+$black: #2d2d30;
+$gray: #2d3d45;
+
+@import "layout";
+@import "components/header";
