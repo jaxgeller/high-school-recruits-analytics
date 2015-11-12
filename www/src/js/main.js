@@ -34,10 +34,10 @@ function run(year) {
 
   let svg = d3.select('#chart')
     .append('svg')
-      .attr('width', width + margin.left + margin.right)
-      .attr('height', height + margin.top + margin.bottom)
+    .attr('width', width + margin.left + margin.right)
+    .attr('height', height + margin.top + margin.bottom)
     .append('g')
-      .attr('transform', `translate(${margin.left}, ${margin.top})`);
+    .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
   let sankey = d3.sankey()
     .nodeWidth(0)
@@ -48,56 +48,56 @@ function run(year) {
 
   d3.json(`data/${year}.json`, function(energy) {
     sankey
-      .nodes(energy.nodes)
-      .links(energy.links)
-      .layout(0);
+    .nodes(energy.nodes)
+    .links(energy.links)
+    .layout(0);
 
     var link = svg.append('g').selectAll('.link')
-        .data(energy.links)
-        .enter().append('path')
-          .attr('class', 'link')
-          .attr('d', path)
-          .attr('stroke', function(d) {
-            if (d.picked > d.source.node-60)
-              return '#d0a180';
-            else
-              return '#06904f';
-          })
-          .style('stroke-width', function(d) {
-            if (d.picked < 0) return 0;
-            return 2.5;
-          })
-          .style('display', function(d) {
-            if (d.picked < 0) return 'none';
-          })
-          .on('mouseover', function() {
-            setData(this.__data__)
-          })
+      .data(energy.links)
+      .enter().append('path')
+      .attr('class', 'link')
+      .attr('d', path)
+      .attr('stroke', function(d) {
+        if (d.picked > d.source.node-60)
+          return '#d0a180';
+        else
+          return '#06904f';
+      })
+      .style('stroke-width', function(d) {
+        if (d.picked < 0) return 0;
+        return 2.5;
+      })
+      .style('display', function(d) {
+        if (d.picked < 0) return 'none';
+      })
+      .on('mouseover', function() {
+        setData(this.__data__)
+      })
 
     let node = svg.append('g').selectAll('.node')
-        .data(energy.nodes)
-        .enter().append('g')
-          .attr('class', 'node')
-          .attr('transform', function(d) {
-            var x = d.x;
-            var y = d.y;
-            if (x > 900)
-              x = d.x + margin.right - 10;
-            else
-              x = d.x - margin.left;
-            y = d.y + 6.5;
-            return `translate(${x},${y})`;
-          })
+      .data(energy.nodes)
+      .enter().append('g')
+      .attr('class', 'node')
+      .attr('transform', function(d) {
+        var x = d.x;
+        var y = d.y;
+        if (x > 900)
+          x = d.x + margin.right - 10;
+        else
+          x = d.x - margin.left;
+        y = d.y + 6.5;
+        return `translate(${x},${y})`;
+      })
 
     node.append('rect')
-        .attr('height', function(d) { return 1; })
-        .attr('width', function(d) {
-          if (d.x > 900)
-            return 10;
-          return 20;
-        })
-        .style('fill', function(d) { return '#cfd8dc' })
-        .style('stroke', function(d) { return '#cfd8dc' })
+      .attr('height', function(d) { return 1; })
+      .attr('width', function(d) {
+        if (d.x > 900)
+          return 10;
+        return 20;
+      })
+      .style('fill', function(d) { return '#cfd8dc' })
+      .style('stroke', function(d) { return '#cfd8dc' })
   });
 
 
