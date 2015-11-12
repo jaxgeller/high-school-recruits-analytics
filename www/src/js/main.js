@@ -1,8 +1,7 @@
-import "./d3.js"
+import './d3.js';
+import './jump.js';
 
 run(2007);
-
-
 function setData(data) {
   console.log(data)
   document.querySelector('.meta-head-shot').src = data.img;
@@ -19,7 +18,6 @@ function setData(data) {
   document.getElementById('destination').textContent = data.destination;
   document.getElementById('pos').textContent = data.pos;
 }
-
 [].slice.call(document.querySelectorAll('button')).forEach(button=> {
   button.addEventListener('click', function() {
     document.getElementById('chart').innerHTML = ''
@@ -29,6 +27,7 @@ function setData(data) {
 
 
 function run(year) {
+
   const margin = {top: 0, right: 30, bottom: 0, left: 50};
   const width = 1060 - margin.left - margin.right;
   const height = 2000 - margin.top - margin.bottom;
@@ -47,25 +46,24 @@ function run(year) {
 
   let path = sankey.link();
 
-
   d3.json(`data/${year}.json`, function(energy) {
     sankey
-        .nodes(energy.nodes)
-        .links(energy.links)
-        .layout(0);
+      .nodes(energy.nodes)
+      .links(energy.links)
+      .layout(0);
 
-    var link = svg.append("g").selectAll(".link")
+    var link = svg.append('g').selectAll('.link')
         .data(energy.links)
-        .enter().append("path")
-          .attr("class", "link")
-          .attr("d", path)
+        .enter().append('path')
+          .attr('class', 'link')
+          .attr('d', path)
           .attr('stroke', function(d) {
             if (d.picked > d.source.node-60)
               return '#d0a180';
             else
               return '#06904f';
           })
-          .style("stroke-width", function(d) {
+          .style('stroke-width', function(d) {
             if (d.picked < 0) return 0;
             return 2.5;
           })
@@ -76,11 +74,11 @@ function run(year) {
             setData(this.__data__)
           })
 
-    var node = svg.append("g").selectAll(".node")
+    let node = svg.append('g').selectAll('.node')
         .data(energy.nodes)
-        .enter().append("g")
-          .attr("class", "node")
-          .attr("transform", function(d) {
+        .enter().append('g')
+          .attr('class', 'node')
+          .attr('transform', function(d) {
             var x = d.x;
             var y = d.y;
             if (x > 900)
@@ -88,17 +86,19 @@ function run(year) {
             else
               x = d.x - margin.left;
             y = d.y + 6.5;
-            return "translate(" + x + "," + y + ")";
+            return `translate(${x},${y})`;
           })
 
-    node.append("rect")
-        .attr("height", function(d) { return 1; })
-        .attr("width", function(d) {
+    node.append('rect')
+        .attr('height', function(d) { return 1; })
+        .attr('width', function(d) {
           if (d.x > 900)
             return 10;
           return 20;
         })
-        .style("fill", function(d) { return '#cfd8dc' })
-        .style("stroke", function(d) { return '#cfd8dc' })
+        .style('fill', function(d) { return '#cfd8dc' })
+        .style('stroke', function(d) { return '#cfd8dc' })
   });
+
+
 }
