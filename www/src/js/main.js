@@ -14,6 +14,7 @@ function setData(data) {
 
   document.getElementById('origin').textContent = data.origin;
   document.getElementById('destination').textContent = data.destination;
+  document.getElementById('pos').textContent = data.pos;
 }
 
 
@@ -35,7 +36,7 @@ let sankey = d3.sankey()
 
 let path = sankey.link();
 
-d3.json("data/2010.json", function(energy) {
+d3.json("data/2007.json", function(energy) {
   sankey
       .nodes(energy.nodes)
       .links(energy.links)
@@ -47,14 +48,10 @@ d3.json("data/2010.json", function(energy) {
         .attr("class", "link")
         .attr("d", path)
         .attr('stroke', function(d) {
-          if ( 0 < d.picked && d.picked <= 20)
-            return '#0090d1';
-          if (d.picked > 20 && d.picked <= 40)
+          if (d.picked > d.source.node-60)
             return '#d0a180';
-          if (d.picked > 40 && d.picked <= 60)
+          else
             return '#06904f';
-
-          return '';
         })
         .style("stroke-width", function(d) {
           if (d.picked < 0) return 0;

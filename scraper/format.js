@@ -34,7 +34,8 @@ for (var i in data) {
         value: 1,
         picked: data[i].nba.draft,
         origin: data[i].hs.destination,
-        destination: data[i].nba.destination
+        destination: data[i].nba.destination,
+        pos: data[i].pos
       }
 
       if (data[i].img)

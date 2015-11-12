@@ -53,6 +53,7 @@ for year in range(START, END):
           'reb': '',
           'ast': ''
         },
+        'pos': '',
         'hs': {
           'year': year,
           'rank': int(data['rank']),
@@ -115,6 +116,12 @@ for playerid in PLAYERS:
       PLAYERS[playerid]['stats']['pts'] = float(stats[0].text)
       PLAYERS[playerid]['stats']['reb'] = float(stats[1].text)
       PLAYERS[playerid]['stats']['ast'] = float(stats[2].text)
+
+    pos = soup.find('span', {'class':'team-info'})
+    if pos:
+      p = pos.text.strip().split(',')
+      PLAYERS[playerid]['pos'] = p[0] + p[1]
+
 print('Fetched meta data successfully.')
 
 rankings_data = open("data/raw.json", "w")
