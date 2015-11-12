@@ -1,1 +1,5 @@
 $container: 780px;
+.container {
+  max-width: $container;
+  margin: 0 auto;
+}
