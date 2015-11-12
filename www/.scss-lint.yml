@@ -1,0 +1,2 @@
+scss_files: 'src/sass/**/*.scss'
+exclude: 'src/sass/_reset.scss'

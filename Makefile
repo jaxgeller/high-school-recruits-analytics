@@ -8,3 +8,6 @@ format:
 
 server:
 	python3 -m http.server www/dist
+
+lint:
+	cd www && npm run lint

@@ -4,7 +4,8 @@
   "description": "",
   "main": "none",
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "lint": "eslint src/js/**/*.js && scss-lint; exit 0"
   },
   "author": "Jackson Geller <jacksongeller@gmail.com>",
   "license": "MIT",
