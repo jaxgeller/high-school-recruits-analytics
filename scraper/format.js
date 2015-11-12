@@ -33,6 +33,8 @@ for (var i in data) {
         target: target,
         value: 1,
         picked: data[i].nba.draft,
+        origin: data[i].hs.destination,
+        destination: data[i].nba.destination
       }
 
       if (data[i].img)

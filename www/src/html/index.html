@@ -9,9 +9,32 @@
 
     <link rel="stylesheet" href="style.css">
   </head>
+
+  <style>
+    .node rect {
+      fill-opacity: .9;
+      shape-rendering: crispEdges;
+    }
+
+    .node text {
+      text-shadow: 0 1px 0 #fff;
+    }
+
+    .link {
+      fill: none;
+      /*stroke: #000;
+      stroke-opacity: .2;*/
+      transition: all ease .33s;
+    }
+
+    .link:hover {
+      stroke-opacity: .5;
+    }
+  </style>
+
   <body>
     <header class="header"></header>
-
+  <h1>TODO GET NBA NUMBER POS</h1>
     <section class="content"></section>
 
     <section class="visualization">
@@ -23,32 +46,31 @@
             <img src="http://l3.yimg.com/bt/api/res/1.2/L0k.2DeHKYLHARnrsNSOPg--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4244.png" class="meta-head-shot">
           </div>
           <h3 class="meta-player-name">Kevin <br>Durant</h3>
-          <p class="meta-player-details">#35 / F <br>Oklahoma City</p>
+          <p class="meta-player-details">#35 / F <br><span id="destination">Oklahoma City</span></p>
         </div>
 
         <div class="meta-stats">
           <ul class="stats">
-            <li class="stat-number">32.5</li>
+            <li class="stat-number" id="ppg">32.5</li>
             <li class="stat-subheader">PPG</li>
-            <li class="stat-number">9.0</li>
+            <li class="stat-number" id="rpg">9.0</li>
             <li class="stat-subheader">RPG</li>
-            <li class="stat-number">1.1</li>
+            <li class="stat-number" id="apg">1.1</li>
             <li class="stat-subheader">APG</li>
           </ul>
           <ul class="details">
             <li>College</li>
-            <li class="stat-subheader">Texas</li>
+            <li class="stat-subheader" id="origin">Texas</li>
             <li>HS Rank</li>
-            <li class="stat-subheader">17</li>
+            <li class="stat-subheader" id="rank">17</li>
             <li>Drafted</li>
-            <li class="stat-subheader">1</li>
+            <li class="stat-subheader" id="drafted">1</li>
           </ul>
         </div>
 
-
-
       </div>
     </section>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.8/d3.min.js"></script>
+    <script src="bundle.js"></script>
   </body>
 </html>

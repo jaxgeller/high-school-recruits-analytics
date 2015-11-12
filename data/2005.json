@@ -851,6 +851,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Georgetown",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -862,6 +864,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "North Carolina",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -873,6 +877,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Oklahoma",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -884,6 +890,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Oklahoma State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -895,6 +903,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Arkansas",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -906,6 +916,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Michigan State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -917,6 +929,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "UCLA",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -928,6 +942,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Stanford",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -939,6 +955,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Auburn",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -950,6 +968,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Hawaii",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -961,6 +981,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Oklahoma State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -972,6 +994,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Baylor",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -983,6 +1007,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Illinois",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -994,6 +1020,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Rutgers",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1005,6 +1033,8 @@
             "target": 33,
             "value": 1,
             "picked": 33,
+            "origin": "Arizona",
+            "destination": "San Antonio Spurs",
             "img": "https://s.yimg.com/bt/api/res/1.2/69b29NYgIJyKkmzud7cnjA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20141107/4311.png",
             "stats": {
                 "reb": "",
@@ -1017,6 +1047,8 @@
             "target": 48,
             "value": 1,
             "picked": 48,
+            "origin": "Oklahoma",
+            "destination": "Phoenix Suns",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1028,6 +1060,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Notre Dame",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1039,6 +1073,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Miami",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1050,6 +1086,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Washington",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1061,6 +1099,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "USC",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1072,6 +1112,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Georgia",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1083,6 +1125,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Utah",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1094,6 +1138,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Seton Hall",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1105,6 +1151,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Duke",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1116,6 +1164,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Georgia",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1127,6 +1177,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Kansas",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1138,6 +1190,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "LSU",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1149,6 +1203,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "UCLA",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1160,6 +1216,8 @@
             "target": 56,
             "value": 1,
             "picked": 56,
+            "origin": "St. Joseph's",
+            "destination": "Dallas Mavericks",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1171,6 +1229,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Duke",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1182,6 +1242,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Indiana",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1193,6 +1255,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "St. John's",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1204,6 +1268,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "St. John's",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1215,6 +1281,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Florida",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1226,6 +1294,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Kentucky",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1237,6 +1307,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Florida State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1248,6 +1320,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Alabama A&M",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1259,6 +1333,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Oklahoma State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1270,6 +1346,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Oklahoma",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1281,6 +1359,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "DePaul",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1292,6 +1372,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Missouri",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1303,6 +1385,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Gonzaga",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1314,6 +1398,8 @@
             "target": 18,
             "value": 1,
             "picked": 18,
+            "origin": "Oklahoma State",
+            "destination": "Boston Celtics",
             "img": "https://s.yimg.com/bt/api/res/1.2/B.aGh1M14Ar7FT0lLz6YNQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/3944.png",
             "stats": {
                 "reb": 0.7,
@@ -1326,6 +1412,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Oklahoma State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1337,6 +1425,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Syracuse",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1348,6 +1438,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Stanford",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1359,6 +1451,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "N.C. State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1370,6 +1464,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "N.C. State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1381,6 +1477,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Vanderbilt",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1392,6 +1490,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Iowa State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1403,6 +1503,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Michigan State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1414,6 +1516,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Rutgers",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1425,6 +1529,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "SMU",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1436,6 +1542,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Gonzaga",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1447,6 +1555,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Memphis",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1458,6 +1568,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Louisville",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1469,6 +1581,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Pittsburgh",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1480,6 +1594,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Cincinnati",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1491,6 +1607,8 @@
             "target": 34,
             "value": 1,
             "picked": 34,
+            "origin": "Kansas",
+            "destination": "Minnesota Timberwolves",
             "img": "https://s.yimg.com/bt/api/res/1.2/sj6CnKRol70wCIHCVKQHYQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4496.png",
             "stats": {
                 "reb": 2.3,
@@ -1503,6 +1621,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "California",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1514,6 +1634,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Boston College",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1525,6 +1647,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Arizona",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1536,6 +1660,8 @@
             "target": 17,
             "value": 1,
             "picked": 17,
+            "origin": "Memphis",
+            "destination": "Indiana Pacers",
             "img": "https://s1.yimg.com/bt/api/res/1.2/niuAnhfbhJrxutPo4kU1bw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20141107/4145.png",
             "stats": {
                 "reb": "",
@@ -1548,6 +1674,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Georgetown",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1559,6 +1687,8 @@
             "target": 60,
             "value": 1,
             "picked": 60,
+            "origin": "Memphis",
+            "destination": "Miami Heat",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1570,6 +1700,8 @@
             "target": 11,
             "value": 1,
             "picked": 11,
+            "origin": "Louisville",
+            "destination": "New Jersey Nets",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1581,6 +1713,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Florida State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1592,6 +1726,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Marquette",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1603,6 +1739,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Oklahoma State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1614,6 +1752,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Duke",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1625,6 +1765,8 @@
             "target": 13,
             "value": 1,
             "picked": 13,
+            "origin": "Kansas",
+            "destination": "Portland Trail Blazers",
             "img": "https://s.yimg.com/bt/api/res/1.2/QvWMkIKh7urw325VQ96EBQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4475.png",
             "stats": {
                 "reb": 2.4,
@@ -1637,6 +1779,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Georgetown",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1648,6 +1792,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Texas Tech",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1659,6 +1805,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Wisconsin",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1670,6 +1818,8 @@
             "target": 23,
             "value": 1,
             "picked": 23,
+            "origin": "DePaul",
+            "destination": "New York Knicks",
             "img": "https://s1.yimg.com/bt/api/res/1.2/VOOyVEMxPUzXGdXS9J_tRg--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4301.png",
             "stats": {
                 "reb": "",
@@ -1682,6 +1832,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Baylor",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1693,6 +1845,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Louisville",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1704,6 +1858,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Mississippi State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1715,6 +1871,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Cincinnati",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1726,6 +1884,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Missouri",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1737,6 +1897,8 @@
             "target": 37,
             "value": 1,
             "picked": 37,
+            "origin": "Duke",
+            "destination": "Portland Trail Blazers",
             "img": "https://s.yimg.com/bt/api/res/1.2/8jGT9k0N7Vat0Q4Eg9eoKw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4314.png",
             "stats": {
                 "reb": 2.5,
@@ -1749,6 +1911,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Marquette",
+            "destination": "none",
             "img": "https://s1.yimg.com/bt/api/res/1.2/o.QTokbtpPOZJFQaNULdJA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4694.png",
             "stats": {
                 "reb": 2,
@@ -1761,6 +1925,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Baylor",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1772,6 +1938,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Washington",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1783,6 +1951,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Notre Dame",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1794,6 +1964,8 @@
             "target": 38,
             "value": 1,
             "picked": 38,
+            "origin": "Washington",
+            "destination": "Portland Trail Blazers",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1805,6 +1977,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Stanford",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1816,6 +1990,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Georgia Tech",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1827,6 +2003,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Indiana",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1838,6 +2016,8 @@
             "target": 21,
             "value": 1,
             "picked": 21,
+            "origin": "UCLA",
+            "destination": "New Orleans Hornets",
             "img": "https://s1.yimg.com/bt/api/res/1.2/UJaSew5IXuI0EKeLxCZ3xw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4626.png",
             "stats": {
                 "reb": 1.2,
@@ -1850,6 +2030,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Connecticut",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1861,6 +2043,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Louisville",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1872,6 +2056,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Miami",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1883,6 +2069,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "N.C. State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1894,6 +2082,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Arizona",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1905,6 +2095,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Duke",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1916,6 +2108,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Alabama",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1927,6 +2121,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Texas",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1938,6 +2134,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Clemson",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1949,6 +2147,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "DePaul",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1960,6 +2160,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Texas",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1971,6 +2173,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Memphis",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1982,6 +2186,8 @@
             "target": 45,
             "value": 1,
             "picked": 45,
+            "origin": "Georgia",
+            "destination": "Philadelphia 76ers",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1993,6 +2199,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Washington",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2004,6 +2212,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "South Alabama",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2015,6 +2225,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "USC",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2026,6 +2238,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "North Carolina",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2037,6 +2251,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Wake Forest",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2048,6 +2264,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Massachusetts",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2059,6 +2277,8 @@
             "target": 49,
             "value": 1,
             "picked": 49,
+            "origin": "Alabama",
+            "destination": "Golden State Warriors",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2070,6 +2290,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Michigan",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2081,6 +2303,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Clemson",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2092,6 +2316,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Georgia Tech",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2103,6 +2329,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Oklahoma State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2114,6 +2342,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Wisconsin",
+            "destination": "none",
             "img": "https://s.yimg.com/bt/api/res/1.2/2tq0FoY0QUm4WXTJbpUeKw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4689.png",
             "stats": {
                 "reb": "",
@@ -2126,6 +2356,8 @@
             "target": 40,
             "value": 1,
             "picked": 40,
+            "origin": "Memphis",
+            "destination": "New Jersey Nets",
             "img": "https://s.yimg.com/bt/api/res/1.2/Jjw59gXrpqwXuFBPv0PU6A--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4502.png",
             "stats": {
                 "reb": "",
@@ -2138,6 +2370,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Rutgers",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2149,6 +2383,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Connecticut",
+            "destination": "none",
             "img": "https://s1.yimg.com/bt/api/res/1.2/B9dLVDfxsxhLhY8nIVhsEA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4802.png",
             "stats": {
                 "reb": "",
@@ -2161,6 +2397,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Georgia Tech",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2172,6 +2410,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Miami",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2183,6 +2423,8 @@
             "target": 6,
             "value": 1,
             "picked": 6,
+            "origin": "Washington",
+            "destination": "Portland Trail Blazers",
             "img": "https://s.yimg.com/bt/api/res/1.2/y2lqQ.IZQ1dCOMrmRflPoQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/3932.png",
             "stats": {
                 "reb": "",
@@ -2195,6 +2437,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Louisville",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2206,6 +2450,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "UNLV",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2217,6 +2463,8 @@
             "target": 51,
             "value": 1,
             "picked": 51,
+            "origin": "LSU",
+            "destination": "Oklahoma City Thunder",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2228,6 +2476,8 @@
             "target": 57,
             "value": 1,
             "picked": 57,
+            "origin": "Florida State",
+            "destination": "Indiana Pacers",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2239,6 +2489,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Florida",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2250,6 +2502,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "UAB",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2261,6 +2515,8 @@
             "target": 56,
             "value": 1,
             "picked": 56,
+            "origin": "Louisville",
+            "destination": "Detroit Pistons",
             "img": "https://s1.yimg.com/bt/api/res/1.2/lzT0nBzk21aFZbeDksVzEg--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/3982.png",
             "stats": {
                 "reb": 6.3,
@@ -2273,6 +2529,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Mississippi State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2284,6 +2542,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Cincinnati",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2295,6 +2555,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Auburn",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2306,6 +2568,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Michigan",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2317,6 +2581,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Texas",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2328,6 +2594,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Texas Tech",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2339,6 +2607,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Southern Illinois",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2350,6 +2620,8 @@
             "target": 10,
             "value": 1,
             "picked": 10,
+            "origin": "Connecticut",
+            "destination": "Los Angeles Lakers",
             "img": "https://s.yimg.com/bt/api/res/1.2/jO2Qn76faOHl.MFhS5AaSQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/http://l.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20131125/3936.png",
             "stats": {
                 "reb": "",
@@ -2362,6 +2634,8 @@
             "target": 46,
             "value": 1,
             "picked": 46,
+            "origin": "North Carolina",
+            "destination": "Cleveland Cavaliers",
             "img": "https://s.yimg.com/bt/api/res/1.2/JanqZ_yujffexZIH4.Qisg--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20141107/4651.png",
             "stats": {
                 "reb": 4.3,
@@ -2374,6 +2648,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Mississippi State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2385,6 +2661,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Mississippi State",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2396,6 +2674,8 @@
             "target": 40,
             "value": 1,
             "picked": 40,
+            "origin": "Mississippi State",
+            "destination": "Golden State Warriors",
             "img": "https://s1.yimg.com/bt/api/res/1.2/5ruuBTFXVt_VX5x7l2uTEA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/3966.png",
             "stats": {
                 "reb": 3.4,
@@ -2408,6 +2688,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Marquette",
+            "destination": "none",
             "img": "https://s1.yimg.com/bt/api/res/1.2/AauOMgH87.QdrJcFKUAh3Q--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/http://l.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20130626/4684.png",
             "stats": {
                 "reb": "",
@@ -2420,6 +2702,8 @@
             "target": 13,
             "value": 1,
             "picked": 13,
+            "origin": "Kansas",
+            "destination": "New Orleans Hornets",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2431,6 +2715,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Notre Dame",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2442,6 +2728,8 @@
             "target": 13,
             "value": 1,
             "picked": 13,
+            "origin": "North Carolina",
+            "destination": "Indiana Pacers",
             "img": "https://s.yimg.com/bt/api/res/1.2/5Iw2Ph6uclnjqdFQGyV_ww--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4618.png",
             "stats": {
                 "reb": 1,
@@ -2454,6 +2742,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Pittsburgh",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2465,6 +2755,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Louisville",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2476,6 +2768,8 @@
             "target": 35,
             "value": 1,
             "picked": 35,
+            "origin": "Memphis",
+            "destination": "Portland Trail Blazers",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2487,6 +2781,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "South Carolina",
+            "destination": "none",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -2498,6 +2794,8 @@
             "target": 60,
             "value": 1,
             "picked": -1,
+            "origin": "Alabama",
+            "destination": "none",
             "img": "https://s.yimg.com/bt/api/res/1.2/70LpNMa5r4T9w3qVeEkhoA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4686.png",
             "stats": {
                 "reb": 2.7,

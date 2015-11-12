@@ -1,7 +1,13 @@
+.visualization {
+  position: relative;
+}
+
+
 .meta {
   position: absolute;
+  top: 0;
   left: 1200px;
-  max-width: 200px;
+  max-width: 300px;
   width: 100%;
   font-family: $din;
 }
@@ -42,10 +48,6 @@
   font-size: 14px;
 }
 
-.meta-stats {
-  list-style-type: none;
-}
-
 .stat {
   font-size : 21px;
   line-height : 26.48px;
@@ -62,7 +64,7 @@
 
 .meta-stats {
   @include clearfix;
-  width: 120px;
+  // width: 120px;
   margin: 0 auto;
   ul {list-style-type: none;}
 }
