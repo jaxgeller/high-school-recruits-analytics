@@ -18,32 +18,58 @@ for (var i =61; i < 211; i++) {
   nodes.push({node: i, name: ''});
 }
 
-// add nodes and links
+// link all nodes to fake 60/60 ticks
+for (var i =0; i < 61; i++) {
+  links.push({
+    source: i + 61,
+    target: i,
+    value: 1,
+    picked: -1,
+    origin: '',
+    destination: '',
+    pos: ''
+  });
+}
+
+// link with actual data
 for (var i in data) {
   if (data[i].hs.year === YEAR) {
     let rank = data[i].hs.rank + 60;
 
     if (nodes[rank]) {
       nodes[rank].name += data[i].name;
-      let target = data[i].nba.draft;
-      if (target === -1) target = 60;
+      let target = data[i].nba.draft-1;
+      if (target === -2) target = 60;
 
       let holder = {
         source: rank,
         target: target,
         value: 1,
         picked: data[i].nba.draft,
+        rank: data[i].hs.rank,
         origin: data[i].hs.destination,
         destination: data[i].nba.destination,
         pos: data[i].pos
       }
 
-      if (data[i].img)
-        holder.img = data[i].img
-      if (data[i].stats)
-        holder.stats = data[i].stats
+      if (data[i].img) holder.img = data[i].img
+      if (data[i].stats) holder.stats = data[i].stats
 
-      links.push(holder)
+
+      if (holder.target != 60) {
+        for (var i = 0; i < links.length; i++) {
+          if (links[i].target === holder.target) {
+            links[i] == holder;
+          }
+        }
+      }
+      //   for (var i = 0; i < links.length; i++) {
+      //     if (links[i].target == holder.target)
+      //       links[i] = holder
+      //   }
+      // }
+
+
     }
   }
 }
