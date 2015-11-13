@@ -31,48 +31,65 @@ for (var i =0; i < 61; i++) {
   });
 }
 
-// link with actual data
 for (var i in data) {
   if (data[i].hs.year === YEAR) {
     let rank = data[i].hs.rank + 60;
-
     if (nodes[rank]) {
-      nodes[rank].name += data[i].name;
-      let target = data[i].nba.draft-1;
-      if (target === -2) target = 60;
-
-      let holder = {
-        source: rank,
-        target: target,
-        value: 1,
-        picked: data[i].nba.draft,
-        rank: data[i].hs.rank,
-        origin: data[i].hs.destination,
-        destination: data[i].nba.destination,
-        pos: data[i].pos
-      }
-
-      if (data[i].img) holder.img = data[i].img
-      if (data[i].stats) holder.stats = data[i].stats
-
-
-      if (holder.target != 60) {
-        for (var i = 0; i < links.length; i++) {
-          if (links[i].target === holder.target) {
-            links[i] == holder;
+      let target = data[i].nba.draft;
+      if (target > -1) {
+        let holder = {
+          name: data[i].name,
+          source: rank,
+          target: target,
+          value: 1,
+          picked: data[i].nba.draft,
+          rank: data[i].hs.rank,
+          origin: data[i].hs.destination,
+          destination: data[i].nba.destination,
+          pos: data[i].pos
+        }
+        for (var j = 0; j < links.length; j ++) {
+          if (links[j].source == rank) {
+            links[j] = holder
           }
         }
       }
-      //   for (var i = 0; i < links.length; i++) {
-      //     if (links[i].target == holder.target)
-      //       links[i] = holder
-      //   }
-      // }
-
-
     }
   }
 }
+
+// link with actual data
+// for (var i in data) {
+//   if (data[i].hs.year === YEAR) {
+//     let rank = data[i].hs.rank + 60;
+
+//     if (nodes[rank]) {
+//       nodes[rank].name += data[i].name;
+//       let target = data[i].nba.draft;
+//       console.log(target)
+//       if (target === -1) target = 60;
+
+//       let holder = {
+//         source: rank,
+//         target: target,
+//         value: 1,
+//         picked: data[i].nba.draft,
+//         rank: data[i].hs.rank,
+//         origin: data[i].hs.destination,
+//         destination: data[i].nba.destination,
+//         pos: data[i].pos
+//       }
+
+//       if (data[i].img)
+//         holder.img = data[i].img
+//       if (data[i].stats)
+//         holder.stats = data[i].stats
+
+//       links.push(holder)
+
+//     }
+//   }
+// }
 
 fs.writeFileSync(`data/${YEAR}.json`, JSON.stringify({nodes: nodes, links: links}, null, 4));
 console.log(`Formatted ${YEAR}`);

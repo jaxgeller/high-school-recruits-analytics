@@ -85,7 +85,7 @@ function run(year) {
           x = d.x + margin.right - 10;
         else
           x = d.x - margin.left;
-        y = d.y + 6.5;
+
         return `translate(${x},${y})`;
       })
 
