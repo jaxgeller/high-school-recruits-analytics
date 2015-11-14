@@ -1,7 +1,7 @@
 import './d3.js';
 import './jump.js';
 
-run(2007);
+run(2013);
 function setData(data) {
   console.log(data)
   document.querySelector('.meta-head-shot').src = data.img;
@@ -44,7 +44,10 @@ function run(year) {
     .nodePadding(0)
     .size([width, height]);
 
-  let path = sankey.link();
+  let path = d3.svg.diagonal()
+    .source(function(d) { return {"x":d.source.y, "y":d.source.x}; })
+    .target(function(d) { return {"x":d.target.y, "y":d.target.x}; })
+    .projection(function(d) { return [d.y, d.x]; });
 
   d3.json(`data/${year}.json`, function(energy) {
     sankey
@@ -89,15 +92,16 @@ function run(year) {
         return `translate(${x},${y})`;
       })
 
-    node.append('rect')
-      .attr('height', function(d) { return 1; })
-      .attr('width', function(d) {
-        if (d.x > 900)
-          return 10;
-        return 20;
-      })
-      .style('fill', function(d) { return '#cfd8dc' })
-      .style('stroke', function(d) { return '#cfd8dc' })
+    // node.append('rect')
+    //   .attr('height', function(d) { return 1; })
+    //   .attr('width', function(d) {
+    //     if (d.x > 900)
+    //       return 10;
+    //     return 20;
+    //   })
+    //   .style('fill', function(d) { return '#cfd8dc' })
+    //   .style('stroke', function(d) { return '#cfd8dc' })
+
   });
 
 

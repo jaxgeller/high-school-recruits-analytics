@@ -1,3 +1,44 @@
+.content {
+  padding: 100px 0;
+}
+
+.credits {
+  @include clearfix;
+  margin-bottom: 30px;
+
+  p:first-of-type {
+    font-family: $din;
+    font-size : 14px;
+    line-height : 65.39px;
+    letter-spacing : 2.1px;
+    color : #37474F;
+    float: left;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  p:last-of-type {
+    font-family : $din;
+    font-size : 14px;
+    line-height : 65.39px;
+    letter-spacing : 2.1px;
+    color : #0090D1;
+    float: right;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+}
+
+.start-letter {
+  float: left;
+  font-family: $tungsten;
+  font-size : 145px;
+  line-height : 134.8px;
+  letter-spacing : 2.9px;
+  color : #2D2D30;
+  padding-right: 40px;
+  font-weight: 600;
+}
 .content-text {
   font-family : $leitura;
   font-size : 16px;
