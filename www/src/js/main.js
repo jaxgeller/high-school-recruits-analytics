@@ -49,6 +49,7 @@ function run(year) {
     .target(function(d) { return {"x":d.target.y, "y":d.target.x}; })
     .projection(function(d) { return [d.y, d.x]; });
 
+
   d3.json(`data/${year}.json`, function(energy) {
     sankey
     .nodes(energy.nodes)
@@ -92,15 +93,15 @@ function run(year) {
         return `translate(${x},${y})`;
       })
 
-    // node.append('rect')
-    //   .attr('height', function(d) { return 1; })
-    //   .attr('width', function(d) {
-    //     if (d.x > 900)
-    //       return 10;
-    //     return 20;
-    //   })
-    //   .style('fill', function(d) { return '#cfd8dc' })
-    //   .style('stroke', function(d) { return '#cfd8dc' })
+    node.append('rect')
+      .attr('height', function(d) { return 1; })
+      .attr('width', function(d) {
+        if (d.x > 900)
+          return 10;
+        return 20;
+      })
+      .style('fill', function(d) { return '#cfd8dc' })
+      .style('stroke', function(d) { return '#cfd8dc' })
 
   });
 

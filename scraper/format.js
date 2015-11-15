@@ -18,24 +18,26 @@ for (var i =61; i < 211; i++) {
   nodes.push({node: i, name: ''});
 }
 
-// for (var i in data) {
-//   if (data[i].hs.year === YEAR) {
-//     let rank = data[i].hs.rank + 60;
-//     if (nodes[rank]) {
-//       nodes[rank].name += data[i].name;
-//       let target = data[i].nba.draft;
-//       if (target === -1) target = 60;
-//       let holder = {
-//         source: rank,
-//         target: target,
-//         value: 1,
-//       }
-//       links.push(holder)
-//     }
-//   }
-// }
+// link with actual data
+for (var i in data) {
+  if (data[i].hs.year === YEAR) {
+    let rank = data[i].hs.rank + 60;
+    if (nodes[rank]) {
+      nodes[rank].name += data[i].name;
+      let target = data[i].nba.draft;
 
-// link all nodes to fake 60/60 ticks
+      let holder = { source: rank, target: target-1, value: 1, picked: data[i].nba.draft,rank: data[i].hs.rank,origin: data[i].hs.destination, destination: data[i].nba.destination, pos: data[i].pos}
+
+      if (data[i].img) holder.img = data[i].img
+      if (data[i].stats) holder.stats = data[i].stats
+
+      if (target > 0) {
+        links.push(holder)
+      }
+    }
+  }
+}
+
 for (var i =0; i < 61; i++) {
   links.push({
     source: i + 61,
@@ -48,36 +50,9 @@ for (var i =0; i < 61; i++) {
   });
 }
 
-
-
-// link with actual data
-for (var i in data) {
-  if (data[i].hs.year === YEAR) {
-    let rank = data[i].hs.rank + 60;
-    if (nodes[rank]) {
-      nodes[rank].name += data[i].name;
-      let target = data[i].nba.draft;
-      // if (target === -1) target = 60;
-      let holder = { source: rank, target: target, value: 1, picked: data[i].nba.draft,rank: data[i].hs.rank,origin: data[i].hs.destination, destination: data[i].nba.destination, pos: data[i].pos}
-      if (data[i].img) holder.img = data[i].img
-      if (data[i].stats) holder.stats = data[i].stats
-
-      if (target !== -1) {
-
-        for (var j =0; j < links.length; j++) {
-          if (links[j].source === holder.source)
-            links[j] = holder;
-        }
-      }
-
-
-
-
-
-
-    }
-  }
-}
+links = links.sort((a, b) => {
+  return a.target - b.target;
+});
 
 fs.writeFileSync(`data/${YEAR}.json`, JSON.stringify({nodes: nodes, links: links}, null, 4));
 console.log(`Formatted ${YEAR}`);
