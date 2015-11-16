@@ -1,9 +1,8 @@
 import './d3.js';
 import './jump.js';
 
-run(2011);
+run(2007);
 function setData(data) {
-  console.log(data)
   document.querySelector('.meta-head-shot').src = data.img;
   document.querySelector('.meta-player-name').innerHTML = data.source.name.replace(' ', '<br/>');
 
