@@ -33,7 +33,6 @@ for (var i in data) {
       if (data[i].stats) holder.stats = data[i].stats
 
       if (target > 0) {
-        // console.log(target)
         links.push(holder)
         counter.push(target-1);
       } else {
@@ -49,7 +48,6 @@ for (var i in data) {
 }
 
 let taken = counter;
-
 
 for (var pos=0; pos < 60; pos++) {
   if (taken.indexOf(pos) < 0) {

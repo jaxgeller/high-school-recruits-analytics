@@ -1,7 +1,7 @@
 import './d3.js';
 import './jump.js';
 
-run(2007);
+run(2010);
 function setData(data) {
   document.querySelector('.meta-head-shot').src = data.img;
   document.querySelector('.meta-player-name').innerHTML = data.source.name.replace(' ', '<br/>');
@@ -27,7 +27,7 @@ function setData(data) {
 
 function run(year) {
 
-  const margin = {top: 0, right: 30, bottom: 0, left: 50};
+  const margin = {top: 10, right: 30, bottom: 10, left: 50};
   const width = 1060 - margin.left - margin.right;
   const height = 2000 - margin.top - margin.bottom;
 
@@ -54,7 +54,7 @@ function run(year) {
       return [d.y, d.x];
     });
 
-
+  let spacing = 13.2;
 
   d3.json(`data/${year}.json`, function(energy) {
     sankey
@@ -68,7 +68,7 @@ function run(year) {
       .enter().append('path')
       .attr('class', 'link')
       .each(function(d, i) {
-        if (i === 0) spacer1 = d.dy;
+        if (i === 0) spacer1 = spacing;
         else {
           if (d.target.y !== energy.links[i-1].target.y) {
             d.target.y = spacer1 + energy.links[i-1].target.y
@@ -101,7 +101,9 @@ function run(year) {
       .enter().append('g')
       .attr('class', 'node')
       .each(function(d, i) {
-        if (i === 0) spacer = d.dy;
+        if (i === 0) {
+          spacer = spacing;
+        }
         else if(d.name.indexOf('Pick') > -1) {
           d.y = spacer + energy.nodes[i-1].y;
         }
@@ -116,9 +118,6 @@ function run(year) {
 
         return `translate(${x},${y})`;
       })
-
-
-
 
     node.append('rect')
       .attr('height', function(d) { return 1; })
