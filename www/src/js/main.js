@@ -49,20 +49,20 @@ function run(year) {
     .target(d => ({x:d.target.y, y:d.target.x}))
     .projection(d => [d.y, d.x]);
 
-  d3.json(`data/${year}.json`, function(energy) {
+  d3.json(`data/${year}.json`, function(rankings) {
     sankey
-    .nodes(energy.nodes)
-    .links(energy.links)
-    .layout(0);
+      .nodes(rankings.nodes)
+      .links(rankings.links)
+      .layout(0);
 
     let link = svg.append('g').selectAll('.link')
-      .data(energy.links)
+      .data(rankings.links)
       .enter().append('path')
       .attr('class', 'link')
       .each((d, i) => {
         if (i !== 0) {
-          if (d.target.y !== energy.links[i-1].target.y) {
-            d.target.y = spacing + energy.links[i-1].target.y
+          if (d.target.y !== rankings.links[i-1].target.y) {
+            d.target.y = spacing + rankings.links[i-1].target.y
           }
         }
       })
@@ -87,13 +87,13 @@ function run(year) {
       })
 
     let node = svg.append('g').selectAll('.node')
-      .data(energy.nodes)
+      .data(rankings.nodes)
       .enter().append('g')
       .attr('class', 'node')
       .each((d, i) => {
         if (i !== 0) {
           if(d.name.indexOf('Pick') > -1) {
-            d.y = spacing + energy.nodes[i-1].y;
+            d.y = spacing + rankings.nodes[i-1].y;
           }
         }
       })
