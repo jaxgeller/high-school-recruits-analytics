@@ -45,15 +45,9 @@ function run(year) {
     .size([width, height]);
 
   let path = d3.svg.diagonal()
-    .source(d => {
-      return {"x":d.source.y, "y":d.source.x};
-    })
-    .target(d => {
-      return {"x":d.target.y, "y":d.target.x};
-    })
-    .projection(d => {
-      return [d.y, d.x];
-    });
+    .source(d => ({x: d.source.y, y: d.source.x}))
+    .target(d => ({x:d.target.y, y:d.target.x}))
+    .projection(d => [d.y, d.x]);
 
   d3.json(`data/${year}.json`, function(energy) {
     sankey
@@ -88,7 +82,7 @@ function run(year) {
       .style('display', d => {
         if (d.picked < 0) return 'none';
       })
-      .on('mouseover', () => {
+      .on('mouseover', function() {
         setData(this.__data__)
       })
 
