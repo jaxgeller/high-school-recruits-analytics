@@ -18,6 +18,7 @@ for (var i =61; i < 211; i++) {
   nodes.push({node: i, name: ''});
 }
 
+let counter = [];
 // link with actual data
 for (var i in data) {
   if (data[i].hs.year === YEAR) {
@@ -32,27 +33,39 @@ for (var i in data) {
       if (data[i].stats) holder.stats = data[i].stats
 
       if (target > 0) {
+        // console.log(target)
         links.push(holder)
+        counter.push(target-1);
+      } else {
+        links.push({
+          source: rank,
+          target: 60,
+          value: 1,
+          picked: -1
+        })
       }
     }
   }
 }
 
-for (var i =0; i < 61; i++) {
-  links.push({
-    source: i + 61,
-    target: i,
-    value: 1,
-    picked: -1,
-    origin: '',
-    destination: '',
-    pos: ''
-  });
+let taken = counter;
+
+
+for (var pos=0; pos < 60; pos++) {
+  if (taken.indexOf(pos) < 0) {
+    let l = links.find(item=> { return item.picked === -1;});
+    l.target = pos;
+    l.picked = -2;
+  }
 }
+
 
 links = links.sort((a, b) => {
   return a.target - b.target;
 });
+
+
+
 
 fs.writeFileSync(`data/${YEAR}.json`, JSON.stringify({nodes: nodes, links: links}, null, 4));
 console.log(`Formatted ${YEAR}`);

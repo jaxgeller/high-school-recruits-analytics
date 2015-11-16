@@ -1,7 +1,7 @@
 import './d3.js';
 import './jump.js';
 
-run(2013);
+run(2011);
 function setData(data) {
   console.log(data)
   document.querySelector('.meta-head-shot').src = data.img;
@@ -78,10 +78,17 @@ function run(year) {
         setData(this.__data__)
       })
 
+    let spacer = 0
     let node = svg.append('g').selectAll('.node')
       .data(energy.nodes)
       .enter().append('g')
       .attr('class', 'node')
+      // .each(function(d, i) {
+      //   if (i === 0) spacer = d.dy;
+      //   else if(d.name.indexOf('Pick') > -1) {
+      //     d.y = spacer + energy.nodes[i-1].y;
+      //   }
+      // })
       .attr('transform', function(d) {
         var x = d.x;
         var y = d.y;
@@ -92,6 +99,9 @@ function run(year) {
 
         return `translate(${x},${y})`;
       })
+
+
+
 
     node.append('rect')
       .attr('height', function(d) { return 1; })

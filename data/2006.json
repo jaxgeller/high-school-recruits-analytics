@@ -863,15 +863,6 @@
             }
         },
         {
-            "source": 61,
-            "target": 0,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
             "source": 62,
             "target": 1,
             "value": 1,
@@ -888,31 +879,10 @@
             }
         },
         {
-            "source": 62,
-            "target": 1,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 63,
+            "source": 180,
             "target": 2,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 64,
-            "target": 3,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 81,
@@ -931,40 +901,22 @@
             }
         },
         {
-            "source": 65,
+            "source": 169,
             "target": 4,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 66,
+            "source": 84,
             "target": 5,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 67,
+            "source": 151,
             "target": 6,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 68,
-            "target": 7,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 63,
@@ -999,24 +951,6 @@
             }
         },
         {
-            "source": 69,
-            "target": 8,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 70,
-            "target": 9,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
             "source": 64,
             "target": 9,
             "value": 1,
@@ -1049,13 +983,10 @@
             }
         },
         {
-            "source": 71,
+            "source": 141,
             "target": 10,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 65,
@@ -1074,15 +1005,6 @@
             }
         },
         {
-            "source": 72,
-            "target": 11,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
             "source": 75,
             "target": 11,
             "value": 1,
@@ -1099,13 +1021,10 @@
             }
         },
         {
-            "source": 73,
+            "source": 72,
             "target": 12,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 80,
@@ -1122,24 +1041,6 @@
                 "pts": "",
                 "ast": ""
             }
-        },
-        {
-            "source": 74,
-            "target": 13,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 75,
-            "target": 14,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
         },
         {
             "source": 82,
@@ -1174,31 +1075,10 @@
             }
         },
         {
-            "source": 76,
-            "target": 15,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 77,
+            "source": 176,
             "target": 16,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 78,
-            "target": 17,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 67,
@@ -1232,31 +1112,10 @@
             }
         },
         {
-            "source": 79,
-            "target": 18,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 80,
+            "source": 154,
             "target": 19,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 81,
-            "target": 20,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 74,
@@ -1274,31 +1133,16 @@
             }
         },
         {
-            "source": 82,
+            "source": 96,
             "target": 21,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 83,
+            "source": 167,
             "target": 22,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 84,
-            "target": 23,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 76,
@@ -1317,38 +1161,10 @@
             }
         },
         {
-            "source": 85,
+            "source": 160,
             "target": 24,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 86,
-            "target": 25,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 106,
-            "target": 25,
-            "value": 1,
-            "picked": 26,
-            "rank": 46,
-            "origin": "USC",
-            "destination": "Chicago Bulls",
-            "pos": "#22 FC",
-            "img": "https://s1.yimg.com/bt/api/res/1.2/E99V1SHaiL2ZwV6pHYGvdA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4631.png",
-            "stats": {
-                "reb": 5.1,
-                "pts": 5.9,
-                "ast": 1.3
-            }
+            "picked": -2
         },
         {
             "source": 90,
@@ -1367,6 +1183,22 @@
             }
         },
         {
+            "source": 106,
+            "target": 25,
+            "value": 1,
+            "picked": 26,
+            "rank": 46,
+            "origin": "USC",
+            "destination": "Chicago Bulls",
+            "pos": "#22 FC",
+            "img": "https://s1.yimg.com/bt/api/res/1.2/E99V1SHaiL2ZwV6pHYGvdA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4631.png",
+            "stats": {
+                "reb": 5.1,
+                "pts": 5.9,
+                "ast": 1.3
+            }
+        },
+        {
             "source": 73,
             "target": 26,
             "value": 1,
@@ -1381,15 +1213,6 @@
                 "pts": 3.4,
                 "ast": 1.1
             }
-        },
-        {
-            "source": 87,
-            "target": 26,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
         },
         {
             "source": 69,
@@ -1424,31 +1247,10 @@
             }
         },
         {
-            "source": 88,
-            "target": 27,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 89,
+            "source": 97,
             "target": 28,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 90,
-            "target": 29,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 157,
@@ -1466,13 +1268,10 @@
             }
         },
         {
-            "source": 91,
+            "source": 193,
             "target": 30,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 153,
@@ -1491,31 +1290,16 @@
             }
         },
         {
-            "source": 92,
-            "target": 31,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 93,
+            "source": 196,
             "target": 32,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 94,
+            "source": 86,
             "target": 33,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 79,
@@ -1534,67 +1318,34 @@
             }
         },
         {
-            "source": 95,
-            "target": 34,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 96,
+            "source": 150,
             "target": 35,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 97,
+            "source": 120,
             "target": 36,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 98,
+            "source": 179,
             "target": 37,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 99,
+            "source": 118,
             "target": 38,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 100,
+            "source": 137,
             "target": 39,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 101,
-            "target": 40,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 115,
@@ -1645,22 +1396,10 @@
             }
         },
         {
-            "source": 102,
-            "target": 41,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 103,
+            "source": 159,
             "target": 42,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 66,
@@ -1679,76 +1418,61 @@
             }
         },
         {
-            "source": 104,
-            "target": 43,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 105,
+            "source": 124,
             "target": 44,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 106,
+            "source": 190,
             "target": 45,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 107,
+            "source": 103,
             "target": 46,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 108,
+            "source": 181,
             "target": 47,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 109,
+            "source": 149,
             "target": 48,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 110,
+            "source": 145,
             "target": 49,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 111,
+            "source": 68,
             "target": 50,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
+        },
+        {
+            "source": 142,
+            "target": 51,
+            "value": 1,
+            "picked": 52,
+            "rank": 82,
+            "origin": "Notre Dame",
+            "destination": "Boston Celtics",
+            "pos": "",
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
+            }
         },
         {
             "source": 85,
@@ -1767,55 +1491,22 @@
             }
         },
         {
-            "source": 142,
-            "target": 51,
-            "value": 1,
-            "picked": 52,
-            "rank": 82,
-            "origin": "Notre Dame",
-            "destination": "Boston Celtics",
-            "pos": "",
-            "stats": {
-                "reb": "",
-                "pts": "",
-                "ast": ""
-            }
-        },
-        {
-            "source": 112,
-            "target": 51,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 113,
+            "source": 130,
             "target": 52,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 114,
+            "source": 197,
             "target": 53,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
-            "source": 115,
+            "source": 125,
             "target": 54,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 156,
@@ -1834,31 +1525,10 @@
             }
         },
         {
-            "source": 116,
-            "target": 55,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 117,
+            "source": 100,
             "target": 56,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
-            "source": 118,
-            "target": 57,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -2
         },
         {
             "source": 83,
@@ -1891,15 +1561,6 @@
             }
         },
         {
-            "source": 119,
-            "target": 58,
-            "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
-        },
-        {
             "source": 152,
             "target": 59,
             "value": 1,
@@ -1915,22 +1576,496 @@
             }
         },
         {
-            "source": 120,
-            "target": 59,
+            "source": 109,
+            "target": 60,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -1
+        },
+        {
+            "source": 88,
+            "target": 60,
+            "value": 1,
+            "picked": -1
         },
         {
             "source": 121,
             "target": 60,
             "value": 1,
-            "picked": -1,
-            "origin": "",
-            "destination": "",
-            "pos": ""
+            "picked": -1
+        },
+        {
+            "source": 183,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 209,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 188,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 92,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 147,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 203,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 170,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 104,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 187,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 205,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 99,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 206,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 174,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 93,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 144,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 165,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 166,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 134,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 191,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 161,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 175,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 131,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 184,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 210,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 132,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 139,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 89,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 122,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 200,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 143,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 87,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 202,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 140,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 148,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 105,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 138,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 172,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 158,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 101,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 164,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 204,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 112,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 136,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 123,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 111,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 199,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 185,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 110,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 189,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 95,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 194,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 173,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 146,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 162,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 178,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 91,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 133,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 102,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 192,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 208,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 78,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 135,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 201,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 195,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 108,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 114,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 207,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 198,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 119,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 168,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 128,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 171,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 113,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 177,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 182,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 126,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 186,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 127,
+            "target": 60,
+            "value": 1,
+            "picked": -1
+        },
+        {
+            "source": 116,
+            "target": 60,
+            "value": 1,
+            "picked": -1
         }
     ]
 }
