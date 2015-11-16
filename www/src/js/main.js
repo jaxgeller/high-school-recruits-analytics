@@ -1,4 +1,4 @@
-import './d3.js';
+import './sankey.js';
 import './jump.js';
 
 run(2010);
