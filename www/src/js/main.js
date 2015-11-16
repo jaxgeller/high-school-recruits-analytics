@@ -71,7 +71,9 @@ function run(year) {
       .each(function(d, i) {
         if (i === 0) spacer1 = d.dy;
         else {
-          d.target.y = spacer1 + energy.links[i-1].target.y
+          if (d.target.y !== energy.links[i-1].target.y)
+            d.target.y = spacer1 + energy.links[i-1].target.y
+          console.log(d.target.y)
         }
       })
       .attr('d', function(d) {
