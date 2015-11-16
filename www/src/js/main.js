@@ -26,7 +26,6 @@ function setData(data) {
 
 
 function run(year) {
-
   const spacing = 13.2;
   const margin = {top: 10, right: 30, bottom: 10, left: 50};
   const width = 1060 - margin.left - margin.right;
