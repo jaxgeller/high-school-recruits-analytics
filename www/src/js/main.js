@@ -27,6 +27,7 @@ function setData(data) {
 
 function run(year) {
 
+  const spacing = 13.2;
   const margin = {top: 10, right: 30, bottom: 10, left: 50};
   const width = 1060 - margin.left - margin.right;
   const height = 2000 - margin.top - margin.bottom;
@@ -54,24 +55,20 @@ function run(year) {
       return [d.y, d.x];
     });
 
-  let spacing = 13.2;
-
   d3.json(`data/${year}.json`, function(energy) {
     sankey
     .nodes(energy.nodes)
     .links(energy.links)
     .layout(0);
 
-    let spacer1 = 0;
-    var link = svg.append('g').selectAll('.link')
+    let link = svg.append('g').selectAll('.link')
       .data(energy.links)
       .enter().append('path')
       .attr('class', 'link')
       .each(function(d, i) {
-        if (i === 0) spacer1 = spacing;
-        else {
+        if (i !== 0) {
           if (d.target.y !== energy.links[i-1].target.y) {
-            d.target.y = spacer1 + energy.links[i-1].target.y
+            d.target.y = spacing + energy.links[i-1].target.y
           }
         }
       })
@@ -95,17 +92,15 @@ function run(year) {
         setData(this.__data__)
       })
 
-    let spacer = 0;
     let node = svg.append('g').selectAll('.node')
       .data(energy.nodes)
       .enter().append('g')
       .attr('class', 'node')
       .each(function(d, i) {
-        if (i === 0) {
-          spacer = spacing;
-        }
-        else if(d.name.indexOf('Pick') > -1) {
-          d.y = spacer + energy.nodes[i-1].y;
+        if (i !== 0) {
+          if(d.name.indexOf('Pick') > -1) {
+            d.y = spacing + energy.nodes[i-1].y;
+          }
         }
       })
       .attr('transform', function(d) {
@@ -115,7 +110,6 @@ function run(year) {
           x = d.x + margin.right - 10;
         else
           x = d.x - margin.left;
-
         return `translate(${x},${y})`;
       })
 
