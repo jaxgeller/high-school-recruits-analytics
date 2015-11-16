@@ -45,9 +45,16 @@ function run(year) {
     .size([width, height]);
 
   let path = d3.svg.diagonal()
-    .source(function(d) { return {"x":d.source.y, "y":d.source.x}; })
-    .target(function(d) { return {"x":d.target.y, "y":d.target.x}; })
-    .projection(function(d) { return [d.y, d.x]; });
+    .source(function(d) {
+      return {"x":d.source.y, "y":d.source.x};
+    })
+    .target(function(d) {
+      return {"x":d.target.y, "y":d.target.x};
+    })
+    .projection(function(d) {
+      return [d.y, d.x];
+    });
+
 
 
   d3.json(`data/${year}.json`, function(energy) {
@@ -56,11 +63,20 @@ function run(year) {
     .links(energy.links)
     .layout(0);
 
+    let spacer1 = 0;
     var link = svg.append('g').selectAll('.link')
       .data(energy.links)
       .enter().append('path')
       .attr('class', 'link')
-      .attr('d', path)
+      .each(function(d, i) {
+        if (i === 0) spacer1 = d.dy;
+        else {
+          d.target.y = spacer1 + energy.links[i-1].target.y
+        }
+      })
+      .attr('d', function(d) {
+        return path(d)
+      })
       .attr('stroke', function(d) {
         if (d.picked > d.source.node-60)
           return '#d0a180';
@@ -78,17 +94,17 @@ function run(year) {
         setData(this.__data__)
       })
 
-    let spacer = 0
+    let spacer = 0;
     let node = svg.append('g').selectAll('.node')
       .data(energy.nodes)
       .enter().append('g')
       .attr('class', 'node')
-      // .each(function(d, i) {
-      //   if (i === 0) spacer = d.dy;
-      //   else if(d.name.indexOf('Pick') > -1) {
-      //     d.y = spacer + energy.nodes[i-1].y;
-      //   }
-      // })
+      .each(function(d, i) {
+        if (i === 0) spacer = d.dy;
+        else if(d.name.indexOf('Pick') > -1) {
+          d.y = spacer + energy.nodes[i-1].y;
+        }
+      })
       .attr('transform', function(d) {
         var x = d.x;
         var y = d.y;
