@@ -6,6 +6,9 @@ raw:
 format:
 	for i in {2005..2015}; do node scraper/format $$i; done
 
+build:
+	cd www && gulp
+
 server:
 	python3 -m http.server www/dist
 
