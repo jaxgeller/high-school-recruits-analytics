@@ -45,13 +45,13 @@ function run(year) {
     .size([width, height]);
 
   let path = d3.svg.diagonal()
-    .source(function(d) {
+    .source(d => {
       return {"x":d.source.y, "y":d.source.x};
     })
-    .target(function(d) {
+    .target(d => {
       return {"x":d.target.y, "y":d.target.x};
     })
-    .projection(function(d) {
+    .projection(d => {
       return [d.y, d.x];
     });
 
@@ -65,30 +65,30 @@ function run(year) {
       .data(energy.links)
       .enter().append('path')
       .attr('class', 'link')
-      .each(function(d, i) {
+      .each((d, i) => {
         if (i !== 0) {
           if (d.target.y !== energy.links[i-1].target.y) {
             d.target.y = spacing + energy.links[i-1].target.y
           }
         }
       })
-      .attr('d', function(d) {
+      .attr('d', d => {
         return path(d)
       })
-      .attr('stroke', function(d) {
+      .attr('stroke', d => {
         if (d.picked > d.source.node-60)
           return '#d0a180';
         else
           return '#06904f';
       })
-      .style('stroke-width', function(d) {
+      .style('stroke-width', d => {
         if (d.picked < 0) return 0;
         return 2.5;
       })
-      .style('display', function(d) {
+      .style('display', d => {
         if (d.picked < 0) return 'none';
       })
-      .on('mouseover', function() {
+      .on('mouseover', () => {
         setData(this.__data__)
       })
 
@@ -96,16 +96,16 @@ function run(year) {
       .data(energy.nodes)
       .enter().append('g')
       .attr('class', 'node')
-      .each(function(d, i) {
+      .each((d, i) => {
         if (i !== 0) {
           if(d.name.indexOf('Pick') > -1) {
             d.y = spacing + energy.nodes[i-1].y;
           }
         }
       })
-      .attr('transform', function(d) {
-        var x = d.x;
-        var y = d.y;
+      .attr('transform', d => {
+        let x = d.x;
+        let y = d.y;
         if (x > 900)
           x = d.x + margin.right - 10;
         else
@@ -114,15 +114,14 @@ function run(year) {
       })
 
     node.append('rect')
-      .attr('height', function(d) { return 1; })
-      .attr('width', function(d) {
+      .attr('height', d => { return 1; })
+      .attr('width', d => {
         if (d.x > 900)
           return 10;
         return 20;
       })
-      .style('fill', function(d) { return '#cfd8dc' })
-      .style('stroke', function(d) { return '#cfd8dc' })
-
+      .style('fill', d => { return '#cfd8dc' })
+      .style('stroke', d => { return '#cfd8dc' })
   });
 
 
