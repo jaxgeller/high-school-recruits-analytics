@@ -3,6 +3,7 @@ import './jump.js';
 import './meta.js';
 
 run(2010);
+
 function setData(data) {
   document.querySelector('.meta-headshot').style.backgroundImage = `url("${data.img}")`;
   document.querySelector('.meta-player-name').innerHTML = data.source.name.replace(' ', '<br/>');
@@ -27,14 +28,17 @@ function setData(data) {
 
 function run(year) {
   const spacing = 13.2;
+  const scale = {width: 1000, height: 2000}
   const margin = {top: 10, right: 30, bottom: 10, left: 50};
-  const width = 1000 - margin.left - margin.right;
-  const height = 2000 - margin.top - margin.bottom;
+  const width = scale.width - margin.left - margin.right;
+  const height = scale.height - margin.top - margin.bottom;
 
   let svg = d3.select('#chart')
     .append('svg')
     .attr('width', width + margin.left + margin.right)
     .attr('height', height + margin.top + margin.bottom)
+    .attr('viewBox', `0 0 ${scale.width} ${scale.height}`)
+    .attr('preserveAspectRatio', 'xMidYMid')
     .append('g')
     .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
@@ -48,9 +52,11 @@ function run(year) {
     .target(d => ({x:d.target.y, y:d.target.x}))
     .projection(d => [d.y, d.x]);
 
+
+
   let threshold = d3.scale.linear()
-      .domain([-150, -100, 0, 100, 150])
-      .range(["green","green","beige", "red", "red"]);
+    .domain([-150, -100, 0, 100, 150])
+    .range(["green","green","beige", "red", "red"]);
 
   d3.json(`data/${year}.json`, function(rankings) {
     sankey
@@ -69,9 +75,7 @@ function run(year) {
         }
       })
       .attr('d', d => path(d))
-      .attr('stroke', d => {
-        return threshold(d.picked - (d.source.node-60));
-      })
+      .attr('stroke', d => threshold(d.picked - (d.source.node-60)))
       .style('stroke-width', d => {
         if (d.picked < 0) return 0;
         return 2.5;
@@ -81,7 +85,23 @@ function run(year) {
       })
       .on('mouseover', function() {
         setData(this.__data__)
+      });
+
+    let totalLength  = link.node().getTotalLength();
+
+    link
+      .attr('stroke-dasharray', function() {
+        return this.getTotalLength() + ' ' + this.getTotalLength();
       })
+      .attr("stroke-dashoffset", function() {
+        return this.getTotalLength();
+      })
+      .transition()
+        .ease('out')
+        .duration(function(d, i) {
+          return (i * i)/(i/10)
+        })
+        .attr("stroke-dashoffset", 0);
 
     let node = svg.append('g').selectAll('.node')
       .data(rankings.nodes).enter().append('g')
@@ -117,5 +137,13 @@ function run(year) {
         return 20;
       })
   });
-
 }
+
+// window.addEventListener('resize', function() {
+//   let aspect = scale.width/scale.height;
+//   let svg = document.querySelector('#chart svg')
+//   let target = document.getElementById('chart').getBoundingClientRect().width
+//   svg.setAttribute('width', target);
+//   svg.setAttribute('height', target / aspect);
+// });
+
