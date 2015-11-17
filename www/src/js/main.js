@@ -104,6 +104,10 @@ function run(year) {
           x = d.x - margin.left;
         return `translate(${x},${y})`;
       })
+      .on('mouseover', function() {
+        let data = this.__data__.sourceLinks[0] || this.__data__.targetLinks[0];
+        setData(data)
+      })
 
     node.append('rect')
       .style('fill', d => '#cfd8dc')
