@@ -1,91 +1,90 @@
 .header {
   padding: 70px 0 90px 0;
   background-color: #efebe9;
-
-  .container {position: relative;}
+  .container {
+    position: relative;
+  }
 }
 
 .sub-heading {
+  margin-bottom: 20px;
+  font-family: $din;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 65.39px;
+  letter-spacing: 2.7px;
   text-transform: uppercase;
   color: $blue;
-  font-family: $din;
-  font-size : 18px;
-  line-height : 65.39px;
-  letter-spacing : 2.7px;
-  font-weight: 500;
-  margin-bottom: 20px;
 }
 
 .heading {
   position: relative;
+  margin-bottom: 10px;
   font-family: $tungsten;
   font-size: 82px;
+  font-weight: 600;
   line-height: 76.71px;
   letter-spacing: 1.64px;
-  color: $gray;
   text-transform: uppercase;
-  font-weight: 600;
-  margin-bottom: 10px;
+  color: $gray;
 }
 
 .heading-img {
-  width: 430px;
   position: absolute;
   top: -56px;
+  width: 430px;
 }
 
 .header-description {
-  font-size : 18px;
-  line-height : 32.69px;
-  letter-spacing : 0.36px;
-  color: $blue;
   max-width: 380px;
   margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 32.69px;
+  letter-spacing: .36px;
+  color: $blue;
 }
 
 .down-button {
   display: block;
   width: 30px;
   height: 30px;
-  background: url('images/down-button.svg') center/cover no-repeat;
+  background: url("images/down-button.svg") center/cover no-repeat;
 }
 
 .twitter {
   display: inline-block;
-  vertical-align: middle;
   width: 20px;
   height: 17px;
-  background: url('images/twitter.svg') center/cover no-repeat;
+  vertical-align: middle;
+  background: url("images/twitter.svg") center/cover no-repeat;
 }
 .facebook {
   display: inline-block;
-  vertical-align: middle;
   width: 10px;
   height: 22px;
-  background: url('images/facebook.svg') center/cover no-repeat;
+  vertical-align: middle;
+  background: url("images/facebook.svg") center/cover no-repeat;
 }
 
 .media-stats {
-
-  display: inline-block;
-  background: $gray;
-  font-family: $din;
-  font-size : 12px;
-  letter-spacing : 0.6px;
-  color : #F3F3F3;
-  padding: 8px 10px 6px 10px;
-  border-radius: 4px;
   position: relative;
+  display: inline-block;
   margin-left: 15px;
-
+  padding: 8px 10px 6px 10px;
+  font-family: $din;
+  font-size: 12px;
+  letter-spacing: .6px;
+  color: #f3f3f3;
+  border-radius: 4px;
+  background: $gray;
   &:before {
-    content: ' ';
     position: absolute;
-    left: -5px;
     top: 11px;
+    left: -5px;
     display: inline-block;
-    border-style: solid;
+    content: " ";
     border-width: 3px 5.2px 3px 0;
+    border-style: solid;
     border-color: transparent $gray transparent transparent;
   }
 }
@@ -93,6 +92,7 @@
 
 .social-media {
   @include clearfix;
+
   margin-bottom: 50px;
   ul {
     float: right;

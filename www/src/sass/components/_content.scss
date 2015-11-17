@@ -4,55 +4,54 @@
 
 .credits {
   @include clearfix;
+
   margin-bottom: 30px;
-
   p:first-of-type {
-    font-family: $din;
-    font-size : 14px;
-    line-height : 65.39px;
-    letter-spacing : 2.1px;
-    color : #37474F;
     float: left;
-    text-transform: uppercase;
+    font-family: $din;
+    font-size: 14px;
     font-weight: 500;
+    line-height: 65.39px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #37474f;
   }
-
   p:last-of-type {
-    font-family : $din;
-    font-size : 14px;
-    line-height : 65.39px;
-    letter-spacing : 2.1px;
-    color : #0090D1;
     float: right;
-    text-transform: uppercase;
+    font-family: $din;
+    font-size: 14px;
     font-weight: 500;
+    line-height: 65.39px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #0090d1;
   }
 }
 
 .start-letter {
   float: left;
-  font-family: $tungsten;
-  font-size : 145px;
-  line-height : 134.8px;
-  letter-spacing : 2.9px;
-  color : #2D2D30;
   padding-right: 40px;
+  font-family: $tungsten;
+  font-size: 145px;
   font-weight: 600;
+  line-height: 134.8px;
+  letter-spacing: 2.9px;
+  color: #2d2d30;
 }
 .content-text {
-  font-family : $leitura;
-  font-size : 16px;
-  line-height : 38px;
-  letter-spacing : 0.32px;
-  color : #2D2D30;
   margin-bottom: 50px;
+  font-family: $leitura;
+  font-size: 16px;
+  line-height: 38px;
+  letter-spacing: .32px;
+  color: #2d2d30;
 }
 
 .summary {
+  margin-bottom: 40px;
   font-family: $leitura;
   font-size: 22px;
   line-height: 38px;
-  letter-spacing: 0.44px;
-  color: #0090D1;
-  margin-bottom: 40px;
+  letter-spacing: .44px;
+  color: #0090d1;
 }
