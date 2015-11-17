@@ -854,12 +854,12 @@
             "rank": 1,
             "origin": "Kentucky",
             "destination": "New Orleans Hornets",
-            "pos": "#23 FC",
-            "img": "https://s.yimg.com/bt/api/res/1.2/U8APp7nEvSnWWAA4sPTwbQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5007.png",
+            "pos": "#23 PF",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6583.png&w=350&h=254",
             "stats": {
-                "reb": 9,
-                "pts": 24,
-                "ast": 2.3
+                "reb": 2.5,
+                "pts": 19.9,
+                "ast": 9.5
             }
         },
         {
@@ -871,11 +871,11 @@
             "origin": "Kentucky",
             "destination": "Charlotte Bobcats",
             "pos": "#14 SF",
-            "img": "https://s.yimg.com/bt/api/res/1.2/jGvcAfIlIs80XcwgroJeyw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5008.png",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6601.png&w=350&h=254",
             "stats": {
-                "reb": "",
-                "pts": "",
-                "ast": ""
+                "reb": 6.1,
+                "pts": 9,
+                "ast": 1.3
             }
         },
         {
@@ -887,11 +887,11 @@
             "origin": "Florida",
             "destination": "Washington Wizards",
             "pos": "#3 SG",
-            "img": "https://s1.yimg.com/bt/api/res/1.2/solLmXug7ZqWWa10L0onmQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5009.png",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6580.png&w=350&h=254",
             "stats": {
-                "reb": 4.8,
-                "pts": 22.7,
-                "ast": 2.5
+                "reb": 3.8,
+                "pts": 15.8,
+                "ast": 3
             }
         },
         {
@@ -903,11 +903,11 @@
             "origin": "Georgetown",
             "destination": "Washington Wizards",
             "pos": "#22 SF",
-            "img": "https://s1.yimg.com/bt/api/res/1.2/4f5l.8j7hn46nHWdVHGjjA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5154.png",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2594922.png&w=350&h=254",
             "stats": {
-                "reb": 4.6,
-                "pts": 13.4,
-                "ast": 2.1
+                "reb": 2.7,
+                "pts": 5.3,
+                "ast": 0.8
             }
         },
         {
@@ -918,12 +918,12 @@
             "rank": 10,
             "origin": "Indiana",
             "destination": "Charlotte Bobcats",
-            "pos": "#40 FC",
-            "img": "https://s.yimg.com/bt/api/res/1.2/s4HW2nNqahY9w5p3PwR1Qw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5155.png",
+            "pos": "#40 PF",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2579258.png&w=350&h=254",
             "stats": {
-                "reb": 5.4,
-                "pts": 7.3,
-                "ast": 0.4
+                "reb": 0.6,
+                "pts": 6.7,
+                "ast": 5
             }
         },
         {
@@ -947,11 +947,11 @@
             "origin": "Kansas",
             "destination": "Sacramento Kings",
             "pos": "#23 SG",
-            "img": "https://s1.yimg.com/bt/api/res/1.2/3s46shvtLdrKwRbjIgOuXQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5158.png",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2578213.png&w=350&h=254",
             "stats": {
-                "reb": 1.8,
-                "pts": 5.8,
-                "ast": 1
+                "reb": 2.8,
+                "pts": 10.2,
+                "ast": 1.3
             }
         },
         {
@@ -963,11 +963,11 @@
             "origin": "Georgia",
             "destination": "Detroit Pistons",
             "pos": "#5 SG",
-            "img": "https://s1.yimg.com/bt/api/res/1.2/Uvy1ZafCgECH6qe1tZoS3Q--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5159.png",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2581018.png&w=350&h=254",
             "stats": {
-                "reb": 3.9,
-                "pts": 14.9,
-                "ast": 1.6
+                "reb": 2.6,
+                "pts": 9.6,
+                "ast": 1
             }
         },
         {
@@ -979,11 +979,11 @@
             "origin": "Michigan",
             "destination": "Minnesota Timberwolves",
             "pos": "#3 PG",
-            "img": "https://s1.yimg.com/bt/api/res/1.2/E1tQZ._n4773SRlRIxpbZA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5160.png",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2579260.png&w=350&h=254",
             "stats": {
-                "reb": 2.3,
-                "pts": 13.4,
-                "ast": 2.1
+                "reb": 2.8,
+                "pts": 12.8,
+                "ast": 4.8
             }
         },
         {
@@ -994,12 +994,12 @@
             "rank": 2,
             "origin": "Duke",
             "destination": "New Orleans Hornets",
-            "pos": "#25 G",
-            "img": "https://s.yimg.com/bt/api/res/1.2/GhSlUMJe4kwPTNZc5Q6O0Q--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5016.png",
+            "pos": "#25 SG",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6617.png&w=350&h=254",
             "stats": {
-                "reb": 0.6,
-                "pts": 7.3,
-                "ast": 0.7
+                "reb": 1.9,
+                "pts": 7.1,
+                "ast": 2.1
             }
         },
         {
@@ -1011,11 +1011,11 @@
             "origin": "Syracuse",
             "destination": "Philadelphia 76ers",
             "pos": "#5 PG",
-            "img": "https://s1.yimg.com/bt/api/res/1.2/oMsxJSYaSJssLQg2u91vBw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5162.png",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2596108.png&w=350&h=254",
             "stats": {
-                "reb": 4.5,
-                "pts": 12.8,
-                "ast": 6.8
+                "reb": 5.8,
+                "pts": 15.6,
+                "ast": 6.5
             }
         },
         {
@@ -1045,11 +1045,11 @@
             "origin": "St. John's",
             "destination": "Philadelphia 76ers",
             "pos": "#4 SF",
-            "img": "https://s.yimg.com/bt/api/res/1.2/ta4Uu0kVoBPZoc.dcmc_pQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5021.png",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6591.png&w=350&h=254",
             "stats": {
-                "reb": 4.8,
-                "pts": 7.9,
-                "ast": 1.1
+                "reb": 3.5,
+                "pts": 6.8,
+                "ast": 0.8
             }
         },
         {
@@ -1072,12 +1072,12 @@
             "rank": 117,
             "origin": "DePaul",
             "destination": "Atlanta Hawks",
-            "pos": "# PG",
-            "img": "https://s1.yimg.com/bt/api/res/1.2/COypne6oSNSob4ufOrP.cw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5188.png",
+            "pos": "#0 PG",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2596158.png&w=350&h=254",
             "stats": {
-                "reb": 1.4,
-                "pts": 5,
-                "ast": 2.9
+                "reb": 1.8,
+                "pts": 4.9,
+                "ast": 2.4
             }
         },
         {
@@ -1100,12 +1100,12 @@
             "rank": 135,
             "origin": "Boston College",
             "destination": "New Jersey Nets",
-            "pos": "#33 FC",
-            "img": "https://s.yimg.com/bt/api/res/1.2/E.uMH_Vhxjo0FzdQofGbPA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/4483.png",
+            "pos": "#33 PF",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3412.png&w=350&h=254",
             "stats": {
-                "reb": 7.3,
-                "pts": 17,
-                "ast": 1.3
+                "reb": 0.4,
+                "pts": 12.5,
+                "ast": 5.5
             }
         },
         {
@@ -1122,12 +1122,12 @@
             "rank": 29,
             "origin": "Mississippi State",
             "destination": "Utah Jazz",
-            "pos": "#5 GF",
-            "img": "https://s1.yimg.com/bt/api/res/1.2/znF3GbwBeMwho4.BR1w_pw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5334.png",
+            "pos": "#5 SG",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2581177.png&w=350&h=254",
             "stats": {
-                "reb": 2.4,
-                "pts": 12.4,
-                "ast": 2.9
+                "reb": 2.3,
+                "pts": 9.3,
+                "ast": 1.8
             }
         },
         {
@@ -1144,12 +1144,12 @@
             "rank": 19,
             "origin": "Washington",
             "destination": "Memphis Grizzlies",
-            "pos": "#1 G",
-            "img": "https://s1.yimg.com/bt/api/res/1.2/NsZ1Q_CRHzDip_4HWdFduA--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5059.png",
+            "pos": "#1 SG",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6630.png&w=350&h=254",
             "stats": {
-                "reb": "",
-                "pts": "",
-                "ast": ""
+                "reb": 2.5,
+                "pts": 11.2,
+                "ast": 3
             }
         },
         {
@@ -1160,12 +1160,12 @@
             "rank": 13,
             "origin": "North Carolina",
             "destination": "Miami Heat",
-            "pos": "#19 GF",
-            "img": "https://s.yimg.com/bt/api/res/1.2/k123un78YS06Tb41_BE59A--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5337.png",
+            "pos": "#19 SF",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2594816.png&w=350&h=254",
             "stats": {
-                "reb": 2.3,
-                "pts": 5,
-                "ast": 0.6
+                "reb": 2.1,
+                "pts": 5.5,
+                "ast": 0.5
             }
         },
         {
@@ -1188,12 +1188,12 @@
             "rank": 7,
             "origin": "Kentucky",
             "destination": "Chicago Bulls",
-            "pos": "#10 PG",
-            "img": "https://s.yimg.com/bt/api/res/1.2/HevSanagTzkL7EaUMWw1sw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20141107/5063.png",
+            "pos": "PG",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6626.png&w=350&h=254",
             "stats": {
-                "reb": "",
-                "pts": "",
-                "ast": ""
+                "reb": 1,
+                "pts": 2.3,
+                "ast": 1.4
             }
         },
         {
@@ -1240,11 +1240,12 @@
             "rank": 149,
             "origin": "North Texas",
             "destination": "New Jersey Nets",
-            "pos": "",
+            "pos": "#20 C",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6481.png&w=350&h=254",
             "stats": {
-                "reb": "",
-                "pts": "",
-                "ast": ""
+                "reb": 0.3,
+                "pts": 4.6,
+                "ast": 3.6
             }
         },
         {
@@ -1255,7 +1256,7 @@
             "rank": 16,
             "origin": "Connecticut",
             "destination": "Toronto Raptors",
-            "pos": "#4 SF",
+            "pos": "SF",
             "stats": {
                 "reb": "",
                 "pts": "",
@@ -1271,11 +1272,11 @@
             "origin": "Colorado",
             "destination": "Detroit Pistons",
             "pos": "#8 PG",
-            "img": "https://s1.yimg.com/bt/api/res/1.2/pmqZpx_.fCikfNp9LoHXpw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5349.png",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2580782.png&w=350&h=254",
             "stats": {
-                "reb": 1,
-                "pts": 2,
-                "ast": 0
+                "reb": 1.4,
+                "pts": 4.6,
+                "ast": 3
             }
         },
         {
@@ -1286,12 +1287,12 @@
             "rank": 5,
             "origin": "Baylor",
             "destination": "Denver Nuggets",
-            "pos": "#20 SF",
-            "img": "https://s.yimg.com/bt/api/res/1.2/cWRw3sKbt1la4co28g9URw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5072.png",
+            "pos": "SF",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6611.png&w=350&h=254",
             "stats": {
-                "reb": "",
-                "pts": "",
-                "ast": ""
+                "reb": 2.4,
+                "pts": 4.3,
+                "ast": 0.5
             }
         },
         {
@@ -1320,12 +1321,12 @@
             "rank": 25,
             "origin": "Arizona",
             "destination": "Houston Rockets",
-            "pos": "#13 SG",
-            "img": "https://s.yimg.com/bt/api/res/1.2/Y1XlwO6GGE76Z2Bq3AzgGw--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/20151027/5353.png",
+            "pos": "SG",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2580589.png&w=350&h=254",
             "stats": {
-                "reb": "",
-                "pts": "",
-                "ast": ""
+                "reb": 1.4,
+                "pts": 2.6,
+                "ast": 0.4
             }
         },
         {
