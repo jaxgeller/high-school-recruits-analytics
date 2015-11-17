@@ -7,9 +7,9 @@ import requests
 import unicodedata
 from bs4 import BeautifulSoup
 START_TIME = time.time()
-START   = 2013
+START   = 2005
 END     = 2014
-PAGES   = 1
+PAGES   = 3
 HEADERS = {'User-Agent': 'request', 'X-Requested-With': 'XMLHttpRequest'}
 PLAYERS = {}
 
@@ -120,6 +120,7 @@ for playerid in PLAYERS:
     soup = BeautifulSoup(r.text, 'html.parser')
     for a in soup.select('.r a'):
       if re.search('://sports.yahoo.com/nba/players/', a.get('href')):
+        print('.')
         link = a.get('href').split('/url?q=')[1].split('&sa')[0]
         r = requests.get(link)
         soup = BeautifulSoup(r.text, 'html.parser')

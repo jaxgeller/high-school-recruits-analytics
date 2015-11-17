@@ -105,8 +105,9 @@ function run(year) {
         return `translate(${x},${y})`;
       })
       .on('mouseover', function() {
-        let data = this.__data__.sourceLinks[0] || this.__data__.targetLinks[0];
-        setData(data)
+        if (this.__data__.sourceLinks[0]) {
+          setData(this.__data__.sourceLinks[0]);
+        }
       })
 
     node.append('rect')
