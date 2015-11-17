@@ -110,8 +110,7 @@ function run(year) {
       .style('stroke', d => '#cfd8dc')
       .attr('height', d => 1)
       .attr('width', d => {
-        if (d.x > 900)
-          return 10;
+        if (d.x > 900)return 10;
         return 20;
       })
   });

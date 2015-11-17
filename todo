@@ -1,4 +1,11 @@
-something is wrong with 2014, and 2015 formating, look into it.
-
-for 2007, there are two #1 draft picks. Need to add check to push nodes down.
-needs padding between graph
+layzy load images
+get correct font formats
+style buttons correctly
+tableize stats, make it less janky
+perhaps add a year drafted header
+colorize links, scale them according to jumps
+search far and wide for missing images of people drafted
+add tooltips for ticks, especially for the undrafted
+add current team to meta vs the team drafted that i have currently
+animate the links on button presses to dynamically shift
+have a show undrafted button that loads links for undrafted
