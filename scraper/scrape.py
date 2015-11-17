@@ -7,7 +7,7 @@ import requests
 import unicodedata
 from bs4 import BeautifulSoup
 START_TIME = time.time()
-START   = 2013
+START   = 2005
 END     = 2014
 PAGES   = 3
 HEADERS = {'User-Agent': 'request', 'X-Requested-With': 'XMLHttpRequest'}
@@ -47,6 +47,8 @@ for year in range(START, END):
       PLAYERS[normalize(data['name'])] = {
         'name': data['name'],
         'pos': '',
+        'img': '',
+        'stats': { 'pts': '', 'reb': '', 'ast': '' },
         'hs': {
           'year': year,
           'rank': int(data['rank']),
@@ -81,6 +83,7 @@ for year in range(START, END+1):
         PLAYERS[playerid]['nba']['year'] = year
 print('Fetched draft data successfully.')
 
+# GET META DATA
 for playerid in PLAYERS:
   name = PLAYERS[playerid]['name'].replace(' ', '+')
   r = requests.get('https://www.google.com/search?q=espn+nba+' + name)
