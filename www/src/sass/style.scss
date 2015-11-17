@@ -8,6 +8,12 @@ $black: #2d2d30;
 $gray: #2d3d45;
 $light-gray: #b0bec5;
 
+@include font-face("Din Next LT Pro", "dinregular");
+@include font-face("Din Next LT Pro", "dinmedium", medium);
+@include font-face("Leitura Roman 1", "leitura-roman_1-webfont");
+@include font-face("Tungsten", "tungstenmedium", medium);
+@include font-face("Tungsten", "tungstensemibold", bold);
+
 $din: "Din Next LT Pro";
 $leitura: "Leitura Roman 1";
 $tungsten: "Tungsten";

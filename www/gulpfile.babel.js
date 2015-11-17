@@ -102,7 +102,7 @@ gulp.task('images', () => {
 // FONTS
 
 gulp.task('fonts', () => {
-  return gulp.src('src/fonts/**/*.{eot,svg,ttf,woff,woff2}')
+  return gulp.src('src/fonts/**/*.{eot,svg,ttf,woff,woff2,otf}')
     .pipe(gulp.dest('dist/fonts'))
 })
 

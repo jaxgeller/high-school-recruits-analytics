@@ -27,6 +27,7 @@
          url("fonts/#{$file-name}.woff2") format("woff2"),
          url("fonts/#{$file-name}.woff") format("woff"),
          url("fonts/#{$file-name}.ttf") format("truetype"),
+         url("fonts/#{$file-name}.otf") format("opentype"),
          url("fonts/#{$file-name}.svg#svg#{$file-name}") format("svg");
     font-weight: $font-weight;
     font-style: $font-style;
