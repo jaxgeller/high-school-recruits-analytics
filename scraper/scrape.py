@@ -7,9 +7,9 @@ import requests
 import unicodedata
 from bs4 import BeautifulSoup
 START_TIME = time.time()
-START   = 2005
+START   = 2013
 END     = 2014
-PAGES   = 3
+PAGES   = 1
 HEADERS = {'User-Agent': 'request', 'X-Requested-With': 'XMLHttpRequest'}
 PLAYERS = {}
 
@@ -83,6 +83,7 @@ for year in range(START, END+1):
         PLAYERS[playerid]['nba']['year'] = year
 print('Fetched draft data successfully.')
 
+
 # GET META DATA
 for playerid in PLAYERS:
   name = PLAYERS[playerid]['name'].replace(' ', '+')
@@ -111,10 +112,24 @@ for playerid in PLAYERS:
 
       break
 
+# GET MISSING IMAGES
+for playerid in PLAYERS:
+  if PLAYERS[playerid]['img'] == '':
+    name = PLAYERS[playerid]['name'].replace(' ', '+')
+    r = requests.get('https://www.google.com/search?q=yahoo+nba+' + name)
+    soup = BeautifulSoup(r.text, 'html.parser')
+    for a in soup.select('.r a'):
+      if re.search('://sports.yahoo.com/nba/players/', a.get('href')):
+        link = a.get('href').split('/url?q=')[1].split('&sa')[0]
+        r = requests.get(link)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        img = soup.select('.player-image img')
+        if len(img):
+          PLAYERS[playerid]['img'] = img[0].get('src')
+
+
+
 print('Fetched meta data successfully.')
 print('finished in %s' % (time.time() - START_TIME))
-
 rankings_data = open("data/raw.json", "w")
 rankings_data.write(json.dumps(PLAYERS))
-
-
