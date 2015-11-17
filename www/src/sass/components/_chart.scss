@@ -1,0 +1,13 @@
+.node rect {
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.link {
+  transition: all ease .33s;
+  fill: none;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+}
