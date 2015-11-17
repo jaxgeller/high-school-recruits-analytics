@@ -1,8 +1,13 @@
 .header {
   padding: 70px 0 90px 0;
   background-color: #efebe9;
+
   .container {
     position: relative;
+  }
+
+  @include max($mobile) {
+    text-align: center;
   }
 }
 
@@ -15,6 +20,14 @@
   letter-spacing: 2.7px;
   text-transform: uppercase;
   color: $blue;
+
+  @include max($tablet) {
+    font-size: 16px;
+  }
+
+  @include max($mobile) {
+    display: none;
+  }
 }
 
 .heading {
@@ -27,12 +40,31 @@
   letter-spacing: 1.64px;
   text-transform: uppercase;
   color: $gray;
+
+  @include max($tablet) {
+    font-size: 65px;
+    line-height: 67px;
+  }
+
+  @include max($mobile) {
+    font-size: 36px;
+    line-height: 1.3;
+  }
 }
 
 .heading-img {
   position: absolute;
   top: -56px;
   width: 430px;
+
+  @include max($tablet) {
+    top: -66px;
+    left: 40px;
+  }
+
+  @include max($mobile) {
+    display: none;
+  }
 }
 
 .header-description {
@@ -42,6 +74,16 @@
   line-height: 32.69px;
   letter-spacing: .36px;
   color: $blue;
+
+  @include max($tablet) {
+    font-size: 16px;
+  }
+
+  @include max($mobile) {
+    margin: 30px auto;
+    font-size: 14px;
+    line-height: 1.6;
+  }
 }
 
 .down-button {
@@ -49,6 +91,10 @@
   width: 30px;
   height: 30px;
   background: url("images/down-button.svg") center/cover no-repeat;
+
+  @include max($mobile) {
+    margin: 0 auto;
+  }
 }
 
 .twitter {
