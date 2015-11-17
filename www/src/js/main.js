@@ -25,7 +25,6 @@ function setData(data) {
   });
 });
 
-
 function run(year) {
   const spacing = 13.2;
   const margin = {top: 10, right: 30, bottom: 10, left: 50};
@@ -49,6 +48,10 @@ function run(year) {
     .target(d => ({x:d.target.y, y:d.target.x}))
     .projection(d => [d.y, d.x]);
 
+  let threshold = d3.scale.linear()
+      .domain([-150, -100, 0, 100, 150])
+      .range(["green","green","beige", "red", "red"]);
+
   d3.json(`data/${year}.json`, function(rankings) {
     sankey
       .nodes(rankings.nodes)
@@ -56,8 +59,7 @@ function run(year) {
       .layout(0);
 
     let link = svg.append('g').selectAll('.link')
-      .data(rankings.links)
-      .enter().append('path')
+      .data(rankings.links).enter().append('path')
       .attr('class', 'link')
       .each((d, i) => {
         if (i !== 0) {
@@ -68,10 +70,7 @@ function run(year) {
       })
       .attr('d', d => path(d))
       .attr('stroke', d => {
-        if (d.picked > d.source.node-60)
-          return '#d0a180';
-        else
-          return '#06904f';
+        return threshold(d.picked - (d.source.node-60));
       })
       .style('stroke-width', d => {
         if (d.picked < 0) return 0;
@@ -85,8 +84,7 @@ function run(year) {
       })
 
     let node = svg.append('g').selectAll('.node')
-      .data(rankings.nodes)
-      .enter().append('g')
+      .data(rankings.nodes).enter().append('g')
       .attr('class', 'node')
       .each((d, i) => {
         if (i !== 0) {
@@ -115,10 +113,9 @@ function run(year) {
       .style('stroke', d => '#cfd8dc')
       .attr('height', d => 1)
       .attr('width', d => {
-        if (d.x > 900)return 10;
+        if (d.x > 900) return 10;
         return 20;
       })
   });
-
 
 }
