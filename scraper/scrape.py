@@ -93,24 +93,25 @@ for playerid in PLAYERS:
     if re.search('://espn.go.com/nba/player/_/id', a.get('href')):
       print('.')
       link = a.get('href').split('/url?q=')[1]
-      r = requests.get(link)
-      soup = BeautifulSoup(r.text, 'html.parser')
+      try:
+        r = requests.get(link)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        tds = soup.select('.career td') or soup.select('.header-stats tr td')
+        if tds:
+          PLAYERS[playerid]['stats']['pts'] = float(tds[0].text)
+          PLAYERS[playerid]['stats']['ast'] = float(tds[1].text)
+          PLAYERS[playerid]['stats']['reb'] = float(tds[2].text)
 
-      tds = soup.select('.career td') or soup.select('.header-stats tr td')
-      if tds:
-        PLAYERS[playerid]['stats']['pts'] = float(tds[0].text)
-        PLAYERS[playerid]['stats']['ast'] = float(tds[1].text)
-        PLAYERS[playerid]['stats']['reb'] = float(tds[2].text)
+        img = soup.select('.main-headshot img')
+        if len(img):
+          PLAYERS[playerid]['img'] = img[0].get('src')
 
-      img = soup.select('.main-headshot img')
-      if len(img):
-        PLAYERS[playerid]['img'] = img[0].get('src')
-
-      pos = soup.select('.general-info .first')
-      if len(pos):
-        PLAYERS[playerid]['pos'] = pos[0].text
-
-      break
+        pos = soup.select('.general-info .first')
+        if len(pos):
+          PLAYERS[playerid]['pos'] = pos[0].text
+        break
+      except:
+        break
 
 # GET MISSING IMAGES
 for playerid in PLAYERS:

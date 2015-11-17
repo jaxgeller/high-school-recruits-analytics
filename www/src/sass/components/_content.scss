@@ -4,8 +4,8 @@
 
 .credits {
   @include clearfix;
-
   margin-bottom: 30px;
+
   p:first-of-type {
     float: left;
     font-family: $din;
@@ -16,6 +16,7 @@
     text-transform: uppercase;
     color: #37474f;
   }
+
   p:last-of-type {
     float: right;
     font-family: $din;
@@ -24,7 +25,7 @@
     line-height: 65.39px;
     letter-spacing: 2.1px;
     text-transform: uppercase;
-    color: #0090d1;
+    color: $blue;
   }
 }
 
@@ -36,15 +37,16 @@
   font-weight: 600;
   line-height: 134.8px;
   letter-spacing: 2.9px;
-  color: #2d2d30;
+  color: $black;
 }
+
 .content-text {
   margin-bottom: 50px;
   font-family: $leitura;
   font-size: 16px;
   line-height: 38px;
   letter-spacing: .32px;
-  color: #2d2d30;
+  color: $black;
 }
 
 .summary {
@@ -53,5 +55,5 @@
   font-size: 22px;
   line-height: 38px;
   letter-spacing: .44px;
-  color: #0090d1;
+  color: $blue;
 }

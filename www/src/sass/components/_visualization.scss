@@ -26,6 +26,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
   img {
     width: 100%;
     height: 100%;
@@ -35,6 +36,8 @@
   }
 }
 
+$meta-color: #4c636f;
+
 .meta-player-name {
   clear: both;
   margin-bottom: 8px;
@@ -43,7 +46,7 @@
   line-height: 19.6px;
   letter-spacing: 1.27px;
   text-transform: uppercase;
-  color: #4c636f;
+  color: $meta-color;
 }
 
 .meta-player-details {
@@ -78,7 +81,7 @@
   li {
     font-size: 21px;
     line-height: 26.48px;
-    color: #4c636f;
+    color: $meta-color;
   }
   .stat-subheader {
     font-size: 13px;
@@ -93,7 +96,7 @@
     font-size: 11px;
     line-height: 22.26px;
     letter-spacing: .83px;
-    color: #4c636f;
+    color: $meta-color;
   }
   .stat-subheader {
     font-size: 13px;

@@ -1,5 +1,8 @@
-$container: 780px;
+$padding: 0 50px;
+$container: 880px;
+
 .container {
   max-width: $container;
   margin: 0 auto;
+  padding: $padding;
 }
