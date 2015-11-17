@@ -81,55 +81,17 @@ for year in range(START, END+1):
         PLAYERS[playerid]['nba']['year'] = year
 print('Fetched draft data successfully.')
 
-# GET YAHOO META LINKS
-# for letter in list(string.ascii_uppercase):
-#   r = requests.get('https://sports.yahoo.com/nba/players?type=lastname&query=%s' % letter)
-#   soup = BeautifulSoup(r.text, 'html.parser')
-#   table = soup.find('td', {'class': 'yspdetailttl'}).parent.parent
-#   for link in table.findAll('a'):
-#     if re.match('\/nba\/players\/[0-9]{4}', link.get('href')):
-#       playerid = normalize(link.text)
-#       if playerid in PLAYERS:
-#         PLAYERS[playerid]['meta_link'] = 'https://sports.yahoo.com' + link.get('href')
-
-
-
-
-# GET META DATA
-# for playerid in PLAYERS:
-#   if PLAYERS[playerid]['meta_link']:
-#     r = requests.get(PLAYERS[playerid]['meta_link'], headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.49 Safari/537.36"})
-#     soup = BeautifulSoup(r.text, 'html.parser')
-
-#     pic = soup.select('.player-image img')
-
-#     if pic:
-#       PLAYERS[playerid]['img'] = pic[0].get('style').strip("background-image:url('").strip("');")
-
-#     stats = soup.find('div', {'class': 'stat-info'})
-#     if stats:
-#       stats = stats.findAll('dd')
-#       PLAYERS[playerid]['stats']['pts'] = float(stats[0].text)
-#       PLAYERS[playerid]['stats']['reb'] = float(stats[1].text)
-#       PLAYERS[playerid]['stats']['ast'] = float(stats[2].text)
-
-#     pos = soup.find('span', {'class':'team-info'})
-#     if pos:
-#       p = pos.text.strip().split(',')
-#       PLAYERS[playerid]['pos'] = p[0] + p[1]
-
-
-print('getting meta data')
 for playerid in PLAYERS:
   name = PLAYERS[playerid]['name'].replace(' ', '+')
   r = requests.get('https://www.google.com/search?q=espn+nba+' + name)
   soup = BeautifulSoup(r.text, 'html.parser')
   for a in soup.select('.r a'):
     if re.search('://espn.go.com/nba/player/_/id', a.get('href')):
-      print(playerid)
+      print('.')
       link = a.get('href').split('/url?q=')[1]
       r = requests.get(link)
       soup = BeautifulSoup(r.text, 'html.parser')
+
       tds = soup.select('.career td') or soup.select('.header-stats tr td')
       if tds:
         PLAYERS[playerid]['stats']['pts'] = float(tds[0].text)
@@ -143,12 +105,8 @@ for playerid in PLAYERS:
       pos = soup.select('.general-info .first')
       if len(pos):
         PLAYERS[playerid]['pos'] = pos[0].text
+
       break
-
-
-
-
-
 
 print('Fetched meta data successfully.')
 print('finished in %s' % (time.time() - START_TIME))
