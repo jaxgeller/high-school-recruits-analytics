@@ -4,7 +4,7 @@ import './meta.js';
 
 run(2010);
 function setData(data) {
-  document.querySelector('.meta-head-shot').src = data.img;
+  document.querySelector('.meta-headshot').style.backgroundImage = `url("${data.img}")`;
   document.querySelector('.meta-player-name').innerHTML = data.source.name.replace(' ', '<br/>');
 
   document.getElementById('ppg').textContent = data.stats.pts || 'N/A';
