@@ -17,37 +17,42 @@
     font-family: $din;
     font-size: 14px;
     font-weight: 500;
-    line-height: 65.39px;
     letter-spacing: 2.1px;
+    line-height: 65.39px;
     text-transform: uppercase;
+
     @include max($mobile) {
-      line-height: 2.5;
       font-size: 12px;
+      line-height: 2.5;
     }
   }
-
   p:first-of-type {
     float: left;
     color: #37474f;
-    @include max($mobile) {float: none;}
-  }
 
+    @include max($mobile) {
+      float: none;
+    }
+  }
   p:last-of-type {
     float: right;
     color: $blue;
-    @include max($mobile) {float: none;}
+
+    @include max($mobile) {
+      float: none;
+    }
   }
 }
 
 .start-letter {
-  float: left;
   padding-right: 40px;
+  float: left;
+  color: $black;
   font-family: $tungsten;
   font-size: 145px;
   font-weight: 600;
-  line-height: 134.8px;
   letter-spacing: 2.9px;
-  color: $black;
+  line-height: 134.8px;
 
   @include max($mobile) {
     padding-right: 15px;
@@ -58,18 +63,17 @@
 
 .summary {
   margin-bottom: 40px;
+  color: $blue;
   font-family: $leitura;
   font-size: 22px;
-  line-height: 38px;
   letter-spacing: .44px;
-  color: $blue;
+  line-height: 38px;
 
   @include max($tablet) {
     margin-bottom: 30px;
     font-size: 16px;
     line-height: 32px;
   }
-
   @include max($mobile) {
     margin-bottom: 20px;
     font-size: 14px;
@@ -79,25 +83,23 @@
 
 .content-text {
   margin-bottom: 40px;
+  color: $black;
   font-family: $leitura;
   font-size: 16px;
-  line-height: 38px;
   letter-spacing: .32px;
-  color: $black;
-
-  &:last-of-type {
-    margin-bottom: 0;
-  }
+  line-height: 38px;
 
   @include max($tablet) {
     margin-bottom: 30px;
     font-size: 14px;
     line-height: 30px;
   }
-
   @include max($mobile) {
     margin-bottom: 20px;
     font-size: 12px;
     line-height: 28px;
+  }
+  &:last-of-type {
+    margin-bottom: 0;
   }
 }

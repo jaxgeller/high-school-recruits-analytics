@@ -1,2 +1,18 @@
 scss_files: 'src/sass/**/*.scss'
 exclude: 'src/sass/_reset.scss'
+
+linters:
+  PropertySortOrder:
+    order: smacss
+  StringQuotes:
+    style: double_quotes
+  EmptyLineBetweenBlocks:
+    enabled: false
+  ColorVariable:
+    enabled: false
+  ColorKeyword:
+    enabled: false
+  Shorthand:
+    enabled: false
+  SpaceAroundOperator:
+    enabled: false
