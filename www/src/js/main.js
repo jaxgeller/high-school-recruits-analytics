@@ -21,7 +21,7 @@ function setData(data) {
 }
 [].slice.call(document.querySelectorAll('button')).forEach(button=> {
   button.addEventListener('click', function() {
-    document.getElementById('chart').innerHTML = ''
+    document.getElementById('chart-wrapper').innerHTML = ''
     run(this.textContent)
   });
 });
