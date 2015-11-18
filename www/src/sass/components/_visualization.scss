@@ -1,6 +1,10 @@
 .visualization {
   position: relative;
   padding: 20px;
+
+  @include max($mobile) {
+    display: none;
+  }
 }
 
 .meta {
@@ -102,5 +106,14 @@ $meta-color: #4c636f;
     font-size: 13px;
     line-height: 26.48px;
     letter-spacing: .26px;
+  }
+}
+
+
+.mobile-warning {
+  display: none;
+
+  @include max($mobile) {
+    display: block;
   }
 }

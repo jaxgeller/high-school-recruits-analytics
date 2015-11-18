@@ -107,7 +107,7 @@ function run(year) {
       .attr('stroke-dasharray', function() {
         return this.getTotalLength() + ' ' + this.getTotalLength();
       })
-      .attr("stroke-dashoffset", function() {
+      .attr('stroke-dashoffset', function() {
         return this.getTotalLength();
       })
       .transition()
@@ -116,7 +116,7 @@ function run(year) {
           console.log()
           return Math.abs(d.picked - (d.source.node-60)) + 50
         })
-        .attr("stroke-dashoffset", 0);
+        .attr('stroke-dashoffset', 0);
 
     let node = svg.append('g').selectAll('.node')
       .data(rankings.nodes).enter().append('g')
