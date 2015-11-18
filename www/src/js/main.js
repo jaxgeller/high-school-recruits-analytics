@@ -26,6 +26,11 @@ function setData(data) {
   });
 });
 
+
+function tooltip(rank) {
+
+}
+
 function run(year) {
   const spacing = 13.2;
   const scale = {width: 1000, height: 2000}
@@ -83,7 +88,16 @@ function run(year) {
       .style('display', d => {
         if (d.picked < 0) return 'none';
       })
+      .on('mouseleave', function() {
+        [].slice.call(document.querySelectorAll('.link')).forEach(item=> {
+          item.style.strokeOpacity = '1'
+        })
+      })
       .on('mouseover', function() {
+        [].slice.call(document.querySelectorAll('.link')).forEach(item=> {
+          item.style.strokeOpacity = '0.15'
+        })
+        this.style.strokeOpacity = '1'
         setData(this.__data__)
       });
 
@@ -125,12 +139,11 @@ function run(year) {
       .on('mouseover', function() {
         if (this.__data__.sourceLinks[0]) {
           setData(this.__data__.sourceLinks[0]);
+          tooltip(this.__data__.node - 60)
         }
       })
 
     node.append('rect')
-      .style('fill', d => '#cfd8dc')
-      .style('stroke', d => '#cfd8dc')
       .attr('height', d => 1)
       .attr('width', d => {
         if (d.x > 900) return 10;

@@ -1,5 +1,6 @@
 .node rect {
-  fill-opacity: .9;
+  fill: #cfd8dc;
+  stroke: #cfd8dc;
   shape-rendering: crispEdges;
 }
 
@@ -8,6 +9,6 @@
   fill: none;
 }
 
-.link:hover {
-  stroke-opacity: .5;
-}
+// .link:hover {
+//   stroke-opacity: .5;
+// }
