@@ -7,10 +7,7 @@ format:
 	for i in {2005..2015}; do node scraper/format $$i; done
 
 build:
-	cd www && gulp
-
-server:
-	python3 -m http.server www/dist
+	cd www && ./node_modules/.bin/gulp
 
 lint:
-	cd www && npm run lint
+	cd www && ./node_modules/.bin/eslint src/js/*; scss-lint; exit 0
