@@ -27,9 +27,11 @@ function setData(data) {
 });
 
 
-function tooltip(rank) {
-
-}
+const spacing = 13.2;
+  const scale = {width: 1000, height: 2000}
+  const margin = {top: 10, right: 30, bottom: 10, left: 50};
+  const width = scale.width - margin.left - margin.right;
+  const height = scale.height - margin.top - margin.bottom;
 
 function run(year) {
   const spacing = 13.2;
@@ -153,11 +155,16 @@ function run(year) {
   });
 }
 
-// window.addEventListener('resize', function() {
-//   let aspect = scale.width/scale.height;
-//   let svg = document.querySelector('#chart svg')
-//   let target = document.getElementById('chart').getBoundingClientRect().width
-//   svg.setAttribute('width', target);
-//   svg.setAttribute('height', target / aspect);
-// });
+function sizeChart() {
+  let aspect = scale.width/scale.height; // 1000/2000
+  let svg = document.querySelector('#chart svg');
+  let target = document.querySelector('.visualization').getBoundingClientRect().width - 200; // roughly 1280 - 200
+
+  svg.setAttribute('width', target);
+  svg.setAttribute('height', target / aspect);
+}
+
+sizeChart();
+
+window.addEventListener('resize', sizeChart);
 
