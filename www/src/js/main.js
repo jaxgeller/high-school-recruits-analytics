@@ -8,16 +8,16 @@ function setData(data) {
   document.querySelector('.meta-headshot').style.backgroundImage = `url("${data.img}")`;
   document.querySelector('.meta-player-name').innerHTML = data.source.name.replace(' ', '<br/>');
 
-  document.getElementById('ppg').textContent = data.stats.pts || 'N/A';
-  document.getElementById('rpg').textContent = data.stats.reb || 'N/A';
-  document.getElementById('apg').textContent = data.stats.ast || 'N/A';
+  document.getElementById('ppg').textContent = data.stats.pts.toFixed(1) || 'N/A';
+  document.getElementById('rpg').textContent = data.stats.reb.toFixed(1) || 'N/A';
+  document.getElementById('apg').textContent = data.stats.ast.toFixed(1) || 'N/A';
 
   document.getElementById('rank').textContent = data.source.node - 60;
-  document.getElementById('drafted').textContent = data.picked;
+  document.getElementById('drafted').textContent = data.picked || '';
 
-  document.getElementById('origin').textContent = data.origin;
-  document.getElementById('destination').textContent = data.destination;
-  document.getElementById('pos').textContent = data.pos;
+  document.getElementById('origin').textContent = data.origin || '';
+  document.getElementById('destination').textContent = data.destination || '';
+  document.getElementById('pos').textContent = data.pos.replace(' ',' / ') || '';
 }
 [].slice.call(document.querySelectorAll('button')).forEach(button=> {
   button.addEventListener('click', function() {
@@ -27,10 +27,10 @@ function setData(data) {
 });
 
 const spacing = 13.2;
-  const scale = {width: 1000, height: 2000}
-  const margin = {top: 10, right: 30, bottom: 10, left: 50};
-  const width = scale.width - margin.left - margin.right;
-  const height = scale.height - margin.top - margin.bottom;
+const scale = {width: 1000, height: 2000}
+const margin = {top: 10, right: 30, bottom: 10, left: 50};
+const width = scale.width - margin.left - margin.right;
+const height = scale.height - margin.top - margin.bottom;
 
 function run(year) {
   const spacing = 13.2;
@@ -139,7 +139,7 @@ function run(year) {
       .on('mouseover', function() {
         if (this.__data__.sourceLinks[0]) {
           setData(this.__data__.sourceLinks[0]);
-          tooltip(this.__data__.node - 60)
+          // tooltip(this.__data__.node - 60);
         }
       })
 

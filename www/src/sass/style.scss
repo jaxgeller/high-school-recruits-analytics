@@ -21,7 +21,7 @@ $tungsten: "Tungsten";
 $tablet: 950px;
 $mobile: 650px;
 
-$meta-width: 135px;
+$meta-width: 250px;
 
 html,
 body {
@@ -35,5 +35,6 @@ body {
   "components/header",
   "components/content",
   "components/visualization",
-  "components/chart"
+  "components/chart",
+  "components/meta"
 ;
