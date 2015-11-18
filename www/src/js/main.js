@@ -113,7 +113,8 @@ function run(year) {
       .transition()
         .ease('out')
         .duration(function(d, i) {
-          return (i * i)/(i/10)
+          console.log()
+          return Math.abs(d.picked - (d.source.node-60)) + 50
         })
         .attr("stroke-dashoffset", 0);
 
