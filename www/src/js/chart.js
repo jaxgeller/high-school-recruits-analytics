@@ -7,7 +7,7 @@ class Chart {
   }
 
   svg() {
-    return d3.select('#chart')
+    return d3.select('#chart-wrapper')
       .append('svg')
       .attr('width', this.width + this.margin.left + this.margin.right)
       .attr('height', this.height + this.margin.top + this.margin.bottom)

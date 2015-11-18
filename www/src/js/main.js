@@ -40,7 +40,7 @@ function run(year) {
   const width = scale.width - margin.left - margin.right;
   const height = scale.height - margin.top - margin.bottom;
 
-  let svg = d3.select('#chart')
+  let svg = d3.select('#chart-wrapper')
     .append('svg')
     .attr('width', width + margin.left + margin.right)
     .attr('height', height + margin.top + margin.bottom)

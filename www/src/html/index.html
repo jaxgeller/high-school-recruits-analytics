@@ -70,17 +70,23 @@
     </div>
 
     <section class="visualization">
-      <button>2005</button>
-      <button>2006</button>
-      <button>2007</button>
-      <button>2008</button>
-      <button>2009</button>
-      <button>2010</button>
-      <button>2011</button>
-      <button>2012</button>
-      <button>2013</button>
+      <div class="buttons">
+        <button class="button">2005</button>
+        <button class="button">2006</button>
+        <button class="button">2007</button>
+        <button class="button">2008</button>
+        <button class="button">2009</button>
+        <button class="button">2010</button>
+        <button class="button">2011</button>
+        <button class="button">2012</button>
+        <button class="button">2013</button>
+      </div>
 
-      <div id="chart"></div>
+      <div id="chart" class="chart">
+        <div id="chart-wrapper" class="chart-wrapper">
+
+        </div>
+      </div>
 
       <div id="meta" class="meta">
         <div class="meta-info">
@@ -98,6 +104,7 @@
             <li class="stat-number" id="apg"></li>
             <li class="stat-subheader">APG</li>
           </ul>
+
           <ul class="details">
             <li>College</li>
             <li class="stat-subheader" id="origin"></li>
@@ -108,8 +115,8 @@
           </ul>
         </div>
       </div>
-
     </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.8/d3.min.js"></script>
     <script src="bundle.js"></script>
   </body>

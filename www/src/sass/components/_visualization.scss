@@ -1,6 +1,6 @@
 .visualization {
   position: relative;
-  padding: 20px;
+  padding: 30px;
 
   @include max($mobile) {
     display: none;
@@ -11,6 +11,9 @@
   position: absolute;
   top: 0;
   right: 30px;
+
+  min-width: 135px;
+
   font-family: $din;
   background-color: white;
 }
