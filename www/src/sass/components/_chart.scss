@@ -1,3 +1,32 @@
+.chart {
+  // this leaves room for .meta
+  // .meta has a width of $meta-width, with 35px space from the right edge
+  // so we need to subtract ($meta-width + 35px)
+  width: calc(100% - #{$meta-width + 35px});
+}
+
+.chart-wrapper {
+  position: relative;
+
+  height: 0;
+
+  // this is relative to the width of .chart
+  // the chart is always twice as tall as it is wide, thus 200%
+  padding-top: 200%;
+
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    // these override the width/height put on the SVG by D3
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// the following styles animate the lines
+
 .node rect {
   fill: #cfd8dc;
   stroke: #cfd8dc;

@@ -21,7 +21,7 @@ function setData(data) {
 }
 [].slice.call(document.querySelectorAll('button')).forEach(button=> {
   button.addEventListener('click', function() {
-    document.getElementById('chart').innerHTML = ''
+    document.getElementById('chart-wrapper').innerHTML = ''
     run(this.textContent)
   });
 });
@@ -40,7 +40,7 @@ function run(year) {
   const width = scale.width - margin.left - margin.right;
   const height = scale.height - margin.top - margin.bottom;
 
-  let svg = d3.select('#chart')
+  let svg = d3.select('#chart-wrapper')
     .append('svg')
     .attr('width', width + margin.left + margin.right)
     .attr('height', height + margin.top + margin.bottom)
@@ -154,17 +154,3 @@ function run(year) {
       })
   });
 }
-
-function sizeChart() {
-  let aspect = scale.width/scale.height; // 1000/2000
-  let svg = document.querySelector('#chart svg');
-  let target = document.querySelector('.visualization').getBoundingClientRect().width - 200; // roughly 1280 - 200
-
-  svg.setAttribute('width', target);
-  svg.setAttribute('height', target / aspect);
-}
-
-sizeChart();
-
-window.addEventListener('resize', sizeChart);
-
