@@ -1,4 +1,9 @@
-# HOW DO TOP HIGH SCHOOL BASKETBALL RECRUITS PAN OUT?
+# [WIP] How Do Top High School Basketball Recruits Pan Out?
 
+### Building
+
++ clone
++ `cd www && npm install`
++ `gulp` or `make build`
 ### License
 MIT
