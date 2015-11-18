@@ -5,7 +5,10 @@ export default class Jumper {
     this.callback = defaults.callback || undefined
 
     this.easing = defaults.easing || function(t, b, c, d) {
-      return c * (t /= d) * t + b
+      t /= d / 2
+      if (t < 1) return c / 2 * t * t + b
+      t--
+      return -c / 2 * (t * (t - 2) - 1) + b
     }
   }
 
@@ -46,12 +49,3 @@ export default class Jumper {
     this.timeStart = false
   }
 }
-
-const jumper = new Jumper();
-
-let source = document.querySelector('.down-button');
-let dist = document.querySelector('.content');
-
-source.addEventListener('click', ()=> {
-  jumper.jump(dist);
-});

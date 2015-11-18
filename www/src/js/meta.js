@@ -46,8 +46,9 @@ export default class Meta {
   }
 
   set(data) {
-    this._setStats(data)
     this.headshot.style.backgroundImage = `url("${data.img}")`;
+    this._setStats(data)
+
     this.name.innerHTML          = data.source.name.replace(' ', '<br/>');
     this.rank.textContent        = data.source.node - 60;
     this.drafted.textContent     = data.picked || 'N/A';
