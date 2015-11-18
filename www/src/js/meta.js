@@ -2,7 +2,7 @@ export default class Meta {
   constructor() {
     this.box         = document.getElementById('meta');
     this.container   = document.querySelector('.visualization');
-    this.spacing     = 20
+    this.spacing     = 0
     this.ticking     = false;
 
     this.headshot    = document.querySelector('.meta-headshot');
