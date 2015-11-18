@@ -1,8 +1,8 @@
 .chart {
   // this leaves room for .meta
-  // .meta has a width of 135px, with 35px space from the right edge
-  // so we need to subtract (135px + 35px)
-  width: calc(100% - 170px);
+  // .meta has a width of $meta-width, with 35px space from the right edge
+  // so we need to subtract ($meta-width + 35px)
+  width: calc(100% - #{$meta-width + 35px});
 }
 
 .chart-wrapper {
