@@ -26,7 +26,6 @@ function setData(data) {
   });
 });
 
-
 const spacing = 13.2;
   const scale = {width: 1000, height: 2000}
   const margin = {top: 10, right: 30, bottom: 10, left: 50};
@@ -58,8 +57,6 @@ function run(year) {
     .source(d => ({x: d.source.y, y: d.source.x}))
     .target(d => ({x:d.target.y, y:d.target.x}))
     .projection(d => [d.y, d.x]);
-
-
 
   let threshold = d3.scale.linear()
     .domain([-150, -100, 0, 100, 150])
