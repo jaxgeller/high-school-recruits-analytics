@@ -38,8 +38,8 @@ export default class Chart {
 
   _setThreshold() {
     return d3.scale.linear()
-      .domain([-150, -100, 0, 100, 150])
-      .range(["green","green","beige", "red", "red"]);
+      .domain([-150, -100, -50, 0, 10, 20, 30, 150].reverse())
+      .range(['#2196f3','#03a9f4','#00acc1', '#00838f', '#3f51b5', '#9c27b0', '#e91e63', '#f44336']);
   }
 
   draw(year=2005) {
