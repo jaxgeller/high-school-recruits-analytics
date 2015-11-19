@@ -123,7 +123,6 @@ export default class Chart {
           // left ticks
           if (this.__data__.node > 60) {
             // console.log(d3.event.pageY)
-            console.log(this.__data__)
           }
 
           // right ticks

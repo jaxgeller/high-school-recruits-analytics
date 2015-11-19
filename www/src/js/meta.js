@@ -40,20 +40,49 @@ export default class Meta {
   }
 
   _setStats(data) {
-    this.stats.ppg.textContent = data.stats.pts.toFixed(1) || 'N/A';
-    this.stats.apg.textContent = data.stats.reb.toFixed(1) || 'N/A';
-    this.stats.rpg.textContent = data.stats.ast.toFixed(1) || 'N/A';
+    if (data.stats) {
+      if (data.stats.pts)
+        this.stats.ppg.textContent = data.stats.pts.toFixed(1);
+      else
+        this.stats.ppg.textContent = 'N/A';
+
+      if (data.stats.ast)
+        this.stats.apg.textContent = data.stats.ast.toFixed(1);
+      else
+        this.stats.apg.textContent = 'N/A';
+
+      if (data.stats.reb)
+        this.stats.rpg.textContent = data.stats.reb.toFixed(1);
+      else
+        this.stats.rpg.textContent = 'N/A';
+    } else {
+      this.stats.ppg.textContent = 'N/A';
+      this.stats.apg.textContent = 'N/A';
+      this.stats.rpg.textContent = 'N/A';
+    }
   }
 
   set(data) {
-    this.headshot.style.backgroundImage = `url("${data.img}")`;
-    this._setStats(data)
+    if (data) {
+      this.headshot.style.backgroundImage = `url("${data.img || '/images/blank.png'}")`;
 
-    this.name.innerHTML          = data.source.name.replace(' ', '<br/>');
-    this.rank.textContent        = data.source.node - 60;
-    this.drafted.textContent     = data.picked || 'N/A';
-    this.origin.textContent      = data.origin || '';
-    this.destination.textContent = data.destination || '';
-    this.position.textContent    = data.pos.replace(' ','   / ') || '';
+      this.name.innerHTML          = data.source.name.replace(' ', '<br/>') || 'N/A';
+      this.rank.textContent        = data.source.node - 60;
+
+      this.origin.textContent      = data.origin || 'N/A';
+      this.destination.textContent = data.destination || 'N/A';
+
+      if (data.picked > 0)
+        this.drafted.textContent     = data.picked ;
+      else
+        this.drafted.textContent = 'Undrafted'
+
+      if (data.pos)
+        this.position.textContent    = data.pos.replace(' ','   / ') || data.pos;
+      else
+        this.position.textContent    = 'N/A';
+
+      this._setStats(data)
+    }
   }
 }

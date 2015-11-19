@@ -11,6 +11,7 @@
 }
 
 .meta-info {
+  height: 85px;
   margin-bottom: 22px;
   color: $light-gray;
 }
@@ -85,7 +86,7 @@ $meta-color: #4c636f;
 }
 
 .details {
-  width: 100px;
+  width: 120px;
   margin-top: -4px;
   float: left;
   li {
