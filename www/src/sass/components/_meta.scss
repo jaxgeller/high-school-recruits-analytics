@@ -1,7 +1,10 @@
+.wrapper {
+  position: relative;
+}
 .meta {
   position: absolute;
   top: 25px;
-  right: 20px;
+  right: 0;
   min-width: $meta-width;
   background-color: white;
   font-family: $din;

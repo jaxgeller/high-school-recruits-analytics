@@ -120,12 +120,23 @@ export default class Chart {
             meta.set(this.__data__.sourceLinks[0]);
           }
 
-          if (this.__data__.name.indexOf('Pick') > -1) {
-            let pick = this.__data__.node + 1;
-            tip.style.top = `${d3.event.pageY}px`;
-            tip.style.left = `${document.querySelector('.chart-wrapper svg').getBoundingClientRect().width + 40}px`;
-            tip.textContent = pick;
+          // left ticks
+          if (this.__data__.node > 60) {
+            // console.log(d3.event.pageY)
+            console.log(this.__data__)
           }
+
+          // right ticks
+          else if (this.__data__.node < 60) {
+
+          }
+
+          // if (this.__data__.name.indexOf('Pick') > -1) {
+          //   let pick = this.__data__.node + 1;
+          //   tip.style.top = `${d3.event.pageY}px`;
+          //   tip.style.left = `${document.querySelector('.chart-wrapper svg').getBoundingClientRect().width + 40}px`;
+          //   tip.textContent = pick;
+          // }
 
         })
         .append('rect')
