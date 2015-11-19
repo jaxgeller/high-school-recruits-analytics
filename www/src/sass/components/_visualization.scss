@@ -1,6 +1,4 @@
 .visualization {
-  padding: 30px;
-
   @include max($mobile) {
     display: none;
   }
@@ -20,6 +18,13 @@
   background: url("images/range.svg") center bottom no-repeat;
 
   @include clearfix;
+  @include max($tablet) {
+    height: 40px;
+    margin-bottom: 40px;
+    p {
+      font-size: 14px;
+    }
+  }
   p {
     float: left;
     color: #4c636f;
@@ -39,6 +44,10 @@
 }
 
 .toggle-year-list {
+  @include max($tablet) {
+    text-align: center;
+  }
+
   list-style-type: none;
 }
 
@@ -51,6 +60,14 @@
   font-size: 17px;
   line-height: 26px;
   cursor: pointer;
+
+  @include max($tablet) {
+    margin-right: 30px;
+    font-size: 15px;
+    &::after {
+      margin-top: 4px;
+    }
+  }
   &::after {
     display: block;
     width: 0;
@@ -72,14 +89,27 @@
 }
 
 .tool-tip {
+  display: inline-block;
+  position: absolute;
+  width: 27px;
+  height: 23px;
+  padding-top: 4px;
+  border-radius: 3px;
+  background-color: $blue;
   color: white;
   font-family: $din;
   font-size: 14px;
-  background-color: $blue;
-  position: absolute;
-  display: inline-block;
-  border-radius: 3px;
-  width: 27px;
   text-align: center;
-  padding: 3px 0;
+
+  &::after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6.5px 7px 6.5px 0;
+    border-color: transparent #0090d1 transparent transparent;
+    content: ' ';
+    left: -6px;
+    top: 6px;
+    position: absolute;
+  }
 }
