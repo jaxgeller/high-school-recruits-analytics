@@ -1,9 +1,9 @@
 .chart {
   width: calc(100% - #{$meta-width + 35px});
+  position: relative;
 }
 
 .chart-wrapper {
-  position: relative;
   height: 0;
   padding-top: 200%;
 

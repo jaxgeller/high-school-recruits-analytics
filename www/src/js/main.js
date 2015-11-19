@@ -12,9 +12,12 @@ document.querySelector('.down-button').addEventListener('click', ()=> {
 });
 
 // Add button clicks to redraw chart
-[].slice.call(document.querySelectorAll('button')).forEach(button=> {
+let buttons = Array.prototype.slice.call(document.querySelectorAll('.toggle-year'))
+buttons.forEach(button=> {
   button.addEventListener('click', function() {
-    document.getElementById('chart-wrapper').innerHTML = ''
+    buttons.forEach(b=>b.classList.remove('active'))
+    document.getElementById('chart-wrapper').innerHTML = '';
+    button.classList.add('active');
     chart.draw(this.textContent)
   });
 });

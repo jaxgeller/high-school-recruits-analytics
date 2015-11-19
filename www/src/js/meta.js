@@ -1,7 +1,7 @@
 export default class Meta {
   constructor() {
     this.box         = document.getElementById('meta');
-    this.container   = document.querySelector('.visualization');
+    this.container   = document.querySelector('.chart');
     this.spacing     = 0
     this.ticking     = false;
 

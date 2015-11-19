@@ -1,5 +1,4 @@
 .visualization {
-  position: relative;
   padding: 30px;
 
   @include max($mobile) {
@@ -13,4 +12,74 @@
   @include max($mobile) {
     display: block;
   }
+}
+
+.range {
+  height: 50px;
+  margin-bottom: 80px;
+  background: url("images/range.svg") center bottom no-repeat;
+
+  @include clearfix;
+  p {
+    float: left;
+    color: #4c636f;
+    font-family: $din;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 26px;
+    text-transform: uppercase;
+    &:first-of-type {
+      float: right;
+    }
+  }
+}
+
+.buttons {
+  margin-bottom: 50px;
+}
+
+.toggle-year-list {
+  list-style-type: none;
+}
+
+.toggle-year {
+  display: inline-block;
+  margin-right: 55px;
+  transition: color ease-in-out .22s;
+  color: #b0bec5;
+  font-family: $din;
+  font-size: 17px;
+  line-height: 26px;
+  cursor: pointer;
+  &::after {
+    display: block;
+    width: 0;
+    height: 2px;
+    margin-top: 8px;
+    transition: width ease-in-out .22s;
+    background-color: $blue;
+    content: " ";
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+  &.active {
+    color: #4c636f;
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.tool-tip {
+  color: white;
+  font-family: $din;
+  font-size: 14px;
+  background-color: $blue;
+  position: absolute;
+  display: inline-block;
+  border-radius: 3px;
+  width: 27px;
+  text-align: center;
+  padding: 3px 0;
 }

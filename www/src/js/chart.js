@@ -2,6 +2,8 @@ import './sankey';
 import Meta from './meta';
 let meta = new Meta;
 
+let tip = document.querySelector('.tool-tip')
+
 export default class Chart {
   constructor() {
     this.spacing = 13.2;
@@ -81,21 +83,18 @@ export default class Chart {
           });
           this.style.strokeOpacity = '1';
           meta.set(this.__data__);
-        });
-
-      link
+        })
         .attr('stroke-dasharray', function() {
           return this.getTotalLength() + ' ' + this.getTotalLength();
         })
         .attr('stroke-dashoffset', function() {
           return this.getTotalLength();
         })
-        .transition()
-          .ease('out')
-          .duration(function(d, i) {
-            return Math.abs(d.picked - (d.source.node-60)) + 50
-          })
-          .attr('stroke-dashoffset', 0);
+        .transition().ease('out')
+        .duration(function(d, i) {
+          return Math.abs(d.picked - (d.source.node-60)) + 50
+        })
+        .attr('stroke-dashoffset', 0);
 
       let node = svg.append('g').selectAll('.node')
         .data(rankings.nodes).enter().append('g')
@@ -116,13 +115,20 @@ export default class Chart {
             x = d.x - this.margin.left;
           return `translate(${x},${y})`;
         })
-        .on('mouseover', function() {
+        .on('mouseover', function(e) {
           if (this.__data__.sourceLinks[0]) {
             meta.set(this.__data__.sourceLinks[0]);
           }
-        })
 
-      node.append('rect')
+          if (this.__data__.name.indexOf('Pick') > -1) {
+            let pick = this.__data__.node + 1;
+            tip.style.top = `${d3.event.pageY}px`;
+            tip.style.left = `${document.querySelector('.chart-wrapper svg').getBoundingClientRect().width + 40}px`;
+            tip.textContent = pick;
+          }
+
+        })
+        .append('rect')
         .attr('height', d => 1)
         .attr('width', d => {
           if (d.x > 900) return 10;
