@@ -1,6 +1,10 @@
 .chart {
   width: calc(100% - #{$meta-width + 35px});
   position: relative;
+
+  @include max(1050px) {
+    width: 100%;
+  }
 }
 
 .chart-wrapper {

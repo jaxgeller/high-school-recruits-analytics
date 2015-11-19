@@ -1,6 +1,7 @@
 .wrapper {
   position: relative;
 }
+
 .meta {
   position: absolute;
   top: 25px;
@@ -8,6 +9,10 @@
   min-width: $meta-width;
   background-color: white;
   font-family: $din;
+
+  @include max(1050px) {
+    position: static;
+  }
 }
 
 .meta-info {

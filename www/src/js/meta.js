@@ -33,8 +33,8 @@ export default class Meta {
     let top = window.scrollY;
     let rect = this.container.getBoundingClientRect();
 
-    if (rect.top < this.spacing) this.box.style.position = 'fixed'
-    if (rect.top > this.spacing ) this.box.style.position = 'absolute'
+    if (rect.top < this.spacing) this.box.style.position = 'fixed';
+    if (rect.top > this.spacing ) this.box.style.position = 'absolute';
 
     this.ticking = false;
   }

@@ -40,6 +40,7 @@ export default class Chart {
 
   _setThreshold() {
     return d3.scale.linear()
+      .clamp(true)
       .domain([-150, -100, -50, 0, 10, 20, 30, 150].reverse())
       .range(['#2196f3','#03a9f4','#00acc1', '#00838f', '#3f51b5', '#9c27b0', '#e91e63', '#f44336']);
   }
@@ -122,21 +123,21 @@ export default class Chart {
 
           // left ticks
           if (this.__data__.node > 60) {
-            // console.log(d3.event.pageY)
+            tip.style.top = `${d3.event.pageY-14}px`;
+            tip.style.left = '35px';
+            tip.style.right = 'initial';
+            tip.style.opacity = '1';
+            tip.textContent = this.__data__.node - 60;
           }
 
           // right ticks
           else if (this.__data__.node < 60) {
-
+            tip.style.top = `${d3.event.pageY - 13}px`;
+            tip.style.left = 'initial';
+            tip.style.right = '250px';
+            tip.style.opacity = '1';
+            tip.textContent = this.__data__.node + 1;
           }
-
-          // if (this.__data__.name.indexOf('Pick') > -1) {
-          //   let pick = this.__data__.node + 1;
-          //   tip.style.top = `${d3.event.pageY}px`;
-          //   tip.style.left = `${document.querySelector('.chart-wrapper svg').getBoundingClientRect().width + 40}px`;
-          //   tip.textContent = pick;
-          // }
-
         })
         .append('rect')
         .attr('height', d => 1)
