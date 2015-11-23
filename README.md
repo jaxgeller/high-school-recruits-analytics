@@ -46,5 +46,15 @@ The data can be used and downloaded from the data directory in this repo.
 Raw data is encoded as JSON and contains all the meta data about players.
 If there is high enough demand, I can add a csv of the raw player data for use in other plots. Track [this](https://github.com/jaxgeller/high-school-recruits-analytics/issues/2) issue if interested.
 
+### Contributing
+
+All contributions are welcome. If there are issues with the site, data, or tools asociated with it, please open up an issue or submit a pull request.
+
+### Special Thanks
+
+I'd like to thank [Daniel Christian](https://twitter.com/DChris1123) for the write up on the data. He did an excellent job writing an anecdotal analysis focussing on some of the busts and booms.
+
+I'd also like to thank [Chris Allen](https://twitter.com/cp_allen) for the amazing design of the site.
+
 ### License
 [MIT](https://github.com/jaxgeller/high-school-recruits-analytics/blob/master/LICENSE)
