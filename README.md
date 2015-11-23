@@ -1,8 +1,8 @@
-# How Do Top High School Basketball Recruits Pan Out?
+# How Do High School Basketball Recruits Pan Out?
 
 This is an interactive data visualization of the trajectory of high school recruits and their nba draft position.
 
-In this repo you will find the raw JSON data for the visualization, the scraper used to gather this data, as well as the frontend for the chart.
+In this repo you will find the [raw JSON data](https://github.com/jaxgeller/high-school-recruits-analytics/tree/master/data) for the visualization, the [scraper](https://github.com/jaxgeller/high-school-recruits-analytics/tree/master/scraper) used to gather this data, as well as the [frontend](https://github.com/jaxgeller/high-school-recruits-analytics/tree/master/www) for the chart.
 
 ### Running the visualization
 Make sure you have the following dependencies
