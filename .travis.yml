@@ -3,14 +3,19 @@ language: node_js
 node_js:
   - '4.2.0'
 
+cache:
+  directories:
+    - www/node_modules
+
 before_install:
   - cd www
 
 install:
   - npm install
+  - npm install gulp -g
 
 script:
-  - ./node_modules/.bin/gulp build
+  - gulp build
   - exit 0
 
 deploy:
