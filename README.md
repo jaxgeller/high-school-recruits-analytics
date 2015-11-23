@@ -54,7 +54,7 @@ All contributions are welcome. If there are issues with the site, data, or tools
 
 I'd like to thank [Daniel Christian](https://twitter.com/DChris1123) for the write up on the data. He did an excellent job writing an anecdotal analysis focussing on some of the busts and booms.
 
-I'd also like to thank [Chris Allen](https://twitter.com/cp_allen) for the amazing design of the site.
+I'd also like to thank [Chris Allen](https://twitter.com/cp_allen) for the amazing and beautiful design of the site.
 
 ### License
 [MIT](https://github.com/jaxgeller/high-school-recruits-analytics/blob/master/LICENSE)
