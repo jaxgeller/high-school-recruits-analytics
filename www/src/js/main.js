@@ -1,9 +1,11 @@
 import Jumper from './jumper';
 import Chart from './chart';
 
+let initDraw = 2010;
+
 // Draw init chart
 let chart = new Chart();
-chart.draw(2010);
+chart.draw(initDraw);
 
 // Add jump handler
 let jumper = new Jumper();
@@ -12,12 +14,16 @@ document.querySelector('.down-button').addEventListener('click', ()=> {
 });
 
 // Add button clicks to redraw chart
-let buttons = Array.prototype.slice.call(document.querySelectorAll('.toggle-year'))
+let buttons = Array.prototype.slice.call(document.querySelectorAll('.toggle-year'));
 buttons.forEach(button=> {
   button.addEventListener('click', function() {
-    buttons.forEach(b=>b.classList.remove('active'))
-    document.getElementById('chart-wrapper').innerHTML = '';
-    button.classList.add('active');
-    chart.draw(this.textContent)
+
+    if (this.textContent != initDraw) {
+      buttons.forEach(b=>b.classList.remove('active'))
+      document.getElementById('chart-wrapper').innerHTML = '';
+      button.classList.add('active');
+      chart.draw(this.textContent)
+      initDraw = this.textContent;
+    }
   });
 });

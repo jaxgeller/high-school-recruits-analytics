@@ -30,3 +30,14 @@
   transition: all ease .33s;
   fill: none;
 }
+
+.marker {
+  font-size: 17px;
+  font-family: $din;
+  text-transform: uppercase;
+  color: #4c636f;
+  position: absolute;
+  top: -20px;
+
+  &:last-of-type {right: 0;}
+}
