@@ -17,7 +17,7 @@ In this repo you will find the [raw JSON data](https://github.com/jaxgeller/high
 
 ### Running the visualization
 
-Run the following to compile and run the visualization, access it on `localhost:3000`
+Run the following to compile and run the visualization, access it on `http://localhost:3000`
 ```sh
 $ git clone https://github.com/jaxgeller/high-school-recruits-analytics
 $ cd high-school-recruits-analytics
