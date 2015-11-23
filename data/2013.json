@@ -934,8 +934,8 @@
             "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3064514.png&w=350&h=254",
             "stats": {
                 "reb": 0.5,
-                "pts": 10.1,
-                "ast": 7.6
+                "pts": 9.8,
+                "ast": 7.4
             }
         },
         {
@@ -957,7 +957,7 @@
             "stats": {
                 "reb": 0.3,
                 "pts": 3.1,
-                "ast": 3.2
+                "ast": 3.3
             }
         },
         {

@@ -1022,11 +1022,12 @@
             "rank": 26,
             "origin": "Kansas",
             "destination": "New Orleans Hornets",
-            "pos": "",
+            "pos": "#45 C",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4267.png&w=350&h=254",
             "stats": {
-                "reb": "",
-                "pts": "",
-                "ast": ""
+                "reb": 0.7,
+                "pts": 3.1,
+                "ast": 3.4
             }
         },
         {
@@ -1131,12 +1132,12 @@
             "rank": 51,
             "origin": "Wake Forest",
             "destination": "Atlanta Hawks",
-            "pos": "#0 PG",
-            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4015.png&w=350&h=254",
+            "pos": "",
+            "img": "http://l.yimg.com/os/mit/media/m/base/images/transparent-649ba6f.png",
             "stats": {
-                "reb": 2.1,
-                "pts": 11.6,
-                "ast": 5.1
+                "reb": "",
+                "pts": "",
+                "ast": ""
             }
         },
         {

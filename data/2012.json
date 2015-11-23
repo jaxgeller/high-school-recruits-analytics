@@ -897,8 +897,8 @@
             "pos": "#36 PG",
             "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2990992.png&w=350&h=254",
             "stats": {
-                "reb": 3.3,
-                "pts": 8.2,
+                "reb": 3.4,
+                "pts": 8.1,
                 "ast": 3.1
             }
         },
@@ -915,7 +915,7 @@
             "stats": {
                 "reb": 1.8,
                 "pts": 10.1,
-                "ast": 8.2
+                "ast": 8.3
             }
         },
         {
@@ -936,7 +936,7 @@
             "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2991042.png&w=350&h=254",
             "stats": {
                 "reb": 1.4,
-                "pts": 5.1,
+                "pts": 5,
                 "ast": 1.1
             }
         },
@@ -981,7 +981,7 @@
             "stats": {
                 "reb": 1,
                 "pts": 5.4,
-                "ast": 5.6
+                "ast": 5.7
             }
         },
         {
@@ -1018,7 +1018,7 @@
             "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2982334.png&w=350&h=254",
             "stats": {
                 "reb": 2.4,
-                "pts": 7,
+                "pts": 7.2,
                 "ast": 0.6
             }
         },
@@ -1076,11 +1076,12 @@
             "rank": 28,
             "origin": "Michigan",
             "destination": "Oklahoma City Thunder",
-            "pos": "",
+            "pos": "#33 PF",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2991041.png&w=350&h=254",
             "stats": {
-                "reb": "",
-                "pts": "",
-                "ast": ""
+                "reb": 0.4,
+                "pts": 5.7,
+                "ast": 4.6
             }
         },
         {
@@ -1147,7 +1148,7 @@
             "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2991281.png&w=350&h=254",
             "stats": {
                 "reb": 1.8,
-                "pts": 4.6,
+                "pts": 4.7,
                 "ast": 0.7
             }
         },
@@ -1162,8 +1163,8 @@
             "pos": "#1 SF",
             "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2993874.png&w=350&h=254",
             "stats": {
-                "reb": 2.1,
-                "pts": 2.3,
+                "reb": 2.2,
+                "pts": 2.2,
                 "ast": 0.8
             }
         },
@@ -1237,7 +1238,7 @@
             "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2991070.png&w=350&h=254",
             "stats": {
                 "reb": 3.3,
-                "pts": 6.8,
+                "pts": 6.9,
                 "ast": 1.2
             }
         },

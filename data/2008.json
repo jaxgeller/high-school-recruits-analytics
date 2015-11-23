@@ -919,8 +919,8 @@
             "pos": "#8 SF",
             "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4248.png&w=350&h=254",
             "stats": {
-                "reb": 5.4,
-                "pts": 6.5,
+                "reb": 5.3,
+                "pts": 6.6,
                 "ast": 1.1
             }
         },
@@ -995,22 +995,6 @@
             "picked": -2
         },
         {
-            "source": 151,
-            "target": 12,
-            "value": 1,
-            "picked": 13,
-            "rank": 91,
-            "origin": "Kansas",
-            "destination": "Phoenix Suns",
-            "pos": "#11 PF",
-            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6461.png&w=350&h=254",
-            "stats": {
-                "reb": 0.6,
-                "pts": 11.4,
-                "ast": 5.4
-            }
-        },
-        {
             "source": 68,
             "target": 12,
             "value": 1,
@@ -1024,6 +1008,22 @@
                 "reb": 1,
                 "pts": 7.2,
                 "ast": 6.3
+            }
+        },
+        {
+            "source": 151,
+            "target": 12,
+            "value": 1,
+            "picked": 13,
+            "rank": 91,
+            "origin": "Kansas",
+            "destination": "Phoenix Suns",
+            "pos": "#11 PF",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6461.png&w=350&h=254",
+            "stats": {
+                "reb": 0.6,
+                "pts": 11.4,
+                "ast": 5.4
             }
         },
         {
@@ -1157,6 +1157,22 @@
             "target": 22,
             "value": 1,
             "picked": -2
+        },
+        {
+            "source": 62,
+            "target": 23,
+            "value": 1,
+            "picked": 24,
+            "rank": 2,
+            "origin": "Ohio State",
+            "destination": "Dallas Mavericks",
+            "pos": "C",
+            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4005.png&w=350&h=254",
+            "stats": {
+                "reb": 0.5,
+                "pts": 7.4,
+                "ast": 4.2
+            }
         },
         {
             "source": 139,
@@ -1447,21 +1463,6 @@
             "picked": -2
         },
         {
-            "source": 108,
-            "target": 50,
-            "value": 1,
-            "picked": 51,
-            "rank": 48,
-            "origin": "Mississippi State",
-            "destination": "Orlando Magic",
-            "pos": "SF",
-            "stats": {
-                "reb": "",
-                "pts": "",
-                "ast": ""
-            }
-        },
-        {
             "source": 117,
             "target": 50,
             "value": 1,
@@ -1475,6 +1476,22 @@
                 "reb": 0.7,
                 "pts": 0.9,
                 "ast": 0.1
+            }
+        },
+        {
+            "source": 108,
+            "target": 50,
+            "value": 1,
+            "picked": 51,
+            "rank": 48,
+            "origin": "Mississippi State",
+            "destination": "Orlando Magic",
+            "pos": "SF",
+            "img": "http://l.yimg.com/os/mit/media/m/base/images/transparent-649ba6f.png",
+            "stats": {
+                "reb": "",
+                "pts": "",
+                "ast": ""
             }
         },
         {
@@ -1586,19 +1603,13 @@
             "picked": -2
         },
         {
-            "source": 161,
+            "source": 91,
             "target": 60,
             "value": 1,
             "picked": -1
         },
         {
-            "source": 155,
-            "target": 60,
-            "value": 1,
-            "picked": -1
-        },
-        {
-            "source": 62,
+            "source": 175,
             "target": 60,
             "value": 1,
             "picked": -1
@@ -1802,13 +1813,13 @@
             "picked": -1
         },
         {
-            "source": 175,
+            "source": 161,
             "target": 60,
             "value": 1,
             "picked": -1
         },
         {
-            "source": 91,
+            "source": 155,
             "target": 60,
             "value": 1,
             "picked": -1
@@ -1838,7 +1849,7 @@
             "picked": -1
         },
         {
-            "source": 209,
+            "source": 134,
             "target": 60,
             "value": 1,
             "picked": -1
@@ -1928,7 +1939,7 @@
             "picked": -1
         },
         {
-            "source": 134,
+            "source": 116,
             "target": 60,
             "value": 1,
             "picked": -1
@@ -1958,7 +1969,7 @@
             "picked": -1
         },
         {
-            "source": 116,
+            "source": 204,
             "target": 60,
             "value": 1,
             "picked": -1
@@ -1976,7 +1987,7 @@
             "picked": -1
         },
         {
-            "source": 204,
+            "source": 109,
             "target": 60,
             "value": 1,
             "picked": -1
@@ -1988,7 +1999,7 @@
             "picked": -1
         },
         {
-            "source": 109,
+            "source": 209,
             "target": 60,
             "value": 1,
             "picked": -1
@@ -2048,7 +2059,7 @@
             "picked": -1
         },
         {
-            "source": 195,
+            "source": 186,
             "target": 60,
             "value": 1,
             "picked": -1
@@ -2066,7 +2077,7 @@
             "picked": -1
         },
         {
-            "source": 186,
+            "source": 195,
             "target": 60,
             "value": 1,
             "picked": -1
