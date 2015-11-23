@@ -4,23 +4,26 @@ This is an interactive data visualization of the trajectory of high school recru
 
 In this repo you will find the [raw JSON data](https://github.com/jaxgeller/high-school-recruits-analytics/tree/master/data) for the visualization, the [scraper](https://github.com/jaxgeller/high-school-recruits-analytics/tree/master/scraper) used to gather this data, as well as the [frontend](https://github.com/jaxgeller/high-school-recruits-analytics/tree/master/www) for the chart.
 
-### Running the visualization
-Make sure you have the following dependencies
+### Dependencies
++ Make
++ Npm
 + Node.js v4+
 + Gulp
++ Python3
++ Pip3/Requests
++ Pip3/BeautifulSoup4
 
-Then run the following to compile and run the visualization
+### Running the visualization
+
+Run the following to compile and run the visualization, access it on `localhost:3000`
 ```sh
 $ git clone https://github.com/jaxgeller/high-school-recruits-analytics
 $ cd high-school-recruits-analytics
 $ cd www && npm install
 $ cd ../ && make build
 ```
+
 ### Gather the data
-Make sure you have the following dependencies
-+ Python3
-+ Requests
-+ BeautifulSoup4
 
 To start gathering the data, run
 ```sh
@@ -33,7 +36,10 @@ After this is done, you'll need to transform the raw data into separate years fo
 $ make format
 ```
 
-### Using the data
-The data can be used and downloaded from the data directory in this repo.
+This yields individual year datasets, as well as linking nodes and links for the sankey plot.
 
+### Using the data
+
+The data can be used and downloaded from the data directory in this repo.
 Raw data is encoded as JSON and contains all the meta data about players.
+If there is high enough demand, I can add a csv of the raw player data for use in other plots.
