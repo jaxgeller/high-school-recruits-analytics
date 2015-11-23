@@ -9,10 +9,6 @@
   min-width: $meta-width;
   background-color: white;
   font-family: $din;
-
-  @include max(1050px) {
-    position: static;
-  }
 }
 
 .meta-info {
