@@ -1,6 +1,8 @@
 # How Do High School Basketball Recruits Pan Out?
 
-This is an interactive data visualization of the trajectory of high school recruits and their nba draft position.
+<img src="https://github.com/jaxgeller/high-school-recruits-analytics/blob/master/demo.png" alt="HS Recruits demo">
+
+This is an interactive data visualization of the trajectory of high school recruits and their nba draft position. Check out the demo [here]().
 
 In this repo you will find the [raw JSON data](https://github.com/jaxgeller/high-school-recruits-analytics/tree/master/data) for the visualization, the [scraper](https://github.com/jaxgeller/high-school-recruits-analytics/tree/master/scraper) used to gather this data, as well as the [frontend](https://github.com/jaxgeller/high-school-recruits-analytics/tree/master/www) for the chart.
 
@@ -25,7 +27,7 @@ $ cd ../ && make build
 
 ### Gather the data
 
-To start gathering the data, run
+Data is included in this repo, but if you'd like to build from scratch run
 ```sh
 $ make raw
 ```
@@ -36,10 +38,10 @@ After this is done, you'll need to transform the raw data into separate years fo
 $ make format
 ```
 
-This yields individual year datasets, as well as linking nodes and links for the sankey plot.
+This yields individual year datasets, as well as nodes and links for the sankey plot.
 
 ### Using the data
 
 The data can be used and downloaded from the data directory in this repo.
 Raw data is encoded as JSON and contains all the meta data about players.
-If there is high enough demand, I can add a csv of the raw player data for use in other plots.
+If there is high enough demand, I can add a csv of the raw player data for use in other plots. Track [this](https://github.com/jaxgeller/high-school-recruits-analytics/issues/2) issue if interested.
