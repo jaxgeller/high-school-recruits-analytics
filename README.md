@@ -45,3 +45,6 @@ This yields individual year datasets, as well as nodes and links for the sankey 
 The data can be used and downloaded from the data directory in this repo.
 Raw data is encoded as JSON and contains all the meta data about players.
 If there is high enough demand, I can add a csv of the raw player data for use in other plots. Track [this](https://github.com/jaxgeller/high-school-recruits-analytics/issues/2) issue if interested.
+
+### License
+[MIT](https://github.com/jaxgeller/high-school-recruits-analytics/blob/master/LICENSE)
