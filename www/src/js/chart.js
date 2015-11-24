@@ -140,8 +140,6 @@ export default class Chart {
             meta.set(this.__data__.targetLinks[0]);
           }
 
-
-
           // left ticks
           if (this.__data__.node > 60) {
             tip.style.top = `${d3.event.pageY-12.5}px`;
