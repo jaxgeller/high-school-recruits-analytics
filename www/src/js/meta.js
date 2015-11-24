@@ -64,7 +64,6 @@ export default class Meta {
 
   set(data) {
     if (data) {
-      console.log(data)
       this.headshot.style.backgroundImage = `url("${data.img || '/images/blank.png'}")`;
 
       this.name.innerHTML          = data.source.name.replace(' ', '<br/>') || 'N/A';

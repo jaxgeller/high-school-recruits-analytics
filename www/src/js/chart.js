@@ -82,8 +82,20 @@ export default class Chart {
           Array.prototype.slice.call(document.querySelectorAll('.link')).forEach(item=> {
             item.style.strokeOpacity = '0.15'
           });
+
           this.style.strokeOpacity = '.85';
           meta.set(this.__data__);
+
+          let t = document.getElementById('chart-wrapper')
+            .getBoundingClientRect().top
+            + window.scrollY
+            + this.__data__.target.y;
+
+          tip.style.top = `${t -2}px`;
+          tip.style.left = 'initial';
+          tip.style.right = '250px';
+          tip.style.opacity = '1';
+          tip.textContent = this.__data__.picked;
         })
         .attr('stroke-dasharray', function() {
           return this.getTotalLength() + ' ' + this.getTotalLength();
