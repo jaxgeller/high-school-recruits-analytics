@@ -10,9 +10,9 @@
 }
 
 .credits {
-  @include clearfix;
   margin-bottom: 30px;
 
+  @include clearfix;
   p {
     font-family: $din;
     font-size: 14px;
@@ -82,12 +82,12 @@
 }
 
 .content-text {
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   color: $black;
   font-family: $leitura;
   font-size: 16px;
   letter-spacing: .32px;
-  line-height: 38px;
+  line-height: 34px;
 
   @include max($tablet) {
     margin-bottom: 30px;
@@ -101,5 +101,24 @@
   }
   &:last-of-type {
     margin-bottom: 0;
+  }
+}
+
+.content-header {
+  margin-top: 40px;
+  margin-bottom: 16px;
+  color: #37474f;
+  font-family: $din;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2.1px;
+  line-height: 26px;
+  text-transform: uppercase;
+
+  @include max($tablet) {
+    font-size: 15px;
+  }
+  @include max($mobile) {
+    font-size: 13px;
   }
 }
