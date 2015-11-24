@@ -22,6 +22,6 @@ deploy:
 	cat $(SRC)/bundle.js > $(DEST)/bundle.js
 	cat $(SRC)/style.css > $(DEST)/style.css
 
-	cp $(SRC)/images/** $(DEST)/images
+	cp -r $(SRC)/images/** $(DEST)/images
 	cp $(SRC)/fonts/** $(DEST)/fonts
 	cp $(SRC)/data/** $(DEST)/data
