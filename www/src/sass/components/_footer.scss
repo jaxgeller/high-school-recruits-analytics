@@ -1,0 +1,30 @@
+.footer {
+  padding: 80px 0;
+  background-color: #232326;
+}
+
+
+.footer-links {
+  @include clearfix;
+}
+
+.footer-site {
+  float: left;
+  color: $blue;
+  font-family: $din;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  line-height: 65.39px;
+  text-transform: uppercase;
+}
+
+.footer-creds {
+  padding-top: 20px;
+  float: right;
+  color: #b0bec5;
+  font-family: $din;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 25.77px;
+  text-transform: uppercase;
+}

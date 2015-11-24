@@ -1,4 +1,5 @@
 .visualization {
+  margin-bottom: 70px;
   @include max($mobile) {
     display: none;
   }
@@ -6,6 +7,7 @@
 
 .mobile-warning {
   display: none;
+  margin-bottom: 50px;
 
   @include max($mobile) {
     display: block;
