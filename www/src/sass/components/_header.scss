@@ -3,8 +3,8 @@
   background-color: #efebe9;
 
   @include max($mobile) {
-    text-align: center;
     padding: 40px 0;
+    text-align: center;
   }
   .container {
     position: relative;
@@ -133,9 +133,9 @@
 
 
 .social-media {
-  @include clearfix;
   margin-bottom: 50px;
 
+  @include clearfix;
   ul {
     float: right;
   }
