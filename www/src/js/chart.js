@@ -110,6 +110,10 @@ export default class Chart {
       let node = svg.append('g').selectAll('.node')
         .data(rankings.nodes).enter().append('g')
         .attr('class', 'node')
+        .style('display', d => {
+          if (d.name === 'UNDRAFTED') return 'none';
+          if (d.name === '') return 'none';
+        })
         .each((d, i) => {
           if (i !== 0) {
             if(d.name.indexOf('Pick') > -1) {
