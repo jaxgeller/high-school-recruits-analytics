@@ -12,6 +12,10 @@
   @include max($mobile) {
     display: block;
   }
+
+  .heading {
+    color: $blue;
+  }
 }
 
 .range {

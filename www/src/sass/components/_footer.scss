@@ -5,17 +5,18 @@
 
 .footer-title {
   display: inline-block;
+  margin-right: 40px;
   color: #fff;
   font-family: $tungsten;
   font-size: 35px;
   letter-spacing: .7px;
   line-height: 70px;
   text-transform: uppercase;
-  margin-right: 40px;
 }
 
 .footer-links {
   @include clearfix;
+  margin-top: 20px;
 }
 
 .footer-site {
@@ -41,26 +42,41 @@
 
 .footer-link-desc {
   display: inline-block;
+  color: #f3f3f3;
   font-family: $din;
   font-size: 14px;
-  letter-spacing: 0.7px;
-  color: #F3F3F3;
-  vertical-align: 7px;
+  letter-spacing: .7px;
 }
 
 .twitter {
   display: inline-block;
-  width: 25px;
-  height: 20px;
-  background: url("images/twitter.svg") center/cover no-repeat;
-  margin-right: 15px;
+  color: #f3f3f3;
+  font-family: $din;
+  font-size: 14px;
+  letter-spacing: .7px;
+  img {
+    display: inline-block;
+    width: 30px;
+  }
+  span {
+    vertical-align: 7px;
+    margin-left: 15px;
+  }
 }
 
 .facebook {
   display: inline-block;
-  width: 12px;
-  height: 26px;
-  background: url("images/facebook.svg") center/cover no-repeat;
-  margin-right: 15px;
-  margin-left: 30px;
+  margin-left: 20px;
+  color: #f3f3f3;
+  font-family: $din;
+  font-size: 14px;
+  letter-spacing: .7px;
+  img {
+    display: inline-block;
+    height: 30px;
+  }
+  span {
+    margin-left: 15px;
+    vertical-align: 7px;
+  }
 }
