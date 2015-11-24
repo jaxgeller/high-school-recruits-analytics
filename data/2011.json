@@ -1382,20 +1382,10 @@
             "picked": -2
         },
         {
-            "source": 209,
+            "source": 107,
             "target": 35,
             "value": 1,
-            "picked": 36,
-            "rank": 149,
-            "origin": "North Texas",
-            "destination": "New Jersey Nets",
-            "pos": "#20 C",
-            "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6481.png&w=350&h=254",
-            "stats": {
-                "reb": 0.3,
-                "pts": 4.6,
-                "ast": 3.6
-            }
+            "picked": -2
         },
         {
             "source": 76,
@@ -1445,19 +1435,19 @@
             }
         },
         {
-            "source": 107,
+            "source": 105,
             "target": 38,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 105,
+            "source": 110,
             "target": 39,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 110,
+            "source": 210,
             "target": 40,
             "value": 1,
             "picked": -2
@@ -1479,97 +1469,97 @@
             }
         },
         {
-            "source": 210,
+            "source": 176,
             "target": 42,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 176,
+            "source": 103,
             "target": 43,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 103,
+            "source": 84,
             "target": 44,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 84,
+            "source": 188,
             "target": 45,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 188,
+            "source": 170,
             "target": 46,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 170,
+            "source": 111,
             "target": 47,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 111,
+            "source": 151,
             "target": 48,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 151,
+            "source": 69,
             "target": 49,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 69,
+            "source": 118,
             "target": 50,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 118,
+            "source": 152,
             "target": 51,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 152,
+            "source": 149,
             "target": 52,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 149,
+            "source": 155,
             "target": 53,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 155,
+            "source": 208,
             "target": 54,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 208,
+            "source": 92,
             "target": 55,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 92,
+            "source": 93,
             "target": 56,
             "value": 1,
             "picked": -2
         },
         {
-            "source": 93,
+            "source": 209,
             "target": 57,
             "value": 1,
             "picked": -2
