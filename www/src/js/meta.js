@@ -33,16 +33,16 @@ export default class Meta {
   _update() {
     let rect = this.container.getBoundingClientRect();
 
-    if (rect.top < this.spacing) {
+    if (rect.top < 0) {
       this.box.style.position = 'fixed';
       this.box.style.bottom = 'initial';
-      this.box.style.top = '0';
+      this.box.style.top = '20px';
     }
 
-    if (rect.top > this.spacing ) {
+    if (rect.top > 0 ) {
       this.box.style.position = 'absolute';
       this.box.style.bottom = 'initial';
-      this.box.style.top = '0';
+      this.box.style.top = '20px';
     }
 
     if (rect.bottom - this.boxHeight.height < 0) {
