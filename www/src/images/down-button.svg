@@ -3,10 +3,10 @@
 <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 33.5 33.5" enable-background="new 0 0 33.5 33.5" xml:space="preserve">
 <g>
-	<circle fill="none" stroke="#0E90D0" stroke-width="1.5" stroke-miterlimit="10" cx="16.8" cy="16.8" r="16"/>
+	<circle fill="none" stroke="#f5f5f3" stroke-width="1.5" stroke-miterlimit="10" cx="16.8" cy="16.8" r="16"/>
 	<g>
-		<line fill="none" stroke="#0E90D0" stroke-width="1.5" stroke-miterlimit="10" x1="16.8" y1="9.6" x2="16.8" y2="22"/>
-		<polyline fill="none" stroke="#0E90D0" stroke-width="1.5" stroke-miterlimit="10" points="22.2,16.7 16.8,22.1 11.4,16.7 		"/>
+		<line fill="none" stroke="#f5f5f3" stroke-width="1.5" stroke-miterlimit="10" x1="16.8" y1="9.6" x2="16.8" y2="22"/>
+		<polyline fill="none" stroke="#f5f5f3" stroke-width="1.5" stroke-miterlimit="10" points="22.2,16.7 16.8,22.1 11.4,16.7 		"/>
 	</g>
 </g>
 </svg>
