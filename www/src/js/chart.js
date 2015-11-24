@@ -86,12 +86,10 @@ export default class Chart {
           this.style.strokeOpacity = '.85';
           meta.set(this.__data__);
 
-          let t = document.getElementById('chart-wrapper')
+          let t = document.getElementById(`pick-${this.__data__.picked}`)
             .getBoundingClientRect().top
-            + window.scrollY
-            + this.__data__.target.y;
-
-          tip.style.top = `${t -2}px`;
+            + window.scrollY - 13.2;
+          tip.style.top = `${t}px`;
           tip.style.left = 'initial';
           tip.style.right = '250px';
           tip.style.opacity = '1';
@@ -152,6 +150,10 @@ export default class Chart {
           }
         })
         .append('rect')
+        .attr('id', d => {
+          if (d.node < 60)
+            return `pick-${d.node + 1}`;
+        })
         .attr('height', d => 1)
         .attr('width', d => {
           if (d.x > 900) return 10;
