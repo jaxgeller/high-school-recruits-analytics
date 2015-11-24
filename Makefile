@@ -25,3 +25,8 @@ deploy:
 	cp $(SRC)/images/** $(DEST)/images
 	cp $(SRC)/fonts/** $(DEST)/fonts
 	cp $(SRC)/data/** $(DEST)/data
+
+	cd ../personalsite
+	git add -A
+	git commit -m "add hs bball tracjectory source files"
+	git push origin master
