@@ -103,6 +103,11 @@
     margin-bottom: 0;
   }
 
+  span {
+    display: block;
+    margin-top: 10px;
+  }
+
   a {
     transition: border-color .22s ease-in-out;
     border-bottom: 2px solid rgba(0, 144, 209, 0.25);
