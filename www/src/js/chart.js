@@ -88,7 +88,7 @@ export default class Chart {
 
           let t = document.getElementById(`pick-${this.__data__.picked}`)
             .getBoundingClientRect().top
-            + window.scrollY - 13;
+            + window.scrollY - 12;
           tip.style.top = `${t}px`;
           tip.style.left = 'initial';
           tip.style.right = '250px';
@@ -137,7 +137,7 @@ export default class Chart {
 
           // left ticks
           if (this.__data__.node > 60) {
-            tip.style.top = `${d3.event.pageY-14}px`;
+            tip.style.top = `${d3.event.pageY-12.5}px`;
             tip.style.left = '35px';
             tip.style.right = 'initial';
             tip.style.opacity = '1';
