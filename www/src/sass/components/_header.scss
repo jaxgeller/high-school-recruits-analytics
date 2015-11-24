@@ -52,12 +52,12 @@
 
 .heading-img {
   position: absolute;
-  top: -56px;
+  top: -85px;
   width: 430px;
+  left: 42px;
 
   @include max($tablet) {
-    top: -66px;
-    left: 40px;
+    top: -94px;
   }
   @include max($mobile) {
     display: none;
