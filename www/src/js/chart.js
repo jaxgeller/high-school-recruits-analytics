@@ -68,7 +68,7 @@ export default class Chart {
         .attr('stroke', d => threshold(d.picked - (d.source.node-60)))
         .style('stroke-width', d => {
           if (d.picked < 0) return 0;
-          return 1.8;
+          return 2;
         })
         .style('display', d => {
           if (d.picked < 0) return 'none';

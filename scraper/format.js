@@ -25,6 +25,7 @@ for (var i in data) {
     let rank = data[i].hs.rank + 60;
     if (nodes[rank]) {
       nodes[rank].name += data[i].name;
+      nodes[rank].college = data[i].hs.destination;
       let target = data[i].nba.draft;
 
       let holder = { source: rank, target: target-1, value: 1, picked: data[i].nba.draft,rank: data[i].hs.rank,origin: data[i].hs.destination, destination: data[i].nba.destination, pos: data[i].pos}
@@ -57,13 +58,9 @@ for (var pos=0; pos < 60; pos++) {
   }
 }
 
-
 links = links.sort((a, b) => {
   return a.target - b.target;
 });
-
-
-
 
 fs.writeFileSync(`data/${YEAR}.json`, JSON.stringify({nodes: nodes, links: links}, null, 4));
 console.log(`Formatted ${YEAR}`);

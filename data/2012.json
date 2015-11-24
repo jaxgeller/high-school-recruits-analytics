@@ -246,375 +246,468 @@
         },
         {
             "node": 61,
-            "name": "Nerlens Noel"
+            "name": "Nerlens Noel",
+            "college": "Kentucky"
         },
         {
             "node": 62,
-            "name": "Shabazz Muhammad"
+            "name": "Shabazz Muhammad",
+            "college": "UCLA"
         },
         {
             "node": 63,
-            "name": "Kyle Anderson"
+            "name": "Kyle Anderson",
+            "college": "UCLA"
         },
         {
             "node": 64,
-            "name": "Isaiah Austin"
+            "name": "Isaiah Austin",
+            "college": "Baylor"
         },
         {
             "node": 65,
-            "name": "Steven Adams"
+            "name": "Steven Adams",
+            "college": "Pittsburgh"
         },
         {
             "node": 66,
-            "name": "Anthony Bennett"
+            "name": "Anthony Bennett",
+            "college": "UNLV"
         },
         {
             "node": 67,
-            "name": "Kaleb Tarczewski"
+            "name": "Kaleb Tarczewski",
+            "college": "Arizona"
         },
         {
             "node": 68,
-            "name": "Alex Poythress"
+            "name": "Alex Poythress",
+            "college": "Kentucky"
         },
         {
             "node": 69,
-            "name": "Grant Jerrett"
+            "name": "Grant Jerrett",
+            "college": "Arizona"
         },
         {
             "node": 70,
-            "name": "Marcus Smart"
+            "name": "Marcus Smart",
+            "college": "Oklahoma State"
         },
         {
             "node": 71,
-            "name": "Ricky Ledo"
+            "name": "Ricky Ledo",
+            "college": "Providence"
         },
         {
             "node": 72,
-            "name": "Sam Dekker"
+            "name": "Sam Dekker",
+            "college": "Wisconsin"
         },
         {
             "node": 73,
-            "name": "Rasheed Sulaimon"
+            "name": "Rasheed Sulaimon",
+            "college": "Duke"
         },
         {
             "node": 74,
-            "name": "Rodney Purvis"
+            "name": "Rodney Purvis",
+            "college": "N.C. State"
         },
         {
             "node": 75,
-            "name": "Archie Goodwin"
+            "name": "Archie Goodwin",
+            "college": "Kentucky"
         },
         {
             "node": 76,
-            "name": "Glenn Robinson"
+            "name": "Glenn Robinson",
+            "college": "Michigan"
         },
         {
             "node": 77,
-            "name": "Kris Dunn"
+            "name": "Kris Dunn",
+            "college": "Providence"
         },
         {
             "node": 78,
-            "name": "Brandon Ashley"
+            "name": "Brandon Ashley",
+            "college": "Arizona"
         },
         {
             "node": 79,
-            "name": "Gary Harris"
+            "name": "Gary Harris",
+            "college": "Michigan State"
         },
         {
             "node": 80,
-            "name": "Cameron Ridley"
+            "name": "Cameron Ridley",
+            "college": "Texas"
         },
         {
             "node": 81,
-            "name": "Yogi Ferrell"
+            "name": "Yogi Ferrell",
+            "college": "Indiana"
         },
         {
             "node": 82,
-            "name": "DaJuan Coleman"
+            "name": "DaJuan Coleman",
+            "college": "Syracuse"
         },
         {
             "node": 83,
-            "name": "T.J. Warren"
+            "name": "T.J. Warren",
+            "college": "N.C. State"
         },
         {
             "node": 84,
-            "name": "Tony Parker"
+            "name": "Tony Parker",
+            "college": "UCLA"
         },
         {
             "node": 85,
-            "name": "Devonta Pollard"
+            "name": "Devonta Pollard",
+            "college": "Alabama"
         },
         {
             "node": 86,
-            "name": "Danuel House"
+            "name": "Danuel House",
+            "college": "Houston"
         },
         {
             "node": 87,
-            "name": "Robert Carter"
+            "name": "Robert Carter",
+            "college": "Georgia Tech"
         },
         {
             "node": 88,
-            "name": "Mitch McGary"
+            "name": "Mitch McGary",
+            "college": "Michigan"
         },
         {
             "node": 89,
-            "name": "Semaj Christon"
+            "name": "Semaj Christon",
+            "college": "Xavier"
         },
         {
             "node": 90,
-            "name": "Amile Jefferson"
+            "name": "Amile Jefferson",
+            "college": "Duke"
         },
         {
             "node": 91,
-            "name": "Marcus Paige"
+            "name": "Marcus Paige",
+            "college": "North Carolina"
         },
         {
             "node": 92,
-            "name": "Perry Ellis"
+            "name": "Perry Ellis",
+            "college": "Kansas"
         },
         {
             "node": 93,
-            "name": "Winston Shepard"
+            "name": "Winston Shepard",
+            "college": "San Diego State"
         },
         {
             "node": 94,
-            "name": "Ricardo Gathers"
+            "name": "Ricardo Gathers",
+            "college": "Baylor"
         },
         {
             "node": 95,
-            "name": "Shaq Goodwin"
+            "name": "Shaq Goodwin",
+            "college": "Memphis"
         },
         {
             "node": 96,
-            "name": "Jeremy Hollowell"
+            "name": "Jeremy Hollowell",
+            "college": "Indiana"
         },
         {
             "node": 97,
-            "name": "JaKarr Sampson"
+            "name": "JaKarr Sampson",
+            "college": "St. John's"
         },
         {
             "node": 98,
-            "name": "D'Vauntes Smith-Rivera"
+            "name": "D'Vauntes Smith-Rivera",
+            "college": "Georgetown"
         },
         {
             "node": 99,
-            "name": "Jarnell Stokes"
+            "name": "Jarnell Stokes",
+            "college": "Tennessee"
         },
         {
             "node": 100,
-            "name": "Katin Reinhardt"
+            "name": "Katin Reinhardt",
+            "college": "UNLV"
         },
         {
             "node": 101,
-            "name": "Shaquille Cleare"
+            "name": "Shaquille Cleare",
+            "college": "Maryland"
         },
         {
             "node": 102,
-            "name": "Cam Biedscheid"
+            "name": "Cam Biedscheid",
+            "college": "Notre Dame"
         },
         {
             "node": 103,
-            "name": "Willie Cauley-Stein"
+            "name": "Willie Cauley-Stein",
+            "college": "Kentucky"
         },
         {
             "node": 104,
-            "name": "Omar Calhoun"
+            "name": "Omar Calhoun",
+            "college": "Connecticut"
         },
         {
             "node": 105,
-            "name": "Brice Johnson"
+            "name": "Brice Johnson",
+            "college": "North Carolina"
         },
         {
             "node": 106,
-            "name": "Adam Woodbury"
+            "name": "Adam Woodbury",
+            "college": "Iowa"
         },
         {
             "node": 107,
-            "name": "Tyler Lewis"
+            "name": "Tyler Lewis",
+            "college": "N.C. State"
         },
         {
             "node": 108,
-            "name": "Jerami Grant"
+            "name": "Jerami Grant",
+            "college": "Syracuse"
         },
         {
             "node": 109,
-            "name": "Daniel Ochefu"
+            "name": "Daniel Ochefu",
+            "college": "Villanova"
         },
         {
             "node": 110,
-            "name": "Josh Scott"
+            "name": "Josh Scott",
+            "college": "Colorado"
         },
         {
             "node": 111,
-            "name": "Justin Anderson"
+            "name": "Justin Anderson",
+            "college": "Virginia"
         },
         {
             "node": 112,
-            "name": "Dominic Artis"
+            "name": "Dominic Artis",
+            "college": "Oregon"
         },
         {
             "node": 113,
-            "name": "Hanner Mosquera-Perea"
+            "name": "Hanner Mosquera-Perea",
+            "college": "Indiana"
         },
         {
             "node": 114,
-            "name": "Andrew White"
+            "name": "Andrew White",
+            "college": "Kansas"
         },
         {
             "node": 115,
-            "name": "Solomon Poole"
+            "name": "Solomon Poole",
+            "college": "Georgia Tech"
         },
         {
             "node": 116,
-            "name": "Robert Upshaw"
+            "name": "Robert Upshaw",
+            "college": "Fresno State"
         },
         {
             "node": 117,
-            "name": "Ryan Arcidiacono"
+            "name": "Ryan Arcidiacono",
+            "college": "Villanova"
         },
         {
             "node": 118,
-            "name": "Prince Ibeh"
+            "name": "Prince Ibeh",
+            "college": "Texas"
         },
         {
             "node": 119,
-            "name": "Montay Brandon"
+            "name": "Montay Brandon",
+            "college": "Florida State"
         },
         {
             "node": 120,
-            "name": "Joel James"
+            "name": "Joel James",
+            "college": "North Carolina"
         },
         {
             "node": 121,
-            "name": "Stephen Domingo"
+            "name": "Stephen Domingo",
+            "college": "Georgetown"
         },
         {
             "node": 122,
-            "name": "Xavier Johnson"
+            "name": "Xavier Johnson",
+            "college": "Colorado"
         },
         {
             "node": 123,
-            "name": "Braxton Ogbueze"
+            "name": "Braxton Ogbueze",
+            "college": "Florida"
         },
         {
             "node": 124,
-            "name": "Gabe York"
+            "name": "Gabe York",
+            "college": "Arizona"
         },
         {
             "node": 125,
-            "name": "Jordan Adams"
+            "name": "Jordan Adams",
+            "college": "UCLA"
         },
         {
             "node": 126,
-            "name": "J.P. Tokoto"
+            "name": "J.P. Tokoto",
+            "college": "North Carolina"
         },
         {
             "node": 127,
-            "name": "Chris Obekpa"
+            "name": "Chris Obekpa",
+            "college": "St. John's"
         },
         {
             "node": 128,
-            "name": "Aaron Thomas"
+            "name": "Aaron Thomas",
+            "college": "Florida State"
         },
         {
             "node": 129,
-            "name": "Danrad Knowles"
+            "name": "Danrad Knowles",
+            "college": "Houston"
         },
         {
             "node": 130,
-            "name": "James Robinson"
+            "name": "James Robinson",
+            "college": "Pittsburgh"
         },
         {
             "node": 131,
-            "name": "Jake Layman"
+            "name": "Jake Layman",
+            "college": "Maryland"
         },
         {
             "node": 132,
-            "name": "Georges Niang"
+            "name": "Georges Niang",
+            "college": "Iowa State"
         },
         {
             "node": 133,
-            "name": "J-Mychal Reese"
+            "name": "J-Mychal Reese",
+            "college": "Texas A&M"
         },
         {
             "node": 134,
-            "name": "Jordan Price"
+            "name": "Jordan Price",
+            "college": "Auburn"
         },
         {
             "node": 135,
-            "name": "Torian Graham"
+            "name": "Torian Graham",
+            "college": "none"
         },
         {
             "node": 136,
-            "name": "A.J. Hammons"
+            "name": "A.J. Hammons",
+            "college": "Purdue"
         },
         {
             "node": 137,
-            "name": "Savon Goodman"
+            "name": "Savon Goodman",
+            "college": "UNLV"
         },
         {
             "node": 138,
-            "name": "Evan Nolte"
+            "name": "Evan Nolte",
+            "college": "Virginia"
         },
         {
             "node": 139,
-            "name": "Codi Miller-McIntyre"
+            "name": "Codi Miller-McIntyre",
+            "college": "Wake Forest"
         },
         {
             "node": 140,
-            "name": "Rosco Allen"
+            "name": "Rosco Allen",
+            "college": "Stanford"
         },
         {
             "node": 141,
-            "name": "Mike Tobey"
+            "name": "Mike Tobey",
+            "college": "Virginia"
         },
         {
             "node": 142,
-            "name": "Nik Stauskas"
+            "name": "Nik Stauskas",
+            "college": "Michigan"
         },
         {
             "node": 143,
-            "name": "Montrezl Harrell"
+            "name": "Montrezl Harrell",
+            "college": "Louisville"
         },
         {
             "node": 144,
-            "name": "Andre Drummond"
+            "name": "Andre Drummond",
+            "college": "Connecticut"
         },
         {
             "node": 145,
-            "name": "Marcus Georges-Hunt"
+            "name": "Marcus Georges-Hunt",
+            "college": "Georgia Tech"
         },
         {
             "node": 146,
-            "name": "Anthony Perez"
+            "name": "Anthony Perez",
+            "college": "Ole Miss"
         },
         {
             "node": 147,
-            "name": "Mike Gesell"
+            "name": "Mike Gesell",
+            "college": "Iowa"
         },
         {
             "node": 148,
-            "name": "Tyrone Wallace"
+            "name": "Tyrone Wallace",
+            "college": "California"
         },
         {
             "node": 149,
-            "name": "Ronnie Johnson"
+            "name": "Ronnie Johnson",
+            "college": "Purdue"
         },
         {
             "node": 150,
-            "name": "Kellen Dunham"
+            "name": "Kellen Dunham",
+            "college": "Butler"
         },
         {
             "node": 151,
-            "name": "Alex Caruso"
+            "name": "Alex Caruso",
+            "college": "Texas A&M"
         },
         {
             "node": 152,
-            "name": "Matt Costello"
+            "name": "Matt Costello",
+            "college": "Michigan State"
         },
         {
             "node": 153,
-            "name": "Rapheal Davis"
+            "name": "Rapheal Davis",
+            "college": "Purdue"
         },
         {
             "node": 154,
@@ -622,99 +715,123 @@
         },
         {
             "node": 155,
-            "name": "L.J. Rose"
+            "name": "L.J. Rose",
+            "college": "Baylor"
         },
         {
             "node": 156,
-            "name": "Melvin Johnson"
+            "name": "Melvin Johnson",
+            "college": "VCU"
         },
         {
             "node": 157,
-            "name": "Steve Taylor"
+            "name": "Steve Taylor",
+            "college": "Marquette"
         },
         {
             "node": 158,
-            "name": "Kenny Kaminski"
+            "name": "Kenny Kaminski",
+            "college": "Michigan State"
         },
         {
             "node": 159,
-            "name": "Javan Felix"
+            "name": "Javan Felix",
+            "college": "Texas"
         },
         {
             "node": 160,
-            "name": "Charles Mitchell"
+            "name": "Charles Mitchell",
+            "college": "Maryland"
         },
         {
             "node": 161,
-            "name": "Zach Auguste"
+            "name": "Zach Auguste",
+            "college": "Notre Dame"
         },
         {
             "node": 162,
-            "name": "Michael Frazier II"
+            "name": "Michael Frazier II",
+            "college": "Florida"
         },
         {
             "node": 163,
-            "name": "Grant Verhoeven"
+            "name": "Grant Verhoeven",
+            "college": "Stanford"
         },
         {
             "node": 164,
-            "name": "Arnaud Adala Moto"
+            "name": "Arnaud Adala Moto",
+            "college": "Wake Forest"
         },
         {
             "node": 165,
-            "name": "Denzel Valentine"
+            "name": "Denzel Valentine",
+            "college": "Michigan State"
         },
         {
             "node": 166,
-            "name": "Shaq Johnson"
+            "name": "Shaq Johnson",
+            "college": "Auburn"
         },
         {
             "node": 167,
-            "name": "Daniel Dingle"
+            "name": "Daniel Dingle",
+            "college": "Temple"
         },
         {
             "node": 168,
-            "name": "Demarquise Johnson"
+            "name": "Demarquise Johnson",
+            "college": "Washington State"
         },
         {
             "node": 169,
-            "name": "Malik Morgan"
+            "name": "Malik Morgan",
+            "college": "LSU"
         },
         {
             "node": 170,
-            "name": "Martavious Newby"
+            "name": "Martavious Newby",
+            "college": "Ole Miss"
         },
         {
             "node": 171,
-            "name": "Je'lon Hornbeak"
+            "name": "Je'lon Hornbeak",
+            "college": "Oklahoma"
         },
         {
             "node": 172,
-            "name": "Gavin Ware"
+            "name": "Gavin Ware",
+            "college": "Mississippi State"
         },
         {
             "node": 173,
-            "name": "Jay Simpson"
+            "name": "Jay Simpson",
+            "college": "Purdue"
         },
         {
             "node": 174,
-            "name": "Sim Bhullar"
+            "name": "Sim Bhullar",
+            "college": "New Mexico State"
         },
         {
             "node": 175,
-            "name": "Jaron Blossomgame"
+            "name": "Jaron Blossomgame",
+            "college": "Clemson"
         },
         {
             "node": 176,
-            "name": "Jordan Loveridge"
+            "name": "Jordan Loveridge",
+            "college": "Utah"
         },
         {
             "node": 177,
-            "name": "Anrio Adams"
+            "name": "Anrio Adams",
+            "college": "Kansas"
         },
         {
             "node": 178,
-            "name": "Nino Jackson"
+            "name": "Nino Jackson",
+            "college": "none"
         },
         {
             "node": 179,
@@ -722,127 +839,158 @@
         },
         {
             "node": 180,
-            "name": "Craig Sword"
+            "name": "Craig Sword",
+            "college": "Mississippi State"
         },
         {
             "node": 181,
-            "name": "Javontae Hawkins"
+            "name": "Javontae Hawkins",
+            "college": "USF"
         },
         {
             "node": 182,
-            "name": "Phillip Nolan"
+            "name": "Phillip Nolan",
+            "college": "Connecticut"
         },
         {
             "node": 183,
-            "name": "Sherron Dorsey-Walker"
+            "name": "Sherron Dorsey-Walker",
+            "college": "Iowa State"
         },
         {
             "node": 184,
-            "name": "Skylar Spencer"
+            "name": "Skylar Spencer",
+            "college": "San Diego State"
         },
         {
             "node": 185,
-            "name": "Kenny Gaines"
+            "name": "Kenny Gaines",
+            "college": "Georgia"
         },
         {
             "node": 186,
-            "name": "Ben Carter"
+            "name": "Ben Carter",
+            "college": "Oregon"
         },
         {
             "node": 187,
-            "name": "Jalen Reynolds"
+            "name": "Jalen Reynolds",
+            "college": "none"
         },
         {
             "node": 188,
-            "name": "Carlos Morris"
+            "name": "Carlos Morris",
+            "college": "none"
         },
         {
             "node": 189,
-            "name": "Wanaah Bail"
+            "name": "Wanaah Bail",
+            "college": "none"
         },
         {
             "node": 190,
-            "name": "Jordan Goodman"
+            "name": "Jordan Goodman",
+            "college": "none"
         },
         {
             "node": 191,
-            "name": "Darrick Wood"
+            "name": "Darrick Wood",
+            "college": "none"
         },
         {
             "node": 192,
-            "name": "Jerome Hairston"
+            "name": "Jerome Hairston",
+            "college": "Towson"
         },
         {
             "node": 193,
-            "name": "Marcus Holt"
+            "name": "Marcus Holt",
+            "college": "none"
         },
         {
             "node": 194,
-            "name": "Jordan Hare"
+            "name": "Jordan Hare",
+            "college": "Rhode Island"
         },
         {
             "node": 195,
-            "name": "Myles Davis"
+            "name": "Myles Davis",
+            "college": "Xavier"
         },
         {
             "node": 196,
-            "name": "Twymond Howard"
+            "name": "Twymond Howard",
+            "college": "UTEP"
         },
         {
             "node": 197,
-            "name": "Kareem Canty"
+            "name": "Kareem Canty",
+            "college": "Marshall"
         },
         {
             "node": 198,
-            "name": "Brandon Bolden"
+            "name": "Brandon Bolden",
+            "college": "Georgetown"
         },
         {
             "node": 199,
-            "name": "DeOndre Haynes"
+            "name": "DeOndre Haynes",
+            "college": "none"
         },
         {
             "node": 200,
-            "name": "Kale Abrahamson"
+            "name": "Kale Abrahamson",
+            "college": "Northwestern"
         },
         {
             "node": 201,
-            "name": "Zach Peters"
+            "name": "Zach Peters",
+            "college": "Kansas"
         },
         {
             "node": 202,
-            "name": "Damien Wilson"
+            "name": "Damien Wilson",
+            "college": "Memphis"
         },
         {
             "node": 203,
-            "name": "Langston Morris-Walker"
+            "name": "Langston Morris-Walker",
+            "college": "Oregon State"
         },
         {
             "node": 204,
-            "name": "DeVon Walker"
+            "name": "DeVon Walker",
+            "college": "Florida"
         },
         {
             "node": 205,
-            "name": "Demetris Morant"
+            "name": "Demetris Morant",
+            "college": "UNLV"
         },
         {
             "node": 206,
-            "name": "Chad Rykhoek"
+            "name": "Chad Rykhoek",
+            "college": "Baylor"
         },
         {
             "node": 207,
-            "name": "Connor Lammert"
+            "name": "Connor Lammert",
+            "college": "Texas"
         },
         {
             "node": 208,
-            "name": "Maurice Watson"
+            "name": "Maurice Watson",
+            "college": "Boston University"
         },
         {
             "node": 209,
-            "name": "Chris Bolden"
+            "name": "Chris Bolden",
+            "college": "Georgia Tech"
         },
         {
             "node": 210,
-            "name": "Sam Cassell Jr."
+            "name": "Sam Cassell Jr.",
+            "college": "Maryland"
         }
     ],
     "links": [

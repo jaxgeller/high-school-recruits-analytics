@@ -1,5 +1,5 @@
 .header {
-  padding: 70px 0 90px 0;
+  padding: 150px 0;
   background-color: #efebe9;
 
   @include max($mobile) {
@@ -65,12 +65,12 @@
 }
 
 .header-description {
-  max-width: 380px;
+  max-width: 450px;
   margin-bottom: 40px;
   color: $blue;
-  font-size: 18px;
-  letter-spacing: .36px;
-  line-height: 32.69px;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 32px;
 
   @include max($tablet) {
     font-size: 16px;

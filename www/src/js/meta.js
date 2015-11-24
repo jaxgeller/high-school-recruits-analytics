@@ -64,12 +64,13 @@ export default class Meta {
 
   set(data) {
     if (data) {
+      console.log(data)
       this.headshot.style.backgroundImage = `url("${data.img || '/images/blank.png'}")`;
 
       this.name.innerHTML          = data.source.name.replace(' ', '<br/>') || 'N/A';
       this.rank.textContent        = data.source.node - 60;
 
-      this.origin.textContent      = data.origin || 'N/A';
+      this.origin.textContent      = data.source.college || 'N/A';
       this.destination.textContent = data.destination || 'N/A';
 
       if (data.picked > 0)
