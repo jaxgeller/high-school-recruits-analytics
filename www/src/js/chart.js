@@ -131,9 +131,16 @@ export default class Chart {
           return `translate(${x},${y})`;
         })
         .on('mouseover', function(e) {
+
           if (this.__data__.sourceLinks[0]) {
             meta.set(this.__data__.sourceLinks[0]);
           }
+
+          if (this.__data__.targetLinks[0].picked > 0) {
+            meta.set(this.__data__.targetLinks[0]);
+          }
+
+
 
           // left ticks
           if (this.__data__.node > 60) {
