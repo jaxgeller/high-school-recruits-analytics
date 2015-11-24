@@ -1,6 +1,7 @@
 export default class Meta {
   constructor() {
     this.box         = document.getElementById('meta');
+    this.boxHeight   = this.box.getBoundingClientRect();
     this.container   = document.querySelector('.chart');
     this.spacing     = 0
     this.ticking     = false;
@@ -30,11 +31,25 @@ export default class Meta {
   }
 
   _update() {
-    let top = window.scrollY;
     let rect = this.container.getBoundingClientRect();
 
-    if (rect.top < this.spacing) this.box.style.position = 'fixed';
-    if (rect.top > this.spacing ) this.box.style.position = 'absolute';
+    if (rect.top < this.spacing) {
+      this.box.style.position = 'fixed';
+      this.box.style.bottom = 'initial';
+      this.box.style.top = '0';
+    }
+
+    if (rect.top > this.spacing ) {
+      this.box.style.position = 'absolute';
+      this.box.style.bottom = 'initial';
+      this.box.style.top = '0';
+    }
+
+    if (rect.bottom - this.boxHeight.height < 0) {
+      this.box.style.position = 'absolute';
+      this.box.style.bottom = '0';
+      this.box.style.top = 'initial';
+    }
 
     this.ticking = false;
   }
