@@ -1,6 +1,6 @@
 # How Do High School Basketball Recruits Pan Out?
 
-<img src="https://github.com/jaxgeller/high-school-recruits-analytics/blob/master/demo.png" alt="HS Recruits demo">
+<img src="https://github.com/jaxgeller/high-school-recruits-analytics/blob/master/www/src/images/demo.png" alt="HS Recruits demo">
 
 This is an interactive data visualization of the trajectory of high school recruits and their nba draft position. Check out the demo [here]().
 
