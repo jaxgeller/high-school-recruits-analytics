@@ -35,6 +35,11 @@
   color: #4c636f;
   position: absolute;
   top: -20px;
+  left: 5%;
+}
 
-  &:last-of-type {right: 0;}
+.marker-right {
+  @extend .marker;
+  left: initial;
+  right: 3%;
 }
