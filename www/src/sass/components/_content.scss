@@ -65,9 +65,9 @@
   margin-bottom: 40px;
   color: $blue;
   font-family: $leitura;
-  font-size: 22px;
-  letter-spacing: .44px;
-  line-height: 38px;
+  letter-spacing: 0;
+  font-size: 27px;
+  line-height: 36px;
 
   @include max($tablet) {
     margin-bottom: 30px;
@@ -86,8 +86,8 @@
   color: $black;
   font-family: $leitura;
   font-size: 16px;
-  letter-spacing: .32px;
-  line-height: 34px;
+  letter-spacing: 0;
+  line-height: 30px;
 
   @include max($tablet) {
     margin-bottom: 15px;

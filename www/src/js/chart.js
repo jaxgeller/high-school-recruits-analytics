@@ -68,21 +68,21 @@ export default class Chart {
         .attr('stroke', d => threshold(d.picked - (d.source.node-60)))
         .style('stroke-width', d => {
           if (d.picked < 0) return 0;
-          return 2.5;
+          return 1.8;
         })
         .style('display', d => {
           if (d.picked < 0) return 'none';
         })
         .on('mouseleave', function() {
           Array.prototype.slice.call(document.querySelectorAll('.link')).forEach(item=> {
-            item.style.strokeOpacity = '1';
+            item.style.strokeOpacity = '.85';
           })
         })
         .on('mouseover', function() {
           Array.prototype.slice.call(document.querySelectorAll('.link')).forEach(item=> {
             item.style.strokeOpacity = '0.15'
           });
-          this.style.strokeOpacity = '1';
+          this.style.strokeOpacity = '.85';
           meta.set(this.__data__);
         })
         .attr('stroke-dasharray', function() {
