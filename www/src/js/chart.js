@@ -88,7 +88,7 @@ export default class Chart {
 
           let t = document.getElementById(`pick-${this.__data__.picked}`)
             .getBoundingClientRect().top
-            + window.scrollY - 13.2;
+            + window.scrollY - 13;
           tip.style.top = `${t}px`;
           tip.style.left = 'initial';
           tip.style.right = '250px';
