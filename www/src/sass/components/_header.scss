@@ -4,6 +4,7 @@
 
   @include max($mobile) {
     text-align: center;
+    padding: 40px 0;
   }
   .container {
     position: relative;

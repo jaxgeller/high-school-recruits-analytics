@@ -90,12 +90,12 @@
   line-height: 34px;
 
   @include max($tablet) {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 14px;
     line-height: 30px;
   }
   @include max($mobile) {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 12px;
     line-height: 28px;
   }
@@ -117,8 +117,12 @@
 
   @include max($tablet) {
     font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 12px;
   }
   @include max($mobile) {
     font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 8px;
   }
 }
