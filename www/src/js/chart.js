@@ -136,10 +136,6 @@ export default class Chart {
             meta.set(this.__data__.sourceLinks[0]);
           }
 
-          if (this.__data__.targetLinks[0].picked > 0) {
-            meta.set(this.__data__.targetLinks[0]);
-          }
-
           // left ticks
           if (this.__data__.node > 60) {
             tip.style.top = `${d3.event.pageY-12.5}px`;
@@ -156,6 +152,10 @@ export default class Chart {
             tip.style.right = '250px';
             tip.style.opacity = '1';
             tip.textContent = this.__data__.node + 1;
+
+            if (this.__data__.targetLinks[0].picked > 0) {
+              meta.set(this.__data__.targetLinks[0]);
+            }
           }
         })
         .append('rect')
