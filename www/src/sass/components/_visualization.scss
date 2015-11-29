@@ -20,13 +20,13 @@
 
 .range {
   height: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   background: url("images/range.svg") center bottom no-repeat;
 
   @include clearfix;
   @include max($tablet) {
     height: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     p {
       font-size: 14px;
     }
@@ -47,6 +47,22 @@
 
 .buttons {
   margin-bottom: 50px;
+
+  p {
+    opacity: 0;
+    text-align: center;
+    color: #4c636f;
+    font-family: $din;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 26px;
+    text-transform: uppercase;
+    transition: ease-in-out .22s opacity;
+  }
+
+  &:hover {
+    p {opacity: 1;}
+  }
 }
 
 .toggle-year-list {
@@ -55,6 +71,7 @@
   }
 
   list-style-type: none;
+  margin-top: 10px;
 }
 
 .toggle-year {
